@@ -7,13 +7,142 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 30 Jun 2025 10:26:02 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2025_06_30要闻</title>
+        <link>https://caxlee.github.io/2025_06_30%E8%A6%81%E9%97%BB/</link>
+        <pubDate>Mon, 30 Jun 2025 10:26:02 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/2025_06_30%E8%A6%81%E9%97%BB/</guid>
+        <description>&lt;h2 id=&#34;llms-factor-in-unrelated-information-when-recommending-medical-treatments&#34;&gt;LLMs factor in unrelated information when recommending medical treatments
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一项由麻省理工学院研究人员进行的研究发现，大型语言模型（LLM）在进行治疗建议时可能会受到患者信息中的非临床信息的影响，例如拼写错误、额外的空格、缺少性别标记或使用不确定、夸张和非正式语言。他们发现，对消息进行风格或语法更改会增加LLM建议患者自行管理其报告的健康状况的可能性，而不是前来就诊，即使该患者应该寻求医疗护理。&lt;/p&gt;
+&lt;p&gt;研究人员还发现，这些文本中的非临床变化更有可能改变模型对女性患者的治疗建议，导致建议女性患者不要寻求医疗护理的比例更高，而这与人类医生的建议相左。&lt;/p&gt;
+&lt;p&gt;研究人员认为，这些发现表明LLMs以前未知的方式考虑非临床信息进行临床决策。他们指出，这突显了在LLMs被用于高风险应用（如制定治疗建议）之前需要进行更严格的研究的必要性。&lt;/p&gt;
+&lt;p&gt;研究人员设计了一项研究，通过更改模型的输入数据，如交换或删除性别标记、添加丰富多彩或不确定的语言，或在患者消息中插入额外的空格和拼写错误，来探讨非临床信息如何影响模型的判断。研究结果显示，LLMs在处理经过修改的数据时存在治疗建议不一致和显著分歧的情况。对女性患者的错误建议比例较高，而这些变化对人类临床医生的准确性则没有影响。&lt;/p&gt;
+&lt;p&gt;研究人员计划通过设计自然语言扰动来捕捉其他弱势群体并更好地模拟真实消息，以扩展这项工作。他们还想探讨LLMs如何从临床文本中推断性别。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;introducing-the-l-rafael-reif-innovation-corridor&#34;&gt;Introducing the L. Rafael Reif Innovation Corridor
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文章总结：MIT校园中连接Hockfield Court和Massachusetts Avenue的开放空间现在被命名为L. Rafael Reif创新走廊，以纪念第17任校长。在一次献辞仪式上，Reif的同事、朋友和家人们聚集在一起，表彰他的遗产，并揭开了这条之前被称为North Corridor或“Outfinite”的步道的标志。Reif担任校长超过10年，被誉为新世界思维和老世界魅力的结合，他对MIT的影响深远。他致力于教育创新，推动了多个重要项目，并关注MIT社区的健康和幸福。在未来，他希望这个走廊将继续见证年轻人在MIT掀起改变世界的无限激情。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;island-rivers-carve-passageways-through-coral-reefs&#34;&gt;Island rivers carve passageways through coral reefs
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究人员发现，珊瑚礁通道是由岛屿河流所塑造的。研究人员通过分析南太平洋的社会群岛，发现珊瑚礁通道的位置与岛屿河流汇集的地方相一致。他们认为，岛屿上的河流在汇入海岸时，携带的淡水和泥沙会流向珊瑚礁，形成通道。研究结果表明，河流对珊瑚礁的形成和维持起着重要作用。随着岛屿变老，沉降到海洋中，珊瑚礁通道会逐渐减少。研究还探讨了如何通过工程手段利用河流造成的通道来促进循环，有益于珊瑚礁的健康。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;when-earth-iced-over-early-life-may-have-sheltered-in-meltwater-ponds&#34;&gt;When Earth iced over, early life may have sheltered in meltwater ponds
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究表明，在地球冰封时，复杂细胞生命体——真核生物可能在融化的冰块池中躲避。通过对现代融水池的分析，科学家发现这些池塘里存在真核生物的迹象。研究人员从南极洲的融水池中采集了样本，并发现了真核生命的明显迹象。研究结果表明，融水池是早期真核生物可能躲避全球冰冻事件的有效场所。这项研究得到了NASA外星生物计划、生命起源的西蒙斯合作计划和麻省理工学院-新西兰的MISTI资助。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cold-spray-3d-printing-technique-proves-effective-for-on-site-bridge-repair&#34;&gt;“Cold spray” 3D printing technique proves effective for on-site bridge repair
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一项由马萨诸塞州大学阿默斯特分校领导的团队在西马萨诸塞州进行的案例研究中，与麻省理工学院机械工程系的研究人员合作成功展示了3D打印可能为桥梁修复提供成本效益高、干扰小的解决方案。这项技术称为冷喷涂，可以通过向梁上喷涂新沉积的钢来延长其使用寿命。修复在Great Barrington, Massachusetts的一个小型腐蚀桥梁部分进行，该方法已被证明是一种有效的解决方案，可以减少交通干扰。这项工作是马萨诸塞州大学阿默斯特分校、麻省理工学院机械工程系、马萨诸塞州运输部、马萨诸塞技术协作中心、美国交通部和联邦公路管理局之间的协作努力。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;supercharged-vaccine-could-offer-strong-protection-with-just-one-dose&#34;&gt;Supercharged vaccine could offer strong protection with just one dose
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究人员在麻省理工学院和斯克里普斯研究所展示了他们可以通过添加两种强效的佐剂——可以帮助刺激免疫系统的材料，仅通过一剂疫苗即产生对HIV的强大免疫反应。这种双佐剂疫苗积聚在淋巴结中，保留时间长达一个月，使免疫系统能够产生更多的抗HIV蛋白抗体。这种策略可能导致只需要一次接种的疫苗的开发，用于感染性疾病，包括HIV或SARS-CoV-2。研究人员表示，这一方法可以为流感、SARS-CoV-2或其他大流行爆发等各种疾病的蛋白质疫苗工程开辟新的可能性。通过结合两种佐剂，可以开发更强效的疫苗，有望实现低剂量甚至单剂量治疗。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;qs-ranks-mit-the-worlds-no-1-university-for-2025-26&#34;&gt;QS ranks MIT the world’s No. 1 university for 2025-26
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MIT has been named the world&amp;rsquo;s top university by the QS World University Rankings for the 14th consecutive year. The rankings, based on various factors including academic reputation and international diversity, were published by Quacquarelli Symonds. MIT also ranked first in 11 subject areas and second in seven others, showcasing its excellence across a wide range of disciplines.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;memory-safety-is-at-a-tipping-point&#34;&gt;Memory safety is at a tipping point
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文章总结：&lt;/p&gt;
+&lt;p&gt;文章讨论了计算机系统中不安全内存的危害，如社会安全号码被盗、公共交通中断、医院系统被冻结等。随着公众对网络攻击的认识加深，技术已经足够成熟，可以消除内存安全漏洞，推动采用内存安全技术。存在内存安全漏洞主要是因为常见的软件编程语言（如C或C++）固有地不安全。新的内存安全语言（如Rust）的发展为解决此问题提供了可能。尽管完全采用内存安全系统需要时间，但已有一些技术（如TRACER和TASR）可用于修补遗留系统的内存漏洞。文章呼吁建立技术不可知的内存安全标准框架，合作产业界、政府和学术界，以消除内存漏洞及相关昂贵损失。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;new-3d-chips-could-make-electronics-faster-and-more-energy-efficient&#34;&gt;New 3D chips could make electronics faster and more energy-efficient
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;研究人员开发了一种新的制造工艺，将高性能的氮化镓(GaN)晶体管集成到标准硅CMOS芯片上，成本低、可扩展，并与现有半导体工厂兼容。他们的方法包括在氮化镓芯片表面构建许多微型晶体管，将每个晶体管剪下，然后利用低温工艺将必要数量的晶体管粘合到硅芯片上，保留两种材料的功能性。这种新技术通过将氮化镓电路分离为离散的晶体管并分布在硅芯片上，能够降低整个系统的温度，同时在手机等设备上实现更高的信号强度和效率。这项研究为发展下一代无线技术铺平了道路。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;this-compact-low-power-receiver-could-give-a-boost-to-5g-smart-devices&#34;&gt;This compact, low-power receiver could give a boost to 5G smart devices
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MIT researchers have developed a compact, low-power receiver for 5G-compatible smart devices that is 30 times more resilient to interference than traditional wireless receivers. The receiver uses passive filtering mechanisms and consumes less than a milliwatt of power, making it ideal for IoT devices like environmental sensors and health wearables. The chip leverages a unique capacitor network and amplifier design to achieve high performance while being cost-effective and energy-efficient. The researchers aim to further enhance the receiver&amp;rsquo;s capabilities and explore powering it using ambient signals like Wi-Fi or Bluetooth.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio&#34;&gt;Gaspare LoDuca named VP for information systems and technology and CIO
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Gaspare LoDuca has been appointed as MIT’s vice president for information systems and technology (IS&amp;amp;T) and chief information officer, effective Aug. 18. LoDuca, who currently serves as the vice president for information technology and CIO at Columbia University, has extensive experience in IT leadership roles within higher education. He succeeds Mark Silis, who led IS&amp;amp;T until 2024. LoDuca will oversee MIT’s information technology infrastructure, lead the IS&amp;amp;T organization, and guide IT policy and strategy development at the Institute. His focus will include modernizing business processes and administrative systems, collaborating closely with the Business and Digital Transformation Office. LoDuca aims to support MIT’s community and its mission by ensuring decisions and changes are aligned with their needs and culture. His background includes leading IT departments, implementing innovative technologies, and managing secure systems at Columbia University. Prior to Columbia, LoDuca worked at Accenture, where he helped universities develop and implement technology strategies. He emphasizes the importance of creativity and community engagement in addressing IT challenges, and holds a bachelor’s degree in chemical engineering from Michigan State University. LoDuca and his wife are in the process of relocating to Boston as recent empty nesters.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;combining-technology-education-and-human-connection-to-improve-online-learning&#34;&gt;Combining technology, education, and human connection to improve online learning
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Caitlin Morris is an architect, artist, researcher, and educator with a background in psychology who is passionate about community-based learning and improving digital learning platforms. She teaches herself coding and other skills through project-based communities, emphasizing the importance of social interaction for motivation and curiosity. Morris has contributed to large art installations and is currently focusing her doctoral research on social learning dynamics in online and AI-assisted environments. She aims to bridge the gap between digital efficiency and the rich social interaction of in-person learning. As a MIT MAD Fellow, she is dedicated to fostering creativity, critical thinking, making, and collaboration to prepare students for real-world challenges. In the future, Morris hopes to help community organizations navigate the changing landscape of education in the face of rapid AI advancements.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event&#34;&gt;Researchers present bold ideas for AI at MIT Generative AI Impact Consortium kickoff event
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MIT Generative AI Impact Consortium (MGAIC) was launched earlier this year to study high-impact uses of generative AI models. The call for proposals received 180 submissions from MIT researchers, with 55 projects selected for seed grants. Over 30 funding recipients presented their proposals at a kickoff event, showcasing projects such as AI-driven tutors for early literacy and real-time collaborative agents for music improvisation. The consortium aims to shape the future of generative AI with purpose and excellence.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-mit-press-acquires-university-science-books-from-aip-publishing&#34;&gt;The MIT Press acquires University Science Books from AIP Publishing
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The MIT Press has acquired textbook publisher University Science Books from AIP Publishing, a subsidiary of the American Institute of Physics. University Science Books, known for its high-quality science and reference books, was founded in 1978 and has well-known titles in chemistry, physics, and astronomy. The MIT Press will continue the publishing legacy of University Science Books, with inventory transferring to Penguin Random House Publishing Services. This acquisition is seen as a good fit for the MIT Press, known for publishing foundational texts in various fields.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;anantha-chandrakasan-named-mit-provost&#34;&gt;Anantha Chandrakasan named MIT provost
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;安南塔·钱德拉卡桑（Anantha Chandrakasan）是麻省理工学院的电气工程和计算机科学教授，自2017年起担任工程学院院长，自2024年起担任麻省理工学院首席创新和战略官。他将于7月1日起担任该学院新的教务长，负责管理学院的教育计划、招聘、晋升和任命教职员工。钱德拉卡桑将重点关注机构需求、吸引和留住顶尖人才以及支持跨学科研究、教育和创业项目。同时，他计划与学院领导密切合作，设立教务长教师咨询组，听取全校师生的意见，推动麻省理工学院在各个层面的卓越发展。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;celebrating-an-academic-industry-collaboration-to-advance-vehicle-technology&#34;&gt;Celebrating an academic-industry collaboration to advance vehicle technology
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MIT AgeLab’s Advanced Vehicle Technology (AVT) Consortium recently celebrated its 10th anniversary with a focus on advancing the automotive industry through data-driven insights and collaboration. Key discussions at the event included topics like artificial intelligence, vehicle safety regulation, consumer behavior, and sustainability. Industry experts emphasized the need for a strategic and collaborative approach to safety regulations, highlighted challenges in understanding and implementing assistive and automated driving technologies, and discussed the importance of aligning product strategies with environmental responsibility. The event concluded with a call for industry leaders to prioritize consumer needs, rebuild trust, and work together towards innovation that is transparent, affordable, and beneficial for public safety.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;students-and-staff-work-together-for-mits-first-no-mow-may&#34;&gt;Students and staff work together for MIT’s first “No Mow May”
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No Mow May is a movement encouraging people to skip spring mowing to allow grass to grow tall and provide food and shelter for beneficial creatures. MIT participated in No Mow May for the first time this year, championed by the Graduate Student Council Sustainability Subcommittee. The initiative aimed to raise awareness about sustainable lawn practices and support local ecosystems. Educational signage at No Mow sites highlighted the impact of the project and encouraged visitors to observe local pollinators. The campus partners worked together to make No Mow May possible and identified potential locations for the project. The Native Plant Project, launched in 2022, focuses on increasing Massachusetts-native pollinator plants on campus. The campus as a test bed initiative continues to grow, with the hope of inspiring sustainable practices beyond MIT. Future possibilities of expanding or extending No Mow May will be discussed based on the positive community feedback.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-sounding-board-for-strengthening-the-student-experience&#34;&gt;A sounding board for strengthening the student experience
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文章主要介绍了麻省理工学院学生马修·卡伦和朱莉娅·施耐德作为MIT Schwarzman计算机学院的本科咨询小组成员，通过与学院领导合作，为提升学生体验和课程质量提供建设性反馈和意见。他们参与了改进新建筑设计、开发课程可视化网站等项目，旨在促进跨学科合作和丰富学生课程选择。这些努力展示了学生们如何通过UAG小组的参与，提升学院和学生体验。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3d-vla新范式中科院字节seed提出bridgevla斩获cvpr-2025-workshop冠军&#34;&gt;3D VLA新范式！中科院&amp;amp;字节Seed提出BridgeVLA，斩获CVPR 2025 workshop冠军！
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文章介绍了一种名为BridgeVLA的全新3D操作范式，旨在将视觉语言模型（VLM）和视觉语言操作（VLA）之间的差距消除。该模型通过预训练实现VLM预测2D Heatmap，微调后预测动作，取得了CVPR 2025 GRAIL workshop的COLOSSEUM Challenge冠军，并在多个基准测试中表现优异。BridgeVLA在复杂任务和视觉干扰下显示出出色的鲁棒性，为3D VLA的设计提供了更高的数据效率和操作效果，未来将进一步提升动作解码能力、改善长周期任务表现，并探索更多预训练任务以增强通用视觉理解能力。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;我在哪要去哪要怎么去字节跳动提出astra双模型架构助力机器人自由导航&#34;&gt;我在哪？要去哪？要怎么去？字节跳动提出Astra双模型架构助力机器人自由导航
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;文章介绍了在当今科技飞速发展时代，机器人导航系统在多样化和复杂的室内环境中面临的挑战，并介绍了字节跳动研发的创新双模型架构 Astra。Astra通过Astra-Global和Astra-Local两大子模型，在环境理解感知与实时规划决策之间建立通路，为移动机器人的通用导航能力打下基础。Astra-Global负责目标和自我定位，利用混合拓扑语义图实现精准定位；Astra-Local则负责生成局部路径和估计里程计，通过4D时空编码器、规划头和里程计头实现高效导航。实验结果显示，Astra在多种室内环境中展现出出色的性能，但也存在一些需要改进的地方，如提升定位精度和增强对未知情况的应对能力。未来，团队计划改进模型架构和训练方法，以提高系统的稳定性和可靠性，同时将指令跟随能力集成到模型中，实现更高效的人机交互。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;有道14b低成本轻量模型子曰3开源数学推理性能超越大模型&#34;&gt;有道14B低成本轻量模型“子曰3”开源，数学推理性能超越大模型
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;网易有道于6月23日宣布开源了“子曰3数学模型”，这是国内首个专注于数学教育的开源推理模型，能在单块消费级GPU上高效运行。该模型性能优异，成本低廉，在数学推理任务中表现出色。其低成本高性能的特点有助于提升教育公平，降低了教育场景中大模型应用的门槛。此举加速了“AI+教育”领域的进化，展示了在特定领域构建强大推理模型的可行性，为教育大模型技术创新和应用提供了重要参考。开源“子曰3数学模型”意味着更多教育机构和开发者能够以低成本部署专业级数学AI应用，共同探索推理模型在教育领域的应用潜力。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;无损减少80激活值内存提升5倍训练序列长度仅需两行代码&#34;&gt;无损减少80%激活值内存，提升5倍训练序列长度，仅需两行代码
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本文介绍了由罗琪竣和李梦琦等人在上海交通大学赵磊老师、香港中文大学（深圳）李肖老师指导下完成的研究成果。他们提出了一种名为StreamBP的算法，用于降低大语言模型训练中所需的激活值内存，将内存消耗降低至梯度检查点的20%左右。该算法适用于常见的LLM目标函数，并且在相同内存限制下，最大序列长度是梯度检查点的2.8-5.5倍。实验结果表明，在长序列训练下，StreamBP相比梯度检查点实现了加速，可提升最大序列长度和批处理大小，适用于Deepspeed ZeRO分布式训练模式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ai真的需要像人类那样思考吗alphaone揭示属于大模型的思考之道&#34;&gt;AI真的需要「像人类」那样思考吗？AlphaOne揭示属于大模型的「思考之道」
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本文介绍了来自伊利诺伊大学厄巴纳-香槟分校与加州大学伯克利分校的研究团队在推理模型设计方面的新工作。他们提出了一种名为AlphaOne的新的测试时推理调控框架，主张让模型先慢速思考，再快速推理，而不是依赖人类的思维方式。这一策略能够在测试阶段显著提升模型的推理准确率和效率，无需额外训练。AlphaOne通过引入统一的调控点α-moment来控制推理过程，实现了高效的慢思考转化策略。实验结果表明，AlphaOne在多个推理任务上比原始模型和现有推理调控方法更准确，更高效，具有良好的泛化能力。未来的研究方向包括设计更复杂的慢思考调度策略、摆脱特定标记的依赖以增强泛化能力，以及扩展至多模态推理场景。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;非夕科技完成c轮亿级美元融资通用机器人商业化进入加速期&#34;&gt;非夕科技完成C轮亿级美元融资，通用机器人商业化进入加速期
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;非夕科技宣布完成C轮亿级美元融资，由咏归基金、广发信德领投，洪泰基金、华控基金等跟投，老股东高榕创投、eGarden Ventures、Mfund魔量资本持续跟投。融资将用于扩产、研发及生态拓展。公司专注通用智能机器人领域，致力于构建多样应用形态的通用机器人基座平台。公司成立于2016年，首创“自适应机器人”品类，推动行业标准建设。非夕已服务全球头部客户，在多个行业开拓大量规模化应用场景。公司展望未来，依托通用力控能力、AI原生架构、数据闭环潜力，助力构建跨行业机器人基础设施，为全球合作伙伴提供创新解决方案与产业价值。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;等了十年特斯拉robotaxi终于上线马斯克仅需42美元一口价&#34;&gt;等了十年，特斯拉Robotaxi终于上线！马斯克：仅需4.2美元一口价
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;马斯克兑现了承诺，特斯拉在德克萨斯州奥斯汀推出了自动驾驶出租车服务，首批乘客以固定价格4.20美元搭乘。目前服务仅限受邀用户使用，覆盖区域和运营时间有严格限制。服务表现平稳但尚不成熟，需要人工监控员在车内强制接管车辆。特斯拉计划扩大Robotaxi数量，并推广至加利福尼亚等地区，但竞争对手Waymo已在多个城市运营超过1500辆无人车。特斯拉在自动驾驶竞赛中的表现还需时间验证。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;新鲜出炉斯坦福2025-cs336课程全公开从零开始搓大模型&#34;&gt;新鲜出炉！斯坦福2025 CS336课程全公开：从零开始搓大模型
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;斯坦福大学2025年春季的CS336课程「从头开始创造语言模型」已在网上发布，课程主页和视频链接提供。课程教师包括Tatsunori Hashimoto和Percy Liang，他们在机器学习和人工智能领域有丰富的研究经验。课程旨在教授学生如何开发自己的语言模型，包括数据处理、模型构建、训练和评估等内容。课程包含5个单元，涵盖了广泛的主题。学生需要具备Python、深度学习和系统优化、微积分、线性代数、概率统计和机器学习等方面的知识。此外，课程还提供纪念T恤作为学生的奖励。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cvpr-2025-award-candidate--英伟达等difix3d用单步扩散模型修复-3d-重建伪影&#34;&gt;CVPR 2025 Award Candidate | 英伟达等Difix3D+：用单步扩散模型修复 3D 重建伪影
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在3D重建领域，NeRF和3D Gaussian Splatting等方法在生成新视角时常出现模糊、鬼影、几何错乱等伪影问题，限制了实际应用。为解决这一难题，英伟达提出了创新方案Difix3D+，通过单步扩散模型对3D渲染结果进行图像修复，显著提升图像质量和一致性。该方法已被CVPR 2025接收，并入选Best Paper Award候选。Difix3D+结合了2D扩散模型的视觉先验，精准去除神经渲染伪影，具有高效、泛化能力强等优势。该方法在多种3D表征中表现出色，支持实时渲染，为3D场景生成与理解提供了坚实基础。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;幻觉可助力科研llm发现了治疗癌症的新药&#34;&gt;「幻觉」可助力科研？LLM发现了治疗癌症的新药
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AI 在科研领域展现了潜力，剑桥大学等机构的研究团队利用 GPT-4 模型成功发现了新型乳腺癌治疗药物组合，其中辛伐他汀与双硫仑的组合效果显著。这些组合将由科学家进行评估，为癌症治疗提供了新途径。这表明大型语言模型可作为科学假说生成工具。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;分子去毒vqa上线测测你的多模态大模型是不是个合格的绝命毒师&#34;&gt;分子「去毒」VQA上线：测测你的多模态大模型是不是个合格的「绝命毒师」？
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;澳门科技大学、上海交通大学、中国科学院自动化研究所与上海人工智能实验室联合发布了全球首个面向通用多模态大模型（MLLMs）的分子毒性修复基准任务 ToxiMol，并提出了多维评估体系 ToxiEval。该任务旨在验证通用多模态大模型在毒性规避与结构优化任务中的能力边界。研究团队构建了 ToxiMol 任务，覆盖了多个毒性修复主任务，共构建了560个真实有毒分子样本。通过 ToxiEval 评估框架的设计，综合考虑了安全评分、成药性评分、合成可行性、Lipinski五项规则和结构相似度等指标。实验结果显示，当前通用 MLLMs 在毒性修复任务中的成功率普遍偏低，挑战了模型的泛化能力、结构理解能力和机制建模能力。研究团队通过系统评测近30个通用 MLLMs，发现了模型在不同任务上的挑战，为模型优化与任务推进提供了丰富的洞见。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
         <title>Markdown Syntax Guide</title>
-        <link>https://caxlee.github.io/p/markdown-syntax-guide/</link>
+        <link>https://caxlee.github.io/markdown-syntax-guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="https://caxlee.github.io/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>https://caxlee.github.io/markdown-syntax-guide/</guid>
+        <description>&lt;img src="https://caxlee.github.io/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1
@@ -237,11 +366,11 @@
         </item>
         <item>
         <title>Placeholder Text</title>
-        <link>https://caxlee.github.io/p/placeholder-text/</link>
+        <link>https://caxlee.github.io/placeholder-text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/placeholder-text/</guid>
-        <description>&lt;img src="https://caxlee.github.io/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
+        <guid>https://caxlee.github.io/placeholder-text/</guid>
+        <description>&lt;img src="https://caxlee.github.io/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
 &lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
@@ -268,10 +397,10 @@
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>https://caxlee.github.io/p/math-typesetting/</link>
+        <link>https://caxlee.github.io/math-typesetting/</link>
         <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/math-typesetting/</guid>
+        <guid>https://caxlee.github.io/math-typesetting/</guid>
         <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
@@ -310,11 +439,11 @@ $$</description>
         </item>
         <item>
         <title>Emoji Support</title>
-        <link>https://caxlee.github.io/p/emoji-support/</link>
+        <link>https://caxlee.github.io/emoji-support/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/emoji-support/</guid>
-        <description>&lt;img src="https://caxlee.github.io/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+        <guid>https://caxlee.github.io/emoji-support/</guid>
+        <description>&lt;img src="https://caxlee.github.io/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
 &lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
