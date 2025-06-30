@@ -274,6 +274,39 @@
 
 
             <main class="main full-width">
+    <style>
+        .date-selector-form {
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .date-selector-form input[type="date"] {
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background-color: var(--card-background);
+            color: var(--body-font-color);
+        }
+
+        .date-selector-form button {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background-color: var(--card-background);
+            color: var(--body-font-color);
+            cursor: pointer;
+        }
+        .date-selector-form button:hover {
+            background-color: var(--border-color);
+        }
+    </style>
+
+    <div class="date-selector-form">
+        <label for="date-input">Select Date:</label>
+        <input type="date" id="date-input" name="date" value="">
+    </div>
     
     
     
@@ -281,11 +314,12 @@
 
     <section class="article-list">
         
-            
+            <div class="article-wrapper" data-date="2020-09-09">
+                
 <article class="has-image">
     <header class="article-header">
         <div class="article-image">
-            <a href="/zh-cn/articles/test-chinese/">
+            <a href="/zh-cn/p/test-chinese/">
                 
                     <img src="/helena-hertz-wWZzXlDpMog-unsplash.jpg" loading="lazy" alt="Featured image of post Chinese Test" />
                 
@@ -310,7 +344,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/zh-cn/articles/test-chinese/">Chinese Test</a>
+            <a href="/zh-cn/p/test-chinese/">Chinese Test</a>
         </h2>
     
         
@@ -363,9 +397,67 @@
 
 </header>
 </article>
+            </div>
         
     </section>
-<footer class="site-footer">
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const datePicker = document.getElementById('date-input');
+            const articleList = document.querySelector('.article-list');
+            const articles = Array.from(articleList.querySelectorAll('.article-wrapper[data-date]'));
+            const urlParams = new URLSearchParams(window.location.search);
+            const selectedDate = urlParams.get('date');
+
+            datePicker.addEventListener('change', function() {
+                const date = this.value;
+                if (date) {
+                    window.location.href = 'https:\/\/caxlee.github.io\/?date=' + date;
+                } else {
+                    window.location.href = 'https:\/\/caxlee.github.io\/';
+                }
+            });
+
+            function filterArticles() {
+                const date = datePicker.value;
+
+                if (!date) {
+                    articles.forEach(article => article.style.display = 'block');
+                    return;
+                }
+
+                let found = false;
+                articles.forEach(article => {
+                    if (article.dataset.date === date) {
+                        article.style.display = 'block';
+                        found = true;
+                    } else {
+                        article.style.display = 'none';
+                    }
+                });
+
+                const noResults = document.querySelector('.no-results');
+                if (!found && noResults) {
+                    noResults.style.display = 'block';
+                } else if (noResults) {
+                    noResults.style.display = 'none';
+                }
+            }
+
+            if (selectedDate) {
+                datePicker.value = selectedDate;
+            }
+
+            filterArticles();
+
+            if (!document.querySelector('.no-results')) {
+                const noResultsDiv = document.createElement('div');
+                noResultsDiv.className = 'no-results';
+                noResultsDiv.style.display = 'none';
+                noResultsDiv.innerHTML = '<p>No posts found for the selected date.</p>';
+                articleList.insertAdjacentElement('afterend', noResultsDiv);
+            }
+        });
+    </script><footer class="site-footer">
     <section class="copyright">
         &copy; 
         

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head>
+	<meta name="generator" content="Hugo 0.147.9"><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Example description">
-<title>Posts</title>
+<title>Pager 3 - Example Site</title>
 
-<link rel='canonical' href='https://caxlee.github.io/post/'>
+<link rel='canonical' href='https://caxlee.github.io/'>
 
-<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="Posts">
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="Example Site">
 <meta property='og:description' content="Example description">
-<meta property='og:url' content='https://caxlee.github.io/post/'>
+<meta property='og:url' content='https://caxlee.github.io/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-06-30T10:26:02&#43;08:00 '/>
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/post/index.xml">
+<meta name="twitter:title" content="Example Site">
+<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/index.xml">
     </head>
     <body class="">
     <script>
@@ -116,7 +117,7 @@
         
         
         
-        <li >
+        <li  class='current' >
             <a href='/' >
                 
                 
@@ -419,74 +420,130 @@
 
 
             <main class="main full-width">
-    <header>
-        <h3 class="section-title">
-            
-                Section
-            
-        </h3>
+    <style>
+        .date-selector-form {
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
 
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count">7 pages</h3>
-                <h1 class="section-term">Posts</h1>
+        .date-selector-form input[type="date"] {
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background-color: var(--card-background);
+            color: var(--body-font-color);
+        }
+
+        .date-selector-form button {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background-color: var(--card-background);
+            color: var(--body-font-color);
+            cursor: pointer;
+        }
+        .date-selector-form button:hover {
+            background-color: var(--border-color);
+        }
+    </style>
+
+    <div class="date-selector-form">
+        <label for="date-input">Select Date:</label>
+        <input type="date" id="date-input" name="date" value="">
+    </div>
+    
+    
+    
+    
+
+    <section class="article-list">
+        
+            <div class="article-wrapper" data-date="2019-03-05">
                 
-            </div>
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/emoji-support/">
+                <img src="/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash_hu_4478d0ca4dd8c594.jpg"
+                        srcset="/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash_hu_4478d0ca4dd8c594.jpg 800w, /p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash_hu_8df8f39ac35f88d8.jpg 1600w"
+                        width="800" 
+                        height="566" 
+                        loading="lazy"
+                        alt="Featured image of post Emoji Support" />
+                
+            </a>
         </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/test/" style="background-color: #2a9d8f; color: #fff;">
+                Test
+            </a>
+        
     </header>
     
-    <section class="article-list--compact">
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/emoji-support/">Emoji Support</a>
+        </h2>
+    
         
-            <article>
-    <a href="/p/markdown-syntax-guide/">
-        <div class="article-details">
-            <h2 class="article-title">Markdown Syntax Guide</h2>
-            <footer class="article-time">
-                <time datetime='2019-03-11T00:00:00Z'>Mar 11, 2019</time>
-            </footer>
-        </div>
-            <div class="article-image">
-                <img src="/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash_hu_e95a4276bf860a84.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="Markdown Syntax Guide"
-                        loading="lazy">
-                
+        <h3 class="article-subtitle">
+            Guide to emoji usage in Hugo
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 05, 2019</time>
             </div>
         
-    </a>
-</article>
+
         
-            <article>
-    <a href="/p/placeholder-text/">
-        <div class="article-details">
-            <h2 class="article-title">Placeholder Text</h2>
-            <footer class="article-time">
-                <time datetime='2019-03-09T00:00:00Z'>Mar 09, 2019</time>
-            </footer>
-        </div>
-            <div class="article-image">
-                <img src="/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash_hu_c1ca39d792aee4ab.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="Placeholder Text"
-                        loading="lazy">
-                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
             </div>
         
-    </a>
+    </footer>
+    
+
+    
+</div>
+
+</header>
 </article>
-        
-            <article>
-    <a href="/p/math-typesetting/">
-        <div class="article-details">
-            <h2 class="article-title">Math Typesetting</h2>
-            <footer class="article-time">
-                <time datetime='2019-03-08T00:00:00Z'>Mar 08, 2019</time>
-            </footer>
-        </div>
-    </a>
-</article>
+            </div>
         
     </section>
     <nav class='pagination'>
@@ -495,20 +552,77 @@
 
         
             
-                    <a class='page-link' href='/post/'>1</a>
+                    <a class='page-link' href='/'>1</a>
                 
             
             
-                <span class='page-link current'>2</span>
+                    <a class='page-link' href='/page/2/'>2</a>
                 
             
             
-                    <a class='page-link' href='/post/page/3/'>3</a>
+                <span class='page-link current'>3</span>
                 
             
     </nav>
 
-<footer class="site-footer">
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const datePicker = document.getElementById('date-input');
+            const articleList = document.querySelector('.article-list');
+            const articles = Array.from(articleList.querySelectorAll('.article-wrapper[data-date]'));
+            const urlParams = new URLSearchParams(window.location.search);
+            const selectedDate = urlParams.get('date');
+
+            datePicker.addEventListener('change', function() {
+                const date = this.value;
+                if (date) {
+                    window.location.href = 'https:\/\/caxlee.github.io\/?date=' + date;
+                } else {
+                    window.location.href = 'https:\/\/caxlee.github.io\/';
+                }
+            });
+
+            function filterArticles() {
+                const date = datePicker.value;
+
+                if (!date) {
+                    articles.forEach(article => article.style.display = 'block');
+                    return;
+                }
+
+                let found = false;
+                articles.forEach(article => {
+                    if (article.dataset.date === date) {
+                        article.style.display = 'block';
+                        found = true;
+                    } else {
+                        article.style.display = 'none';
+                    }
+                });
+
+                const noResults = document.querySelector('.no-results');
+                if (!found && noResults) {
+                    noResults.style.display = 'block';
+                } else if (noResults) {
+                    noResults.style.display = 'none';
+                }
+            }
+
+            if (selectedDate) {
+                datePicker.value = selectedDate;
+            }
+
+            filterArticles();
+
+            if (!document.querySelector('.no-results')) {
+                const noResultsDiv = document.createElement('div');
+                noResultsDiv.className = 'no-results';
+                noResultsDiv.style.display = 'none';
+                noResultsDiv.innerHTML = '<p>No posts found for the selected date.</p>';
+                articleList.insertAdjacentElement('afterend', noResultsDiv);
+            }
+        });
+    </script><footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -522,7 +636,6 @@
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
-
 
             </main>
         </div>
