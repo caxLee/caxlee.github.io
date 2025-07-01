@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Example Site</title>
-        <link>http://localhost:1313/</link>
+        <link>https://caxlee.github.io/</link>
         <description>Recent content on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 01 Jul 2025 08:41:31 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Jul 2025 22:37:19 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>95后，边改造业务边发AI顶会论文，是怎样的体验？</title>
-        <link>http://localhost:1313/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
+        <guid>https://caxlee.github.io/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
         <description>&lt;p&gt;在AI时代，顶尖人才影响力空前高涨，市场推升其地位至前所未有高度。供给增长速度跟不上需求，企业为招揽人才使出浑身解数。国内竞争激烈，各行业推出高薪计划。京东技术沙龙分享前沿技术，年轻技术专家成长之路展示成功案例。企业与人才双赢需要&amp;quot;双向奔赴&amp;quot;。文章提及了三位年轻技术专家在京东的成长历程，展示他们在业务场景中突破技术难题的经历。京东为青年技术人才提供成长机会，未来年轻化技术军团将继续推动企业在技术领域的创新与突破。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Accelerating hardware development to improve national security and innovation</title>
-        <link>http://localhost:1313/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</guid>
+        <guid>https://caxlee.github.io/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</guid>
         <description>&lt;p&gt;Nominal is an advanced software platform designed for engineers working on complex systems like fighter jets, nuclear reactors, and robotics. It helps organize, visualize, and share test data, as well as build custom applications for hardware systems. The platform aims to accelerate hardware development by providing a unified database for real-time data organization, enabling engineers to analyze trends, identify events, and investigate anomalies. Nominal&amp;rsquo;s cloud-hosted platform automates tasks, accelerates post-test analysis, and facilitates collaboration within engineering teams. The company recently secured a $75 million funding round to expand its product offerings and team. By implementing a data-driven design process, Nominal aims to revolutionize hardware development with continuous testing and feedback loops, similar to practices in the software industry.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Accelerating scientific discovery with AI</title>
-        <link>http://localhost:1313/p/accelerating-scientific-discovery-with-ai/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/accelerating-scientific-discovery-with-ai/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/accelerating-scientific-discovery-with-ai/</guid>
+        <guid>https://caxlee.github.io/p/accelerating-scientific-discovery-with-ai/</guid>
         <description>&lt;p&gt;在过去50年里，一些研究人员认为科学进步的速度正在减缓，需要更多时间、资金和更大的团队才能取得以前更快、更便宜获得的发现。为了加速科学研究进程，由慈善资助的研究实验室FutureHouse推出了一款旨在自动化科学进展关键步骤的人工智能平台。该平台由一系列针对信息检索、信息综合、化学合成设计和数据分析等任务的AI代理组成。&lt;/p&gt;
 &lt;p&gt;FutureHouse的创始人Sam Rodriques博士和Andrew White认为，通过让每位科学家都能访问他们的AI代理，他们可以突破科学中最大的瓶颈，帮助解决人类面临的一些紧迫问题。该平台已经推出了多种代理工具，如PaperQA、Has Anyone、Falcon、Phoenix和Finch，用于协助科学家进行文献搜索、数据分析、假设生成和实验规划。&lt;/p&gt;
 &lt;p&gt;FutureHouse的平台推出激发了行业的热情，科学家们开始使用代理工具加速研究进程，包括发现可能与多囊卵巢综合征相关的基因以及为该疾病提出新的治疗假设。Rodriques相信，未来FutureHouse的代理将能够使用研究论文的原始数据来验证结果的可重复性和验证结论。未来，该公司计划为代理注入隐性知识，使其能够进行更复杂的分析，同时赋予代理使用计算工具探索假设的能力，以推动科学进步。&lt;/p&gt;
@@ -38,19 +38,19 @@
         </item>
         <item>
         <title>ACL 2025 | AI字幕慢半拍，不知道大家在笑什么？新方法让同传性能直逼离线翻译</title>
-        <link>http://localhost:1313/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</guid>
+        <guid>https://caxlee.github.io/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</guid>
         <description>&lt;p&gt;研究团队提出了一种新的面向同声传译的序贯策略优化框架(SeqPO-SiMT)，将同传任务建模为序贯决策过程，通过优化整个决策序列来提升翻译质量且有效控制延迟。实验证实该方法在翻译质量上超越了同等大小的离线翻译模型，表现优异。这一研究为同声传译系统的发展提供了新的视角和有价值的探索。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>AI&#43;VR运动系统让超重青少年减重4.28kg，还能显著提升认知功能！</title>
-        <link>http://localhost:1313/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</guid>
+        <guid>https://caxlee.github.io/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</guid>
         <description>&lt;p&gt;文章总结：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;全球超过30%的超重青少年正陷入「代谢紊乱 + 认知衰退」的恶性循环，体脂超标导致肝酶异常、血脂升高，削弱大脑功能。&lt;/li&gt;
@@ -63,119 +63,206 @@
         </item>
         <item>
         <title>Evelyn Wang: A new energy source at MIT</title>
-        <link>http://localhost:1313/p/evelyn-wang-a-new-energy-source-at-mit/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/evelyn-wang-a-new-energy-source-at-mit/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/evelyn-wang-a-new-energy-source-at-mit/</guid>
+        <guid>https://caxlee.github.io/p/evelyn-wang-a-new-energy-source-at-mit/</guid>
         <description>&lt;p&gt;文章介绍了Evelyn Wang ’00的工程解决方案和应对气候变化的努力。作为麻省理工学院的第一任能源与气候副总裁，Wang致力于拓展研究领域、发展合作伙伴关系，并强调乐观态度和合作精神。她在MIT领导设备研究实验室，研究领域涉及从提取水分到提高太阳能效率等多个方面。文章强调了合作伙伴关系的重要性，以及Wang对气候挑战的乐观信念和使命感。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Face-to-face with Es Devlin</title>
-        <link>http://localhost:1313/p/face-to-face-with-es-devlin/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/face-to-face-with-es-devlin/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/face-to-face-with-es-devlin/</guid>
+        <guid>https://caxlee.github.io/p/face-to-face-with-es-devlin/</guid>
         <description>&lt;p&gt;Es Devlin, recipient of the 2025 Eugene McDermott Award in the Arts at MIT, is known for creating immersive environments that bring people together in collective experiences. Her diverse body of work ranges from designing for large-scale events like the London Olympics and Super Bowl halftime shows to intimate projects such as drawing strangers&amp;rsquo; portraits. Devlin&amp;rsquo;s recent project at MIT, Congregation, involved participants drawing each other in silence to foster connection and understanding. Through her work, she explores themes of self-discovery, empathy, and unity, emphasizing the importance of transcending individual boundaries to build meaningful connections with others. Devlin&amp;rsquo;s artistry reflects a deep engagement with the human experience and a commitment to bridging divides through shared creativity and expression.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Faces of MIT: Ylana Lopez</title>
-        <link>http://localhost:1313/p/faces-of-mit-ylana-lopez/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/faces-of-mit-ylana-lopez/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/faces-of-mit-ylana-lopez/</guid>
+        <guid>https://caxlee.github.io/p/faces-of-mit-ylana-lopez/</guid>
         <description>&lt;p&gt;Ylana Lopez is the assistant director of academics and events at the Martin Trust Center for MIT Entrepreneurship. She leads various programs and events at the Trust Center and was part of a startup that went through the flagship accelerator program, delta v. Lopez transitioned from a full-time job to focus on the startup and later joined the Trust Center as an academic coordinator before being promoted to her current role. She is passionate about education and entrepreneurship, and her work involves supporting various programs, including MIT Fuse and t=0. Lopez believes in the power of entrepreneurship to change the world and is part of a collaborative team at the Trust Center. Trust Center managing director Bill Aulet praises Lopez for her understanding of students and her creative program development. Lopez describes the MIT community as inspiring and welcoming, and advises newcomers to break out of their bubbles and connect with people across different departments for potential collaborations.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Four from MIT named 2025 Goldwater Scholars</title>
-        <link>http://localhost:1313/p/four-from-mit-named-2025-goldwater-scholars/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/four-from-mit-named-2025-goldwater-scholars/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/four-from-mit-named-2025-goldwater-scholars/</guid>
+        <guid>https://caxlee.github.io/p/four-from-mit-named-2025-goldwater-scholars/</guid>
         <description>&lt;p&gt;MIT has four rising seniors who received the 2025 Barry Goldwater Scholarship: Avani Ahuja and Jacqueline Prawira from the School of Engineering, and Julianna Lian and Alex Tang from the School of Science. The scholarships support undergraduates aiming to become leading scientists, engineers, and mathematicians. Each student is conducting impactful research in various fields, such as developing wearable ultrasound patches, studying mechanochemistry, researching sustainable materials, and investigating immunotherapy effects on cancer patients. They all have ambitious career goals and are grateful for the mentorship and support they have received. The Goldwater Scholarship aims to encourage research careers in science, engineering, and mathematics and is a prestigious award in these fields.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>From MIT, an instruction manual for turning research into startups</title>
-        <link>http://localhost:1313/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</guid>
+        <guid>https://caxlee.github.io/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</guid>
         <description>&lt;p&gt;MIT Proto Ventures launched the &amp;ldquo;R&amp;amp;D Venture Studio Playbook&amp;rdquo; to help universities and R&amp;amp;D offices establish their own venture studios. The playbook offers a framework for building ventures from research environments systematically. It aims to address the challenge of commercializing academic patents and make venture-building a systemic process. The playbook outlines MIT&amp;rsquo;s venture studio model, which embeds entrepreneurial scientists in research labs to scout technologies, validate market opportunities, and co-create ventures. It emphasizes the need for deliberate focus and a new translational infrastructure to build successful ventures from R&amp;amp;D. The playbook includes case studies, templates, and guidance for institutions to customize the model. The goal is to inspire innovation and accelerate the transition of ideas from the lab to real-world solutions.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Gaspare LoDuca named VP for information systems and technology and CIO</title>
-        <link>http://localhost:1313/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</guid>
+        <guid>https://caxlee.github.io/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</guid>
         <description>&lt;p&gt;Gaspare LoDuca has been appointed as MIT’s vice president for information systems and technology (IS&amp;amp;T) and chief information officer, effective Aug. 18. He brings over two decades of IT leadership experience in higher education and succeeds Mark Silis. LoDuca will lead IS&amp;amp;T, oversee MIT’s IT infrastructure, and play a key role in modernizing business processes. As a collaborative leader, he aims to shape IT policy and strategy at MIT and support the community&amp;rsquo;s needs. LoDuca&amp;rsquo;s background includes overseeing IT at Columbia University and managing technology strategies at Accenture. He holds a bachelor&amp;rsquo;s degree in chemical engineering and is relocating to Boston with his wife.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Introducing the L. Rafael Reif Innovation Corridor</title>
-        <link>http://localhost:1313/p/introducing-the-l.-rafael-reif-innovation-corridor/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>ICML 2025 Spotlight | 清华朱军组&amp;NVIDIA提出DDO：扩散/自回归模型训练新范式，刷新图像生成SOTA</title>
+        <link>https://caxlee.github.io/p/icml-2025-spotlight-%E6%B8%85%E5%8D%8E%E6%9C%B1%E5%86%9B%E7%BB%84nvidia%E6%8F%90%E5%87%BAddo%E6%89%A9%E6%95%A3/%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%96%B0%E8%8C%83%E5%BC%8F%E5%88%B7%E6%96%B0%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90sota/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/introducing-the-l.-rafael-reif-innovation-corridor/</guid>
+        <guid>https://caxlee.github.io/p/icml-2025-spotlight-%E6%B8%85%E5%8D%8E%E6%9C%B1%E5%86%9B%E7%BB%84nvidia%E6%8F%90%E5%87%BAddo%E6%89%A9%E6%95%A3/%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%96%B0%E8%8C%83%E5%BC%8F%E5%88%B7%E6%96%B0%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90sota/</guid>
+        <description>&lt;p&gt;摘要：清华大学博士生郑凯文提出了一种新的视觉生成模型优化方法——直接判别优化（DDO），通过将基于似然的生成模型隐式参数化为GAN，解决了传统最大似然训练的性能瓶颈。DDO不需额外网络、训练高效，提高了生成质量。该方法在多个标准图像生成任务中刷新了现有SOTA。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、深度学习、计算机视觉&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;文章一作郑凯文为清华大学三年级博士生，研究方向为深度生成模型，曾提出流式扩散模型最大似然估计改进技术 i-DODE，扩散模型高效采样器 DPM-Solver-v3，扩散桥模型采样器 DBIM 以及掩码式离散扩散模型采样器 FHS 等。
+清华大学朱军教授团队与 NVIDIA Deep Imagination 研究组联合提出一种全新的视觉生成模型优化范式 —— 直接判别优化（DDO）。该方法将基于似然的生成模型（如扩散模型、自回归模型）隐式参数化为 GAN，从而设计出一种无需额外网络、训练高效的微调方法，并大幅突破传统最大似然训练的性能瓶颈。
+论文标题：Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator
+论文链接：https://arxiv.org/abs/2503.01103
+代码仓库：https://github.com/NVlabs/DDO
+背景 | 基于似然的生成模型
+近年来，扩散模型（Diffusion M&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Inspiring student growth</title>
+        <link>https://caxlee.github.io/p/inspiring-student-growth/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/inspiring-student-growth/</guid>
+        <description>&lt;p&gt;摘要：MIT的教授Xiao Wang和Rodrigo Verdi在培养杰出的研究人员和促进协作文化方面发挥着重要作用。Xiao Wang致力于创造培育成长和支持学生个人学术发展的环境，而Rodrigo Verdi则展现出对学生的承诺和合作精神。&lt;/p&gt;
+&lt;p&gt;标签：教育, 研究人员, 大学生活&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Introducing the L. Rafael Reif Innovation Corridor</title>
+        <link>https://caxlee.github.io/p/introducing-the-l.-rafael-reif-innovation-corridor/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/introducing-the-l.-rafael-reif-innovation-corridor/</guid>
         <description>&lt;p&gt;文章总结：MIT校园中连接Hockfield Court和Massachusetts Avenue的开放空间现在被称为L. Rafael Reif创新走廊，以纪念该学院的第17任校长。在一次致敬仪式上，Reif的同事、朋友和家人聚集在一起，纪念他的遗产并揭开了这条走道的标志。Reif作为校长超过10年，他被描述为谦逊、好奇且具有出色表达能力的领导者。他在MIT的服务和成就得到了肯定，包括在教育、创新和校园建设方面的贡献。在致辞中，Reif表达了对这条走廊的重要性，希望未来的人们能延续MIT的创新精神，创造更美好的世界。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>LLMs factor in unrelated information when recommending medical treatments</title>
-        <link>http://localhost:1313/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</guid>
+        <guid>https://caxlee.github.io/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</guid>
         <description>&lt;p&gt;MIT researchers conducted a study showing that large language models (LLMs) used for treatment recommendations in healthcare can be influenced by nonclinical factors in patient messages, leading to inaccurate recommendations, especially for female patients. The study highlighted the need for auditing LLMs before deploying them in healthcare. The researchers found that LLMs&amp;rsquo; judgment was affected by factors like typos, extra white space, missing gender markers, and informal language used in patient messages. The study revealed inconsistencies and disagreements among LLMs when fed altered patient data, with LLMs more likely to recommend self-management over seeking medical care in response to certain text variations. These findings emphasize the importance of rigorously evaluating LLMs before using them for critical healthcare applications.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Merging AI and underwater photography to reveal hidden ocean worlds</title>
-        <link>http://localhost:1313/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</guid>
+        <guid>https://caxlee.github.io/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</guid>
         <description>&lt;p&gt;文章总结：&lt;/p&gt;
 &lt;p&gt;文章介绍了在美国东北部的缅因湾，一个拥有丰富生物多样性的海洋生态系统，但由于环境变化迅速，正在面临温度上升等问题。麻省理工学院海洋补助项目LOSTbER利用人工智能和水下摄影相结合，以新的视觉方式记录海洋生物，展示生态系统对这些变化的脆弱性。该项目结合了摄影的视觉语言、海洋科学的观察严谨性和生成式人工智能的计算能力，通过训练AI模型生成真实而生态相关的海洋生物图像，拓展了观众与自然世界的联系。团队的目标是开发一个全面的模型，可以可视化缅因湾发现的各种物种，并最终将类似方法应用于全球海洋生态系统。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>MIT and Mass General Brigham launch joint seed program to accelerate innovations in health</title>
-        <link>http://localhost:1313/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>Meta新AI团队成员大起底：8位华人，清北、浙大校友占半壁江山</title>
+        <link>https://caxlee.github.io/p/meta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E6%88%90%E5%91%98%E5%A4%A7%E8%B5%B7%E5%BA%958%E4%BD%8D%E5%8D%8E%E4%BA%BA%E6%B8%85%E5%8C%97%E6%B5%99%E5%A4%A7%E6%A0%A1%E5%8F%8B%E5%8D%A0%E5%8D%8A%E5%A3%81%E6%B1%9F%E5%B1%B1/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</guid>
+        <guid>https://caxlee.github.io/p/meta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E6%88%90%E5%91%98%E5%A4%A7%E8%B5%B7%E5%BA%958%E4%BD%8D%E5%8D%8E%E4%BA%BA%E6%B8%85%E5%8C%97%E6%B5%99%E5%A4%A7%E6%A0%A1%E5%8F%8B%E5%8D%A0%E5%8D%8A%E5%A3%81%E6%B1%9F%E5%B1%B1/</guid>
+        <description>&lt;p&gt;摘要：Meta近期在人才招聘方面大动作，招揽了来自OpenAI和谷歌等顶级人才，成立了&amp;quot;Meta超级智能实验室&amp;quot;。其中涉及到的华人学者包括汪滔、毕树超、常慧雯等，他们在人工智能领域具有较大影响力，为Meta的研究团队注入新的活力。&lt;/p&gt;
+&lt;p&gt;标签：人工智能、科技公司、人才招聘&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MIT and Mass General Brigham launch joint seed program to accelerate innovations in health</title>
+        <link>https://caxlee.github.io/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</guid>
         <description>&lt;p&gt;MIT and Mass General Brigham have launched the MIT-MGB Seed Program with support from Analog Devices Inc. The initiative funds joint research projects between the two institutions to advance human health research and develop innovative therapies, diagnostics, and digital tools. By combining expertise in AI, machine learning, and clinical research, the program aims to drive transformative changes in patient care. Funded by a gift from ADI, the program will support approximately six joint projects annually over three years. Selected teams will receive funding, access to entrepreneurial workshops, and opportunities to connect with industry leaders. The program, part of MIT HEALS, fosters interdisciplinary collaborations to address critical gaps in health and life sciences innovation.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>MIx helps innovators tackle challenges in national security</title>
-        <link>http://localhost:1313/p/mix-helps-innovators-tackle-challenges-in-national-security/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/mix-helps-innovators-tackle-challenges-in-national-security/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/mix-helps-innovators-tackle-challenges-in-national-security/</guid>
+        <guid>https://caxlee.github.io/p/mix-helps-innovators-tackle-challenges-in-national-security/</guid>
         <description>&lt;p&gt;MIT&amp;rsquo;s Mission Innovation X (MIx) bridges the gap between startups and government defense agencies by developing educational programs, supporting research, and facilitating connections among various stakeholders. Led by Gene Keselman, Sertac Karaman, and Fiona Murray, MIx helps startups understand defense customers&amp;rsquo; needs and navigate government engagement challenges. Through MIx, innovators receive funding and defense agencies gain access to cutting-edge technologies with dual civilian and defense applications. The program, rooted in MIT&amp;rsquo;s history of collaboration with the Department of Defense, aims to enhance America&amp;rsquo;s security capabilities while fostering innovation. MIx&amp;rsquo;s early successes include projects with startups like Picogrid and Nominal, demonstrating the program&amp;rsquo;s potential to drive future collaborations and advancements in defense technology.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>QS ranks MIT the world’s No. 1 university for 2025-26</title>
-        <link>http://localhost:1313/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>Nature子刊 | 有效提升蛋白质折叠模式覆盖度，清华等使用全局几何感知潜在编码改进扩散模型</title>
+        <link>https://caxlee.github.io/p/nature%E5%AD%90%E5%88%8A-%E6%9C%89%E6%95%88%E6%8F%90%E5%8D%87%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%8A%98%E5%8F%A0%E6%A8%A1%E5%BC%8F%E8%A6%86%E7%9B%96%E5%BA%A6%E6%B8%85%E5%8D%8E%E7%AD%89%E4%BD%BF%E7%94%A8%E5%85%A8%E5%B1%80%E5%87%A0%E4%BD%95%E6%84%9F%E7%9F%A5%E6%BD%9C%E5%9C%A8%E7%BC%96%E7%A0%81%E6%94%B9%E8%BF%9B%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</guid>
+        <guid>https://caxlee.github.io/p/nature%E5%AD%90%E5%88%8A-%E6%9C%89%E6%95%88%E6%8F%90%E5%8D%87%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%8A%98%E5%8F%A0%E6%A8%A1%E5%BC%8F%E8%A6%86%E7%9B%96%E5%BA%A6%E6%B8%85%E5%8D%8E%E7%AD%89%E4%BD%BF%E7%94%A8%E5%85%A8%E5%B1%80%E5%87%A0%E4%BD%95%E6%84%9F%E7%9F%A5%E6%BD%9C%E5%9C%A8%E7%BC%96%E7%A0%81%E6%94%B9%E8%BF%9B%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</guid>
+        <description>&lt;p&gt;摘要：最近，清华大学等机构的研究团队提出了一种无监督系统TopoDiff框架，通过学习全局几何感知的潜在表征，实现了基于扩散模型的无条件与可控蛋白质生成，提升了蛋白质折叠模式的覆盖度。研究通过实验证实，TopoDiff有效提升了对天然蛋白质折叠模式的覆盖范围。&lt;/p&gt;
+&lt;p&gt;主题标签：科技创新、生物科学、人工智能&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;编辑丨coisini
+基于扩散的生成模型近期在从头设计蛋白质方向取得重大突破，显著推动了领域发展。
+然而，有证据表明：一些特定折叠类别的蛋白质骨架，AI 模型仍难以生成。并且，当前广泛使用的可设计性、新颖性和多样性等指标，均无法反映生成结果对天然蛋白质空间的覆盖程度。
+为此，近期来自清华大学、北京生命科学研究所等机构的研究团队提出了一种无监督系统 ——TopoDiff 框架，通过学习和利用全局几何感知的潜在表征，实现了基于扩散模型的无条件与可控蛋白质生成。研究论文发表于《Nature Machine Intelligence》。
+论文地址：https://www.nature.com/articles/s42256-025-01059-x
+提升蛋白质折叠模式覆盖度
+为了提升生成样本对特定蛋白质折叠的覆盖率，有方法采用残基级别的一维 / 二维折叠条件约束配合额外微调来生成具有可变环区的免疫球蛋白结构域，或用特定蛋白质类别训练分类器。这些方法虽能增强特定蛋白质类群的覆盖率，但其适用前提是目标类群必须具有清晰明确的定义且包含足量训练样本。
+因此，研究团队聚焦于一个重要且通用的无监督学习问题：&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>New method combines imaging and sequencing to study gene function in intact tissue</title>
+        <link>https://caxlee.github.io/p/new-method-combines-imaging-and-sequencing-to-study-gene-function-in-intact-tissue/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/new-method-combines-imaging-and-sequencing-to-study-gene-function-in-intact-tissue/</guid>
+        <description>&lt;p&gt;摘要：研究人员开发了一种名为Perturb-Multi的新方法，可以同时测量基因表达和细胞结构数据，加速了对基因控制器官功能的发现。他们利用这一方法研究了肝脏生物学的若干方面，揭示了脂肪在肝细胞中的积累、应激反应和肝细胞区域化等重要发现。这一技术创新为新的科学发现打开了新的可能性。&lt;/p&gt;
+&lt;p&gt;主题标签：生物学研究、基因表达、细胞结构数据&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Nth Cycle is bringing critical metals refining to the U.S.</title>
+        <link>https://caxlee.github.io/p/nth-cycle-is-bringing-critical-metals-refining-to-the-u.s./</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/nth-cycle-is-bringing-critical-metals-refining-to-the-u.s./</guid>
+        <description>&lt;p&gt;摘要：美国公司Nth Cycle开发出一种高效的电萃取技术，通过从工业废物和矿石中回收关键金属，如钴、镍和稀土元素，以确保美国的金属供应。该公司的模块化精炼系统可使用电力取代化石燃料，降低成本、减少废物，并能在短时间内部署。Nth Cycle计划在美国和欧洲部署其系统，建立新的供应链，以满足经济发展所需的资源。&lt;/p&gt;
+&lt;p&gt;主题标签：科技创新、资源开发、环保科技&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>President Emeritus Reif reflects on successes as a technical leader</title>
+        <link>https://caxlee.github.io/p/president-emeritus-reif-reflects-on-successes-as-a-technical-leader/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/president-emeritus-reif-reflects-on-successes-as-a-technical-leader/</guid>
+        <description>&lt;p&gt;摘要：麻省理工学院前校长雷菲（Reif）强调工程领导力的重要性，特别是沟通技巧，用于解决全球最具挑战性的问题。雷菲通过技术教育塑造出解决问题的方法论，并强调系统级思维在领导中的重要性。他认为未来工程领袖需要跨学科、跨文化视野，以及对每个个体的尊重和同理心。&lt;/p&gt;
+&lt;p&gt;主题标签：工程领导力、教育培训、跨学科合作&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>QS ranks MIT the world’s No. 1 university for 2025-26</title>
+        <link>https://caxlee.github.io/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</guid>
         <description>&lt;p&gt;MIT has been named the world&amp;rsquo;s top university by the QS World University Rankings for the 14th consecutive year. The rankings are based on factors such as academic reputation, employer reputation, and student-to-faculty ratio. MIT was also ranked first in 11 subject areas and second in seven subject areas.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Researchers present bold ideas for AI at MIT Generative AI Impact Consortium kickoff event</title>
-        <link>http://localhost:1313/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</guid>
+        <guid>https://caxlee.github.io/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</guid>
         <description>&lt;p&gt;今年2月推出的麻省理工学院生成AI影响联盟(MIT Generative AI Impact Consortium, MGAIC)，是由麻省理工学院创新与战略办公室领导的总统倡议，并由麻省理工学院斯蒂芬·A·施瓦茨曼计算机学院管理，发出了提案征集，邀请麻省理工学院各领域的研究人员提交研究高影响生成AI模型用途的创新项目的想法。&lt;/p&gt;
 &lt;p&gt;提案获得了来自MIT各个学院的近250名教师提交的180份提案。MGAIC的创始种子资助计划选中了55个提案，而其他几个提案将由该联盟的创始公司成员提供资助。&lt;/p&gt;
 &lt;p&gt;超过30名资助获得者在5月13日的启动活动上向麻省理工学院社区展示了他们的提案。该联盟的负责人、首席创新与战略官兼工程学院院长Anantha P. Chandrakasan感谢了联盟的创始行业成员，并强调了联盟跨学院合作的特点。&lt;/p&gt;
@@ -189,156 +276,357 @@
 </description>
         </item>
         <item>
-        <title>Summer 2025 reading from MIT</title>
-        <link>http://localhost:1313/p/summer-2025-reading-from-mit/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>Sebastian Raschka著作免费开放！《机器学习与AI核心30问》，新手专家皆宜</title>
+        <link>https://caxlee.github.io/p/sebastian-raschka%E8%91%97%E4%BD%9C%E5%85%8D%E8%B4%B9%E5%BC%80%E6%94%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8Eai%E6%A0%B8%E5%BF%8330%E9%97%AE%E6%96%B0%E6%89%8B%E4%B8%93%E5%AE%B6%E7%9A%86%E5%AE%9C/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/summer-2025-reading-from-mit/</guid>
+        <guid>https://caxlee.github.io/p/sebastian-raschka%E8%91%97%E4%BD%9C%E5%85%8D%E8%B4%B9%E5%BC%80%E6%94%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8Eai%E6%A0%B8%E5%BF%8330%E9%97%AE%E6%96%B0%E6%89%8B%E4%B8%93%E5%AE%B6%E7%9A%86%E5%AE%9C/</guid>
+        <description>&lt;p&gt;摘要：知名 AI 技术博主 Sebastian Raschka 开放了他的著作《机器学习 Q 与 AI：30 个必备问答》的全部 30 章内容，免费提供给读者。这本书涵盖了神经网络、机器学习、计算机视觉、自然语言处理、生产部署、预测性能等多个领域的主题，适合不同层次的读者学习和参考。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、机器学习、技术面试&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;知名 AI 技术博主、《Python 机器学习》作者 Sebastian Raschka 又来放福利了！
+今天，他宣布，正值夏季实习和技术面试之际，自己著作《机器学习 Q 与 AI：30 个必备问答》的全部 30 章内容免费开放。他希望能为大家带来帮助，并祝面试的小伙伴好运。
+这本书纸质版（+ 电子版）原价 49.99 美元（约合 358 元），电子版原价 39.9 美元（约合 286 元）。
+如今，机器学习和人工智能领域正以前所未有的速度发展。研究人员和从业者常常疲于追赶层出不穷的概念与技术。
+本书为你的成长旅途提供了碎片化的知识精华 —— 从机器学习新手到专家，涵盖多个领域的主题。即便是经验丰富的机器学习研究者和从业者，也能从中发现可纳入自身技能库的新内容。
+评论区有人问，「这本书是用 AI 写的吗？」Sebastian 称当然不是，这样做违背他的个人伦理。有趣的是：这本书的大部分内容写于 2022 年 11 月第一版 ChatGPT 发布前的几个月，最开始是在 LeanPub 上发布，后来在 2024 年由 No Starch 出版社出版。这本书可能曾是 ChatGPT 的训练数&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Summer 2025 reading from MIT</title>
+        <link>https://caxlee.github.io/p/summer-2025-reading-from-mit/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/summer-2025-reading-from-mit/</guid>
         <description>&lt;p&gt;MIT authors have published a variety of books in the past year covering topics in science, technology, society, education, arts, culture, and more. Highlights include books on the microcosmos and infectious diseases, nature&amp;rsquo;s wonders, healthcare analytics, longevity hubs, AI for societal good, the impact of technology, entrepreneurship, police reform, letterlocking, the global economy, minority rights, and the evolution of U.S. retailing. Additionally, there are books on fantasy novels, children&amp;rsquo;s literature, and picture books by MIT community members.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>The MIT Press acquires University Science Books from AIP Publishing</title>
-        <link>http://localhost:1313/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>SuperCLUE推理榜惊现黑马：原来中兴是一家AI公司？</title>
+        <link>https://caxlee.github.io/p/superclue%E6%8E%A8%E7%90%86%E6%A6%9C%E6%83%8A%E7%8E%B0%E9%BB%91%E9%A9%AC%E5%8E%9F%E6%9D%A5%E4%B8%AD%E5%85%B4%E6%98%AF%E4%B8%80%E5%AE%B6ai%E5%85%AC%E5%8F%B8/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</guid>
+        <guid>https://caxlee.github.io/p/superclue%E6%8E%A8%E7%90%86%E6%A6%9C%E6%83%8A%E7%8E%B0%E9%BB%91%E9%A9%AC%E5%8E%9F%E6%9D%A5%E4%B8%AD%E5%85%B4%E6%98%AF%E4%B8%80%E5%AE%B6ai%E5%85%AC%E5%8F%B8/</guid>
+        <description>&lt;p&gt;摘要：中兴通讯凭借40年ICT技术积累正式进军AI赛道，在AI推理竞赛中取得佳绩，星云大模型荣获冠军。中兴之所以重视AI，是因为AI将成为未来通信网络的核心组成部分，而中兴具备全栈技术积累和工程实践能力，有望在AI领域获得更多发展机遇。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、通讯科技、技术创新&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;中兴通讯，这家数万人的科技大厂，凭借40年 ICT 技术积累正式进军 AI 赛道。
+一家信息通信公司，居然拿到了 AI 推理竞赛的冠军，这事儿有点意思。
+前段时间，中文大模型测评基准 SuperCLUE 发布了 2025 年 5 月报告。这份报告评估了来自 OpenAI、谷歌、DeepSeek、字节跳动等多家国内外 AI 公司的大模型，并发布了多个榜单。报告显示，虽然海外模型在综合能力上占优，但
+国内模型在推理任务中表现亮眼，Doubao-1.5-thinking-pro-250415 与
+星云大模型
+NebulaCoder-V6 以推理总分 67.4 并列第一。
+SuperCLUE 推理榜单深度聚焦模型的逻辑思维与问题解决能力，涵盖数学推理、科学推理、代码生成三大硬核维度。
+作为专业赛道的选手，Doubao 的表现并不让人意外。但是，星云大模型 NebulaCoder-V6 着实算得上一匹黑马，因为它来自一家老牌信息通信公司 —— 中兴通讯。而且，除了拿下推理榜单第一，它在综合总榜中也表现不俗 —— 与 DeepSeek-R1 并列第二，拿到了银牌。
+这样的成绩让外界对中兴这家公司&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The MIT Press acquires University Science Books from AIP Publishing</title>
+        <link>https://caxlee.github.io/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</guid>
         <description>&lt;p&gt;MIT Press收购了教科书出版商University Science Books，该出版商成立于1978年，以出版中高级科学和参考书籍而闻名。它的教材在化学、物理和天文学领域被公认为行业标杆。MIT Press将于7月1日接管University Science Books的清单，并由Penguin Random House Publishing Services负责库存转移和销售分销。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>The tenured engineers of 2025</title>
-        <link>http://localhost:1313/p/the-tenured-engineers-of-2025/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/the-tenured-engineers-of-2025/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/the-tenured-engineers-of-2025/</guid>
+        <guid>https://caxlee.github.io/p/the-tenured-engineers-of-2025/</guid>
         <description>&lt;p&gt;2025年，麻省理工学院（MIT）授予了11名工程学院教师终身教职。今年获得终身教职的工程师成员分别来自航空航天工程、生物工程、化学工程、电气工程与计算机科学、材料科学与工程、机械工程和核科学与工程等部门。这些新获终身教职的工程教师在各自领域取得了显著成就，并致力于培养未来的创新者，为学术社区贡献力量。他们包括在传染病和免疫工程领域进行研究的Bryan Bryson、在化学工程和人工智能交叉领域开发新计算方法的Connor Coley、研究分布式和并行计算理论的Mohsen Ghaffari、在机器学习和原子模拟交叉领域工作的Rafael Gomez-Bombarelli、在模型压缩和TinyML领域取得创新的Song Han、以深度残差网络（ResNets）闻名的Kaiming He、研究计算机视觉、机器学习和人工智能的Phillip Isola、从事核科学与工程领域的Mingda Li、在航空航天领域研究天体动力学、空间系统和卫星自主性的Richard Linares、设计高性能计算机图形和加速计算工具的Jonathan Ragan-Kelley以及研究数据可视化、人机交互、人工智能和机器学习的Arvind Satyanarayan等人。这些教师的研究领域涵盖了多个关键领域，他们的成就不仅是对过去工作的肯定，也预示着未来将产生更大的影响。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Using generative AI to help robots jump higher and land safely</title>
-        <link>http://localhost:1313/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>UofT、UBC、MIT和复旦等联合发布：扩散模型驱动的异常检测与生成全面综述</title>
+        <link>https://caxlee.github.io/p/uoftubcmit%E5%92%8C%E5%A4%8D%E6%97%A6%E7%AD%89%E8%81%94%E5%90%88%E5%8F%91%E5%B8%83%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E7%94%9F%E6%88%90%E5%85%A8%E9%9D%A2%E7%BB%BC%E8%BF%B0/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</guid>
+        <guid>https://caxlee.github.io/p/uoftubcmit%E5%92%8C%E5%A4%8D%E6%97%A6%E7%AD%89%E8%81%94%E5%90%88%E5%8F%91%E5%B8%83%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E7%94%9F%E6%88%90%E5%85%A8%E9%9D%A2%E7%BB%BC%E8%BF%B0/</guid>
+        <description>&lt;p&gt;摘要：近期多个知名机构的研究者合作完成了一项题为“Anomaly Detection and Generation with Diffusion Models: A Survey”的综述，系统梳理了扩散模型在异常检测与生成领域的应用。文章从图像、视频、时间序列、表格和多模态异常检测任务的最新进展出发，提供了全面的分类体系，展望了未来的发展机遇。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、异常检测、计算机视觉&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Using generative AI to help robots jump higher and land safely</title>
+        <link>https://caxlee.github.io/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</guid>
         <description>&lt;p&gt;Diffusion models like OpenAI’s DALL-E are being used to generate new designs by prompting AI systems to create images, videos, or blueprints. Generative artificial intelligence (GenAI) models are also creating working robots by generating structures and control systems. MIT’s CSAIL developed a system where users can draft a 3D model of a robot, specify parts to modify, and use GenAI to optimize the design, resulting in a robot that jumps higher. The AI-generated design featured curved linkages, improving the robot&amp;rsquo;s performance. The researchers optimized the design through multiple iterations, achieving significant improvements in jumping and landing abilities. The use of diffusion models in robot design could revolutionize how machines are created, with potential applications in various industries. Future iterations could incorporate lighter materials and more complex functionalities, paving the way for innovative robotics designs guided by generative AI.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>上海交大KinFormer：生成式符号回归模型助力自动发现未知化学反应动力学机制</title>
-        <link>http://localhost:1313/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</guid>
+        <guid>https://caxlee.github.io/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</guid>
         <description>&lt;p&gt;上海交通大学人工智能研究院 AI for Science 团队提出了 KinFormer 架构，用于发现化学反应动力学方程，该模型结合了数据驱动方法和智能搜索算法。通过条件训练策略和蒙特卡洛树搜索，KinFormer 能够准确预测反应动力学方程，并在实验验证中表现优异。该研究发表于 ICLR 2025，有望推动化学动力学研究向智能化、自动化发展。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>会“思考”的目标检测模型来了！IDEA提出Rex-Thinker：基于思维链的指代物体检测模型，准确率&#43;可解释性双突破</title>
-        <link>http://localhost:1313/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</guid>
+        <guid>https://caxlee.github.io/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</guid>
         <description>&lt;p&gt;文章介绍了一种名为 Rex-Thinker 的全新解决方案，旨在让 AI 能够像人一样进行推理思考，提高了视觉指代任务的准确率和可解释性。Rex-Thinker 创新性地构建了可解释的推理框架，包括三个步骤：规划、验证和决策。通过基于检索的检测多模态模型设计和 CoT 推理，模型在推理能力方面取得了突破。训练过程采用了两阶段策略，构建了推理数据集 HumanRef-CoT，并通过 SFT 冷启动和 GRPO 强化学习后训练，使模型具备了强大的推理能力。实验结果表明，Rex-Thinker 在各项指标上都有显著提升，尤其在拒识能力上表现出色。另外，模型在跨类别评估和泛化能力方面也表现优异。文章还展示了 Rex-Thinker 的推理过程可视化结果，突出了其良好的目标理解能力和推理路径的清晰性与可解释性。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>刚刚，OpenAI全员放假一周！被Meta高薪连挖8人「偷家」，真麻了</title>
-        <link>http://localhost:1313/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>伯克利&amp;Meta面向具身智能的世界模型：让AI通过全身动作「看见」未来</title>
+        <link>https://caxlee.github.io/p/%E4%BC%AF%E5%85%8B%E5%88%A9meta%E9%9D%A2%E5%90%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E8%AE%A9ai%E9%80%9A%E8%BF%87%E5%85%A8%E8%BA%AB%E5%8A%A8%E4%BD%9C%E7%9C%8B%E8%A7%81%E6%9C%AA%E6%9D%A5/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</guid>
+        <guid>https://caxlee.github.io/p/%E4%BC%AF%E5%85%8B%E5%88%A9meta%E9%9D%A2%E5%90%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E8%AE%A9ai%E9%80%9A%E8%BF%87%E5%85%A8%E8%BA%AB%E5%8A%A8%E4%BD%9C%E7%9C%8B%E8%A7%81%E6%9C%AA%E6%9D%A5/</guid>
+        <description>&lt;p&gt;摘要：本文介绍了一个名为PEVA的研究项目，旨在探索如何利用人体动作来预测视觉结果，以实现更接近人类想象方式的人工智能规划。该项目采用全身动作输入和复杂的条件扩散模型，能够预测未来的第一视角视频并支持多种规划功能。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、机器学习、计算机视觉&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>你的Agent电脑助手正在踩雷！最新研究揭秘Computer-Use Agent的安全漏洞</title>
+        <link>https://caxlee.github.io/p/%E4%BD%A0%E7%9A%84agent%E7%94%B5%E8%84%91%E5%8A%A9%E6%89%8B%E6%AD%A3%E5%9C%A8%E8%B8%A9%E9%9B%B7%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98computer-use-agent%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BD%A0%E7%9A%84agent%E7%94%B5%E8%84%91%E5%8A%A9%E6%89%8B%E6%AD%A3%E5%9C%A8%E8%B8%A9%E9%9B%B7%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98computer-use-agent%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/</guid>
+        <description>&lt;p&gt;摘要：上海 AI Lab、中国科学技术大学和上海交通大学联合推出了CUA安全测试基准RiOSWorld，旨在评估智能助手在电脑使用中的安全风险。研究发现，大多数基于MLLM的CUA缺乏风险意识，容易受到网络诈骗和恶意操作的影响，安全性存疑。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能安全、电脑使用智能助手、风险评估&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;本文由上海 AI Lab、中国科学技术大学和上海交通大学联合完成。主要作者包括中国科学技术大学硕士生杨靖懿、上海交通大学本科生邵帅。通讯作者为刘东瑞和邵婧，上海 AI Lab 安全团队，研究方向为 AI 安全可信。
+从 Anthropic 的 Claude 3.5 Sonnet 自带 Computer-Use 功能，到 OpenAI 的 Operator CUA 横空出世，再到 Manus 直接火爆出圈，现在的 Computer-Use Agent 简直像开了外挂，只需一条指令，就能独立完成 code project（coding/debug）、处理邮件、刷网页、做 PPT/教案，样样精通！
+但先别着急着欢呼——你有没有想过，把电脑操纵权交给这些「智能」助手，可能跟把银行卡密码告诉陌生人一样危险？
+为了使 Computer-Use Agent（CUA）在未来能够大规模、安全地部署在实际应用场景中，来自
+上海 AI Lab、中国科学技术大学和上海交通大学
+的团队强势出手，推出 CUA 安全测试基准——
+RiOSWorld
+！称得上是 CUA 的「安全体检中心」！该测试基准全面地评估了 C&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>你的下一个AI项目灵感，藏在首届魔搭开发者大会的七大论坛里</title>
+        <link>https://caxlee.github.io/p/%E4%BD%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AAai%E9%A1%B9%E7%9B%AE%E7%81%B5%E6%84%9F%E8%97%8F%E5%9C%A8%E9%A6%96%E5%B1%8A%E9%AD%94%E6%90%AD%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E4%BC%9A%E7%9A%84%E4%B8%83%E5%A4%A7%E8%AE%BA%E5%9D%9B%E9%87%8C/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BD%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AAai%E9%A1%B9%E7%9B%AE%E7%81%B5%E6%84%9F%E8%97%8F%E5%9C%A8%E9%A6%96%E5%B1%8A%E9%AD%94%E6%90%AD%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E4%BC%9A%E7%9A%84%E4%B8%83%E5%A4%A7%E8%AE%BA%E5%9D%9B%E9%87%8C/</guid>
+        <description>&lt;p&gt;摘要：AI技术正处于创新激增、应用广泛的时代，开发者面临技术前沿追赶和模型获取挑战。魔搭社区作为一个全链路服务平台，汇聚了大量开源模型，连接模型开发者和使用者，推动AI技术应用的无限可能性。同时，AI领域的新趋势包括开源模型的兴起、多模态与世界模型的发展、小模型与边缘应用的重要性、具身智能的前景以及Agent与MCP框架的探索。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能技术发展, 开源模型, 多模态AI, 边缘计算, 具身智能, AI Agent, MCP框架, 生成式AI应用, AI开发者生态, 模型共享与应用&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;此刻我们正处在什么样的时代？是姚顺雨笔下的「AI 的下半场」，是 Andrej Karpathy 定义的「软件 3.0 时代」，也是一个创造者与 AI 协同进化，重新定义「可能」的时代。
+层出不穷的创新模型以前所未有的速度涌现，深刻地改变着世界的每一个角落。对于开发者而言，这既是充满无限机遇的黄金时代，也带来了前所未有的挑战：
+如何紧跟技术前沿，高效地获取、使用并创造 AI 模型？
+开放、协作、共享的社区生态成为推动 AI 浪潮奔涌向前的核心动力。正是在这样的背景下，一个能够汇聚顶尖智慧、提供全方位支持、连接创造者与使用者的平台，显得至关重要。
+魔搭社区（ModelScope）
+正是顺应这一需求而发展的。
+6 月 30 日，首届魔搭开发者大会在北京举办。自 2022 年 11 月初成立以来，历经两年多高速发展，社区已汇聚超 500 家贡献机构，托管的开源模型数量已超 7 万个，增长超 200 倍，用户数量从 2023 年 4 月的 100 万扩展至如今 1600 万，增长约 16 倍。
+魔搭社区已形成全链路服务，支持开发者体验、下载、调优、训练、推理、部署模型，覆盖 LLM、对话、语音&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>免费约饭！加拿大ICML 2025，相聚机器之心人才晚宴</title>
+        <link>https://caxlee.github.io/p/%E5%85%8D%E8%B4%B9%E7%BA%A6%E9%A5%AD%E5%8A%A0%E6%8B%BF%E5%A4%A7icml-2025%E7%9B%B8%E8%81%9A%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E4%BA%BA%E6%89%8D%E6%99%9A%E5%AE%B4/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%85%8D%E8%B4%B9%E7%BA%A6%E9%A5%AD%E5%8A%A0%E6%8B%BF%E5%A4%A7icml-2025%E7%9B%B8%E8%81%9A%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E4%BA%BA%E6%89%8D%E6%99%9A%E5%AE%B4/</guid>
+        <description>&lt;p&gt;摘要：AI领域的图像、视频生成技术持续发展，以扩散模型为代表的生成方法不断提升质量，视频生成技术实现了原生音频的同步生成。ICML学术会议将于7月在温哥华举行，同时举办&amp;quot;云帆・ICML 2025 AI Talent Meetup&amp;quot;活动，旨在促进前沿技术与人才交流。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、学术会议、技术发展&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;2025 年已经过半，AI 领域依旧发展迅速。
+作为最直观、最具感官冲击力的技术方向之一，图像、视频生成也迎来了前所未有的突破与热潮。
+以扩散模型为代表的生成方法不断刷新着图像合成的质量上限，使得 AI 创作在分辨率、风格控制、语义理解等维度上实现跨越式提升。而在此基础上，视频生成进一步打开了人们的想象空间。比如 Google 最近发布的 Veo 3，首次实现了原生音频的同步生成，真正将视频生成带入有声电影时代。
+而这些技术的跃升，离不开研究者们不断的交流与合作。
+ICML 作为 AI 领域最具影响力的学术会议之一，汇聚了世界顶尖的研究成果。今年 ICML 将于 7 月 13 日至 7 月 19 日在加拿大温哥华会议中心举行。
+想必很多从业者将前往现场参会，除了密集高强度的会议日程之外，不妨也为自己预留一些时间，参与一场更轻松、更自由的线下交流活动「云帆・ICML 2025 AI Talent Meetup」。
+这是一次聚焦前沿技术与人才对话的特别聚会，由机器之心与上海人工智能实验室、东方菁汇、全球高校人工智能学术联盟共同发起，诚邀大家参加「云帆・ICML 2025 AI Talent&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>刚刚，Meta宣布正式成立「超级智能实验室」！11人豪华团队首曝光</title>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Ameta%E5%AE%A3%E5%B8%83%E6%AD%A3%E5%BC%8F%E6%88%90%E7%AB%8B%E8%B6%85%E7%BA%A7%E6%99%BA%E8%83%BD%E5%AE%9E%E9%AA%8C%E5%AE%A411%E4%BA%BA%E8%B1%AA%E5%8D%8E%E5%9B%A2%E9%98%9F%E9%A6%96%E6%9B%9D%E5%85%89/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Ameta%E5%AE%A3%E5%B8%83%E6%AD%A3%E5%BC%8F%E6%88%90%E7%AB%8B%E8%B6%85%E7%BA%A7%E6%99%BA%E8%83%BD%E5%AE%9E%E9%AA%8C%E5%AE%A411%E4%BA%BA%E8%B1%AA%E5%8D%8E%E5%9B%A2%E9%98%9F%E9%A6%96%E6%9B%9D%E5%85%89/</guid>
+        <description>&lt;p&gt;摘要：Meta公司宣布重组人工智能团队，成立「Meta超级智能实验室」，由Scale AI前CEO领导，挖来了多位顶尖人才。公司将专注于开发Llama系列大模型和下一代模型，加速实现全民专属超级智能的愿景。&lt;/p&gt;
+&lt;p&gt;标签：人工智能, 科技创新, 人才引进&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>刚刚，OpenAI全员放假一周！被Meta高薪连挖8人「偷家」，真麻了</title>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</guid>
         <description>&lt;p&gt;OpenAI 团队因遭到 Meta 一亿美元高薪挖人而陷入困境，多位高级研究人员被挖走。OpenAI 高管表示将积极应对挑战，但公司也宣布全员放假一周以恢复精力。Meta 持续加强研究人员招聘，包括向 OpenAI 招募顶尖人才。尽管困境重重，OpenAI 仍专注于实现通用人工智能目标。在竞争激烈的人才市场中，每位技术人才都需重新评估自身价值。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>只用2700万参数，这个推理模型超越了DeepSeek和Claude</title>
-        <link>http://localhost:1313/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</guid>
+        <guid>https://caxlee.github.io/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</guid>
         <description>&lt;p&gt;文章讨论了当前大语言模型在复杂推理任务上存在的问题，介绍了一种新的分层推理模型（HRM）架构，灵感来源于人脑分层和多时间尺度处理机制。HRM模型通过两个循环模块在单次前向传递中执行顺序推理任务，无需明确监督中间过程，且在复杂任务上表现优异。文章还介绍了HRM的设计原理、实验结果和与神经科学的对比，指出HRM具有推动通用计算变革性进步的潜力。详细内容请参阅原论文。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>响应香港数字资产发展政策宣言 蚂蚁数科在港开放四大核心技术</title>
-        <link>http://localhost:1313/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</guid>
+        <guid>https://caxlee.github.io/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</guid>
         <description>&lt;p&gt;蚂蚁数科日前宣布为香港市场提供四大自研技术，支持香港打造全球数字资产创新中心。香港政府发布《数字资产发展政策宣言2.0》，强调代币化发展。蚂蚁数科表示将用领先技术赋能本地金融机构，共建数字技术生态。蚂蚁数科在区块链技术研发方面处于全球领先水平，曾加入香港金管局Ensemble沙盒。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>微软推出深度视频探索智能体，登顶多个长视频理解基准</title>
-        <link>http://localhost:1313/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>如何对齐DNN与人类看世界的方式？像素还是概念？</title>
+        <link>https://caxlee.github.io/p/%E5%A6%82%E4%BD%95%E5%AF%B9%E9%BD%90dnn%E4%B8%8E%E4%BA%BA%E7%B1%BB%E7%9C%8B%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B9%E5%BC%8F%E5%83%8F%E7%B4%A0%E8%BF%98%E6%98%AF%E6%A6%82%E5%BF%B5/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</guid>
+        <guid>https://caxlee.github.io/p/%E5%A6%82%E4%BD%95%E5%AF%B9%E9%BD%90dnn%E4%B8%8E%E4%BA%BA%E7%B1%BB%E7%9C%8B%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B9%E5%BC%8F%E5%83%8F%E7%B4%A0%E8%BF%98%E6%98%AF%E6%A6%82%E5%BF%B5/</guid>
+        <description>&lt;p&gt;摘要：研究者提出一种通用框架，比较了人类与人工智能（AI）的表征，发现它们在视觉和语义方面存在差异。通过模拟任务比较，发现AI主要偏好视觉信息，而人类更注重语义维度。研究有助于理解人类与AI在表示和行为上的差异，指导未来的工作。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、视觉特征、认知科学&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;编辑丨%
+人类专注于物体的含义，而人工智能则专注于视觉特征。
+在过去的许多研究中，比较人类和 AI 中的表征的工作都依赖于全局标量度量来量化它们的一致性。但若无明确的假设，这些衡量标准也只是说明对齐的程度，而非决定因素。
+这就带来了一个很值得思考的问题：
+「AI 眼中的『相似图像』和人类大脑的判断逻辑到底有多像？」
+来自德国普朗克研究所（Max Planck Institute）与荷兰奈梅亨达彭丁研究所（Nijmegen）的几位研究者提出了一种通用框架，用以比较人类与 AI 的表征。
+该研究以「Dimensions underlying the representational alignment of deep neural networks with humans」为题，于 2025 年 6 月 23 日刊登于《Nature Machine Intelligence》。
+论文链接：https://www.nature.com/articles/s42256-025-01041-7
+让 AI 和人类「玩找不同」
+此前的许多种对比实验中，大都聚焦于两种系统的行为策略（例如，分类），揭示&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>微软推出深度视频探索智能体，登顶多个长视频理解基准</title>
+        <link>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</guid>
         <description>&lt;p&gt;文章介绍了一种名为 Deep Video Discovery（DVD）的智能体，旨在通过将长视频分割为短片段并利用大型语言模型（LLM）的推理能力，以自主规划和工具使用的方式理解视频内容并回答问题。DVD在 LVBench 数据集上取得了74.2%的准确率，大幅超越了先前的工作，并强调了推理模型在智能体系统中的关键作用。研究还展示了不同基础模型在智能体中的行为差异以及工具设计的有效性。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>欧洲第一台百万兆次级超级计算机JUPITER ，排名第4，正打开广阔的科学计算前景         ScienceAI        ScienceAI     2025年06月30日 11:50 北京</title>
-        <link>http://localhost:1313/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <link>https://caxlee.github.io/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</guid>
+        <guid>https://caxlee.github.io/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</guid>
         <description>&lt;p&gt;文章总结：
 欧洲首台百亿亿次超级计算机JUPITER已经全面投入运行，位列全球最强大计算机系统TOP500榜单第四。JUPITER在德国于利希超级计算中心运行，在科学计算领域展现出强大的性能。研究人员利用JUPITER进行天气预报和气候模型研究，揭示天气现象背后的物理过程。然而，超级计算机的能源消耗和可持续性问题也备受关注，需要寻找减少环境影响的方法。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>用好视觉Attention局部性，清华、字节提出Token Reorder，无损实现5倍稀疏、4比特量化</title>
-        <link>http://localhost:1313/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>生成超1000万份志愿报告，夸克实现国内最大规模深度研究应用</title>
+        <link>https://caxlee.github.io/p/%E7%94%9F%E6%88%90%E8%B6%851000%E4%B8%87%E4%BB%BD%E5%BF%97%E6%84%BF%E6%8A%A5%E5%91%8A%E5%A4%B8%E5%85%8B%E5%AE%9E%E7%8E%B0%E5%9B%BD%E5%86%85%E6%9C%80%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</guid>
+        <guid>https://caxlee.github.io/p/%E7%94%9F%E6%88%90%E8%B6%851000%E4%B8%87%E4%BB%BD%E5%BF%97%E6%84%BF%E6%8A%A5%E5%91%8A%E5%A4%B8%E5%85%8B%E5%AE%9E%E7%8E%B0%E5%9B%BD%E5%86%85%E6%9C%80%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E5%BA%94%E7%94%A8/</guid>
+        <description>&lt;p&gt;摘要：阿里巴巴AI旗舰应用夸克推出的“志愿报告”Agent已为考生和家长生成超1000万份专业级志愿报告，应用了深度研究技术，被认为是国内最大规模的应用之一。Agent具备个性化与策略性，能够生成完整志愿报告并动态优化志愿方案，处理复杂的志愿冲突。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能应用、教育科技、深度学习技术&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>用好视觉Attention局部性，清华、字节提出Token Reorder，无损实现5倍稀疏、4比特量化</title>
+        <link>https://caxlee.github.io/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</guid>
         <description>&lt;p&gt;文章主要介绍了清华大学电子工程系高能效计算实验室研究生赵天辰的研究成果，即针对视觉生成任务中的注意力优化问题，提出了一种名为PAROAttention的新方案。该方案通过Token重排操作，将多样且分散的注意力模式统一为硬件友好的块状模式，以实现更高效的稀疏化与量化处理。文章详细解析了方案的分析框架、设计思路、方案实施以及软硬件实验结果，展示了PAROAttention在提高算法性能保持和硬件效率方面的优势。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>豆包上线“深入研究”功能  几分钟解决复杂任务</title>
-        <link>http://localhost:1313/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>瞄准AGI等四大前沿领域，蚂蚁集团2025“蚂蚁InTech奖”提名启动</title>
+        <link>https://caxlee.github.io/p/%E7%9E%84%E5%87%86agi%E7%AD%89%E5%9B%9B%E5%A4%A7%E5%89%8D%E6%B2%BF%E9%A2%86%E5%9F%9F%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A22025%E8%9A%82%E8%9A%81intech%E5%A5%96%E6%8F%90%E5%90%8D%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</guid>
+        <guid>https://caxlee.github.io/p/%E7%9E%84%E5%87%86agi%E7%AD%89%E5%9B%9B%E5%A4%A7%E5%89%8D%E6%B2%BF%E9%A2%86%E5%9F%9F%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A22025%E8%9A%82%E8%9A%81intech%E5%A5%96%E6%8F%90%E5%90%8D%E5%90%AF%E5%8A%A8/</guid>
+        <description>&lt;p&gt;摘要：蚂蚁集团启动2025“蚂蚁InTech奖”，为计算机科学领域的青年学者和博士生提供科研资金支持，旨在激励更多科研新秀勇攀高峰。奖项涵盖通用人工智能、具身智能、数字医学、数据安全等四个方向，旨在表彰在科研领域做出突出贡献的青年力量。&lt;/p&gt;
+&lt;p&gt;主题标签：科技创新、科研奖项、人工智能&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;7月1日，蚂蚁集团正式启动2025“蚂蚁InTech奖”提名推荐工作，面向计算机科学领域的优秀青年学者与在读博士生，提供公益性科研资金支持。该奖项设立于2024年，今年为第二届，除了继续为青年学者提供20万元/人的“科技奖”资助，还首次增设5万元/人的博士生“奖学金”，提供对“青年学者-博士生”的全周期支持，激励更多科研新秀勇攀高峰。
+作为一项纯科技公益奖项，“蚂蚁InTech奖”旨在表彰中国计算机科学领域在理论探索、技术突破和工程实践方面做出突出贡献的青年力量。本届奖项聚焦于通用人工智能（AGI）技术、具身智能技术、数字医学技术、数据处理与安全隐私技术等四个方向。这些方向既是全球科技竞争的核心方向，也是蚂蚁集团长期投入和产业创新的重点。
+据介绍，本届“蚂蚁InTech奖”设立两大核心奖项，分别是“蚂蚁InTech科技奖”和“蚂蚁InTech奖学金”。
+其中，“蚂蚁InTech科技奖”延续首届评选机制，面向中国大陆高校及科研院所中全职从事科研工作，且获得博士学位未满10年的青年学者，每年遴选不超过10人，每人获20万元奖金，其推荐人将获得“卓越推荐人”荣誉。本届科技奖还增设了10位“F&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>让创新创造被更多看见，2025Inclusion·外滩大会创新者舞台全球征集正式启动！</title>
+        <link>https://caxlee.github.io/p/%E8%AE%A9%E5%88%9B%E6%96%B0%E5%88%9B%E9%80%A0%E8%A2%AB%E6%9B%B4%E5%A4%9A%E7%9C%8B%E8%A7%812025inclusion%E5%A4%96%E6%BB%A9%E5%A4%A7%E4%BC%9A%E5%88%9B%E6%96%B0%E8%80%85%E8%88%9E%E5%8F%B0%E5%85%A8%E7%90%83%E5%BE%81%E9%9B%86%E6%AD%A3%E5%BC%8F%E5%90%AF%E5%8A%A8/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E8%AE%A9%E5%88%9B%E6%96%B0%E5%88%9B%E9%80%A0%E8%A2%AB%E6%9B%B4%E5%A4%9A%E7%9C%8B%E8%A7%812025inclusion%E5%A4%96%E6%BB%A9%E5%A4%A7%E4%BC%9A%E5%88%9B%E6%96%B0%E8%80%85%E8%88%9E%E5%8F%B0%E5%85%A8%E7%90%83%E5%BE%81%E9%9B%86%E6%AD%A3%E5%BC%8F%E5%90%AF%E5%8A%A8/</guid>
+        <description>&lt;p&gt;摘要：Inclusion·外滩大会官网首次面向社会公开征集创新项目，征集范围涵盖硬核科技、机器智能等领域，旨在提供交流碰撞平台。创新者舞台展示了来自不同领域的创新项目，包括数字人、太空旅游梦想和科学技术演示。外滩大会旨在分享前沿科技趋势、探索产业机遇，2025年的大会将于9月在上海举行。&lt;/p&gt;
+&lt;p&gt;主题标签：科技创新、科技展示、大会活动&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;近日，Inclusion·外滩大会官网显示，作为大会特色名片的“创新者舞台（Creator Stage）”首次面向社会公开征集创新项目。征集范围包括但不限于硬核科技、产业突破、机器智能、跨界创新等领域，征集对象面向科技公司、初创公司、社会机构、学术机构、科技爱好者、独立创作者等，企业、团体、个人皆可通过外滩大会官网报名。
+（外滩大会官网显示，创新者舞台已开启公开征集）
+外滩大会创新者舞台是一个创新科技展示平台，于2024年外滩大会期间首设立。嘉宾以TED演讲、圆桌、对话、DemoShow等有趣的舞台形式和多元的演讲议题，展示自己的硬核研究和奇思妙想。外滩大会创新者舞台和“2050”科技大会，也被媒体认为是国内最有开放创新精神的科技聚会。
+首届外滩大会创新者舞台上，数十位来自脑科学、人工智能、机器人、数字创意、新能源、气候研究、内容创作等领域的从业者、爱好者们呈现了精彩的分享和互动展示。比如，由蚂蚁数字人团队打造的数字人“Luna”，现场客串了一段主持；中国第一位报名太空游的艺术家岳路平，分享了他被美国太空游拒载到立志打造太空旅游的经历和梦想。复旦大学神经科学家王云教授分享了“数字脑”和&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>豆包上线“深入研究”功能  几分钟解决复杂任务</title>
+        <link>https://caxlee.github.io/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</guid>
         <description>&lt;p&gt;豆包推出了「深入研究」功能，用户可免费体验。这一功能基于模型的搜索、推理和Agent能力，可以帮助用户更快速、全面和结构化地处理复杂任务，如长途旅行攻略、购买决策、政策解读等。用户只需在豆包App或电脑版选择“深入研究”，输入详细指令或一句话prompt，几分钟后即可生成报告。报告可通过可视化网页或文档形式展示，并可一键转成播客。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>首创Mid-training范式破解RL奥秘，Llama终于追平Qwen！</title>
-        <link>http://localhost:1313/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</link>
-        <pubDate>Tue, 01 Jul 2025 08:41:31 +0800</pubDate>
+        <title>阿里通义开源音频生成模型，能模仿音效师为视频配音</title>
+        <link>https://caxlee.github.io/p/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%BC%80%E6%BA%90%E9%9F%B3%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E8%83%BD%E6%A8%A1%E4%BB%BF%E9%9F%B3%E6%95%88%E5%B8%88%E4%B8%BA%E8%A7%86%E9%A2%91%E9%85%8D%E9%9F%B3/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</guid>
+        <guid>https://caxlee.github.io/p/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%BC%80%E6%BA%90%E9%9F%B3%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E8%83%BD%E6%A8%A1%E4%BB%BF%E9%9F%B3%E6%95%88%E5%B8%88%E4%B8%BA%E8%A7%86%E9%A2%91%E9%85%8D%E9%9F%B3/</guid>
+        <description>&lt;p&gt;摘要：阿里通义实验室开源了旗下首个音频生成模型ThinkSound，首次将CoT应用到音频生成领域，模拟音效师的创作流程，生成高保真音频，并在核心指标上取得较大提升。该模型还推出了带思维链标注的音频数据集AudioCoT，在多模态大模型中具有广泛应用潜力。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能, 音频生成, 开源技术&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;7月1日消息，阿里通义实验室开源了旗下首个音频生成模型ThinkSound，该模型首次将CoT（Chain-of-Thought，思维链）应用到音频生成领域，让AI可以像专业音效师一样逐步思考，捕捉视觉细节，生成与画面同步的高保真音频。目前，ThinkSound的代码和模型已在Github、HuggingFace、魔搭社区开源，开发者可免费下载和体验。
+阿里开源音频生成模型ThinkSound
+视频生成音频（V2A）技术是多媒体编辑和视频内容创作领域最重要的技术之一，但该技术的发展速度仍存在诸多技术挑战，例如业界现有的V2A技术仍缺乏对视觉对应声学细节的深入理解，导致生成的音频较为通用，甚至与关键视觉事件错位，难以满足专业创意场景中对时序和语义连贯性的严格要求。
+为了解决现有视频转音频技术难以捕捉画面中动态细节和时序的难题，通义团队首次将思维链推理引入多模态大模型
+，可以模仿人类音效师的多阶段创作流程，实现对视觉事件与相应声音之间深度关联的精准建模，例如先分析视觉动态、再推断声学属性，最后按照时间顺序合成与环境相符的音效。
+不仅如此，该团队还构建了首个带思维链标注的音频数据集Audio&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>首创Mid-training范式破解RL奥秘，Llama终于追平Qwen！</title>
+        <link>https://caxlee.github.io/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</link>
+        <pubDate>Tue, 01 Jul 2025 22:37:19 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</guid>
         <description>&lt;p&gt;一份来自上海创智学院、上海交通大学的前沿研究论文探讨了不同基础语言模型家族在强化学习训练中的差异表现，并提出了中期训练策略，成功将 Llama 模型改造成适配强化学习的高性能推理基础模型。该论文得到了广泛关注，包括 Meta AI 研究科学家、卡内基梅隆大学副教授等的认可。论文链接：https://arxiv.org/abs/2506.20512。同时，发布的 MegaMath-Web-Pro-Max 数据集也受到了学术界和工业界的高度关注。研究团队通过大规模中期训练成功改造了 Llama 模型，使其在数学推理上与 Qwen 模型媲美。他们提出的 OctoThinker 方案通过两阶段中等训练策略，将 Llama 模型显著提升，并在数学推理任务中展现出卓越性能。未来，研究团队计划继续探索精炼数学预训练语料库、设计新的 RL 友好型基础模型等方向。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>95后，边改造业务边发AI顶会论文，是怎样的体验？</title>
-        <link>http://localhost:1313/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
+        <link>https://caxlee.github.io/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
+        <guid>https://caxlee.github.io/p/95%E5%90%8E%E8%BE%B9%E6%94%B9%E9%80%A0%E4%B8%9A%E5%8A%A1%E8%BE%B9%E5%8F%91ai%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</guid>
         <description>&lt;p&gt;在AI时代，顶尖人才影响力空前高涨，市场推升其地位至前所未有高度。供给增长速度跟不上需求，企业为招揽人才使出浑身解数。国内竞争激烈，各行业推出高薪计划。京东技术沙龙分享前沿技术，年轻技术专家成长之路展示成功案例。企业与人才双赢需要&amp;quot;双向奔赴&amp;quot;。文章提及了三位年轻技术专家在京东的成长历程，展示他们在业务场景中突破技术难题的经历。京东为青年技术人才提供成长机会，未来年轻化技术军团将继续推动企业在技术领域的创新与突破。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Accelerating hardware development to improve national security and innovation</title>
-        <link>http://localhost:1313/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</link>
+        <link>https://caxlee.github.io/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</guid>
+        <guid>https://caxlee.github.io/p/accelerating-hardware-development-to-improve-national-security-and-innovation/</guid>
         <description>&lt;p&gt;Nominal is an advanced software platform designed for engineers working on complex systems like fighter jets, nuclear reactors, and robotics. It helps organize, visualize, and share test data, as well as build custom applications for hardware systems. The platform aims to accelerate hardware development by providing a unified database for real-time data organization, enabling engineers to analyze trends, identify events, and investigate anomalies. Nominal&amp;rsquo;s cloud-hosted platform automates tasks, accelerates post-test analysis, and facilitates collaboration within engineering teams. The company recently secured a $75 million funding round to expand its product offerings and team. By implementing a data-driven design process, Nominal aims to revolutionize hardware development with continuous testing and feedback loops, similar to practices in the software industry.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Accelerating scientific discovery with AI</title>
-        <link>http://localhost:1313/p/accelerating-scientific-discovery-with-ai/</link>
+        <link>https://caxlee.github.io/p/accelerating-scientific-discovery-with-ai/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/accelerating-scientific-discovery-with-ai/</guid>
+        <guid>https://caxlee.github.io/p/accelerating-scientific-discovery-with-ai/</guid>
         <description>&lt;p&gt;在过去50年里，一些研究人员认为科学进步的速度正在减缓，需要更多时间、资金和更大的团队才能取得以前更快、更便宜获得的发现。为了加速科学研究进程，由慈善资助的研究实验室FutureHouse推出了一款旨在自动化科学进展关键步骤的人工智能平台。该平台由一系列针对信息检索、信息综合、化学合成设计和数据分析等任务的AI代理组成。&lt;/p&gt;
 &lt;p&gt;FutureHouse的创始人Sam Rodriques博士和Andrew White认为，通过让每位科学家都能访问他们的AI代理，他们可以突破科学中最大的瓶颈，帮助解决人类面临的一些紧迫问题。该平台已经推出了多种代理工具，如PaperQA、Has Anyone、Falcon、Phoenix和Finch，用于协助科学家进行文献搜索、数据分析、假设生成和实验规划。&lt;/p&gt;
 &lt;p&gt;FutureHouse的平台推出激发了行业的热情，科学家们开始使用代理工具加速研究进程，包括发现可能与多囊卵巢综合征相关的基因以及为该疾病提出新的治疗假设。Rodriques相信，未来FutureHouse的代理将能够使用研究论文的原始数据来验证结果的可重复性和验证结论。未来，该公司计划为代理注入隐性知识，使其能够进行更复杂的分析，同时赋予代理使用计算工具探索假设的能力，以推动科学进步。&lt;/p&gt;
@@ -346,19 +634,19 @@
         </item>
         <item>
         <title>ACL 2025 | AI字幕慢半拍，不知道大家在笑什么？新方法让同传性能直逼离线翻译</title>
-        <link>http://localhost:1313/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</link>
+        <link>https://caxlee.github.io/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</guid>
+        <guid>https://caxlee.github.io/p/acl-2025-ai%E5%AD%97%E5%B9%95%E6%85%A2%E5%8D%8A%E6%8B%8D%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E5%9C%A8%E7%AC%91%E4%BB%80%E4%B9%88%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9%E5%90%8C%E4%BC%A0%E6%80%A7%E8%83%BD%E7%9B%B4%E9%80%BC%E7%A6%BB%E7%BA%BF%E7%BF%BB%E8%AF%91/</guid>
         <description>&lt;p&gt;研究团队提出了一种新的面向同声传译的序贯策略优化框架(SeqPO-SiMT)，将同传任务建模为序贯决策过程，通过优化整个决策序列来提升翻译质量且有效控制延迟。实验证实该方法在翻译质量上超越了同等大小的离线翻译模型，表现优异。这一研究为同声传译系统的发展提供了新的视角和有价值的探索。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>AI&#43;VR运动系统让超重青少年减重4.28kg，还能显著提升认知功能！</title>
-        <link>http://localhost:1313/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</link>
+        <link>https://caxlee.github.io/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</guid>
+        <guid>https://caxlee.github.io/p/ai-vr%E8%BF%90%E5%8A%A8%E7%B3%BB%E7%BB%9F%E8%AE%A9%E8%B6%85%E9%87%8D%E9%9D%92%E5%B0%91%E5%B9%B4%E5%87%8F%E9%87%8D4.28kg%E8%BF%98%E8%83%BD%E6%98%BE%E8%91%97%E6%8F%90%E5%8D%87%E8%AE%A4%E7%9F%A5%E5%8A%9F%E8%83%BD/</guid>
         <description>&lt;p&gt;文章总结：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;全球超过30%的超重青少年正陷入「代谢紊乱 + 认知衰退」的恶性循环，体脂超标导致肝酶异常、血脂升高，削弱大脑功能。&lt;/li&gt;
@@ -371,119 +659,119 @@
         </item>
         <item>
         <title>Evelyn Wang: A new energy source at MIT</title>
-        <link>http://localhost:1313/p/evelyn-wang-a-new-energy-source-at-mit/</link>
+        <link>https://caxlee.github.io/p/evelyn-wang-a-new-energy-source-at-mit/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/evelyn-wang-a-new-energy-source-at-mit/</guid>
+        <guid>https://caxlee.github.io/p/evelyn-wang-a-new-energy-source-at-mit/</guid>
         <description>&lt;p&gt;文章介绍了Evelyn Wang ’00的工程解决方案和应对气候变化的努力。作为麻省理工学院的第一任能源与气候副总裁，Wang致力于拓展研究领域、发展合作伙伴关系，并强调乐观态度和合作精神。她在MIT领导设备研究实验室，研究领域涉及从提取水分到提高太阳能效率等多个方面。文章强调了合作伙伴关系的重要性，以及Wang对气候挑战的乐观信念和使命感。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Face-to-face with Es Devlin</title>
-        <link>http://localhost:1313/p/face-to-face-with-es-devlin/</link>
+        <link>https://caxlee.github.io/p/face-to-face-with-es-devlin/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/face-to-face-with-es-devlin/</guid>
+        <guid>https://caxlee.github.io/p/face-to-face-with-es-devlin/</guid>
         <description>&lt;p&gt;Es Devlin, recipient of the 2025 Eugene McDermott Award in the Arts at MIT, is known for creating immersive environments that bring people together in collective experiences. Her diverse body of work ranges from designing for large-scale events like the London Olympics and Super Bowl halftime shows to intimate projects such as drawing strangers&amp;rsquo; portraits. Devlin&amp;rsquo;s recent project at MIT, Congregation, involved participants drawing each other in silence to foster connection and understanding. Through her work, she explores themes of self-discovery, empathy, and unity, emphasizing the importance of transcending individual boundaries to build meaningful connections with others. Devlin&amp;rsquo;s artistry reflects a deep engagement with the human experience and a commitment to bridging divides through shared creativity and expression.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Faces of MIT: Ylana Lopez</title>
-        <link>http://localhost:1313/p/faces-of-mit-ylana-lopez/</link>
+        <link>https://caxlee.github.io/p/faces-of-mit-ylana-lopez/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/faces-of-mit-ylana-lopez/</guid>
+        <guid>https://caxlee.github.io/p/faces-of-mit-ylana-lopez/</guid>
         <description>&lt;p&gt;Ylana Lopez is the assistant director of academics and events at the Martin Trust Center for MIT Entrepreneurship. She leads various programs and events at the Trust Center and was part of a startup that went through the flagship accelerator program, delta v. Lopez transitioned from a full-time job to focus on the startup and later joined the Trust Center as an academic coordinator before being promoted to her current role. She is passionate about education and entrepreneurship, and her work involves supporting various programs, including MIT Fuse and t=0. Lopez believes in the power of entrepreneurship to change the world and is part of a collaborative team at the Trust Center. Trust Center managing director Bill Aulet praises Lopez for her understanding of students and her creative program development. Lopez describes the MIT community as inspiring and welcoming, and advises newcomers to break out of their bubbles and connect with people across different departments for potential collaborations.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Four from MIT named 2025 Goldwater Scholars</title>
-        <link>http://localhost:1313/p/four-from-mit-named-2025-goldwater-scholars/</link>
+        <link>https://caxlee.github.io/p/four-from-mit-named-2025-goldwater-scholars/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/four-from-mit-named-2025-goldwater-scholars/</guid>
+        <guid>https://caxlee.github.io/p/four-from-mit-named-2025-goldwater-scholars/</guid>
         <description>&lt;p&gt;MIT has four rising seniors who received the 2025 Barry Goldwater Scholarship: Avani Ahuja and Jacqueline Prawira from the School of Engineering, and Julianna Lian and Alex Tang from the School of Science. The scholarships support undergraduates aiming to become leading scientists, engineers, and mathematicians. Each student is conducting impactful research in various fields, such as developing wearable ultrasound patches, studying mechanochemistry, researching sustainable materials, and investigating immunotherapy effects on cancer patients. They all have ambitious career goals and are grateful for the mentorship and support they have received. The Goldwater Scholarship aims to encourage research careers in science, engineering, and mathematics and is a prestigious award in these fields.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>From MIT, an instruction manual for turning research into startups</title>
-        <link>http://localhost:1313/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</link>
+        <link>https://caxlee.github.io/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</guid>
+        <guid>https://caxlee.github.io/p/from-mit-an-instruction-manual-for-turning-research-into-startups/</guid>
         <description>&lt;p&gt;MIT Proto Ventures launched the &amp;ldquo;R&amp;amp;D Venture Studio Playbook&amp;rdquo; to help universities and R&amp;amp;D offices establish their own venture studios. The playbook offers a framework for building ventures from research environments systematically. It aims to address the challenge of commercializing academic patents and make venture-building a systemic process. The playbook outlines MIT&amp;rsquo;s venture studio model, which embeds entrepreneurial scientists in research labs to scout technologies, validate market opportunities, and co-create ventures. It emphasizes the need for deliberate focus and a new translational infrastructure to build successful ventures from R&amp;amp;D. The playbook includes case studies, templates, and guidance for institutions to customize the model. The goal is to inspire innovation and accelerate the transition of ideas from the lab to real-world solutions.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Gaspare LoDuca named VP for information systems and technology and CIO</title>
-        <link>http://localhost:1313/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</link>
+        <link>https://caxlee.github.io/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</guid>
+        <guid>https://caxlee.github.io/p/gaspare-loduca-named-vp-for-information-systems-and-technology-and-cio/</guid>
         <description>&lt;p&gt;Gaspare LoDuca has been appointed as MIT’s vice president for information systems and technology (IS&amp;amp;T) and chief information officer, effective Aug. 18. He brings over two decades of IT leadership experience in higher education and succeeds Mark Silis. LoDuca will lead IS&amp;amp;T, oversee MIT’s IT infrastructure, and play a key role in modernizing business processes. As a collaborative leader, he aims to shape IT policy and strategy at MIT and support the community&amp;rsquo;s needs. LoDuca&amp;rsquo;s background includes overseeing IT at Columbia University and managing technology strategies at Accenture. He holds a bachelor&amp;rsquo;s degree in chemical engineering and is relocating to Boston with his wife.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Introducing the L. Rafael Reif Innovation Corridor</title>
-        <link>http://localhost:1313/p/introducing-the-l.-rafael-reif-innovation-corridor/</link>
+        <link>https://caxlee.github.io/p/introducing-the-l.-rafael-reif-innovation-corridor/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/introducing-the-l.-rafael-reif-innovation-corridor/</guid>
+        <guid>https://caxlee.github.io/p/introducing-the-l.-rafael-reif-innovation-corridor/</guid>
         <description>&lt;p&gt;文章总结：MIT校园中连接Hockfield Court和Massachusetts Avenue的开放空间现在被称为L. Rafael Reif创新走廊，以纪念该学院的第17任校长。在一次致敬仪式上，Reif的同事、朋友和家人聚集在一起，纪念他的遗产并揭开了这条走道的标志。Reif作为校长超过10年，他被描述为谦逊、好奇且具有出色表达能力的领导者。他在MIT的服务和成就得到了肯定，包括在教育、创新和校园建设方面的贡献。在致辞中，Reif表达了对这条走廊的重要性，希望未来的人们能延续MIT的创新精神，创造更美好的世界。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>LLMs factor in unrelated information when recommending medical treatments</title>
-        <link>http://localhost:1313/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</link>
+        <link>https://caxlee.github.io/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</guid>
+        <guid>https://caxlee.github.io/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</guid>
         <description>&lt;p&gt;MIT researchers conducted a study showing that large language models (LLMs) used for treatment recommendations in healthcare can be influenced by nonclinical factors in patient messages, leading to inaccurate recommendations, especially for female patients. The study highlighted the need for auditing LLMs before deploying them in healthcare. The researchers found that LLMs&amp;rsquo; judgment was affected by factors like typos, extra white space, missing gender markers, and informal language used in patient messages. The study revealed inconsistencies and disagreements among LLMs when fed altered patient data, with LLMs more likely to recommend self-management over seeking medical care in response to certain text variations. These findings emphasize the importance of rigorously evaluating LLMs before using them for critical healthcare applications.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Merging AI and underwater photography to reveal hidden ocean worlds</title>
-        <link>http://localhost:1313/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</link>
+        <link>https://caxlee.github.io/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</guid>
+        <guid>https://caxlee.github.io/p/merging-ai-and-underwater-photography-to-reveal-hidden-ocean-worlds/</guid>
         <description>&lt;p&gt;文章总结：&lt;/p&gt;
 &lt;p&gt;文章介绍了在美国东北部的缅因湾，一个拥有丰富生物多样性的海洋生态系统，但由于环境变化迅速，正在面临温度上升等问题。麻省理工学院海洋补助项目LOSTbER利用人工智能和水下摄影相结合，以新的视觉方式记录海洋生物，展示生态系统对这些变化的脆弱性。该项目结合了摄影的视觉语言、海洋科学的观察严谨性和生成式人工智能的计算能力，通过训练AI模型生成真实而生态相关的海洋生物图像，拓展了观众与自然世界的联系。团队的目标是开发一个全面的模型，可以可视化缅因湾发现的各种物种，并最终将类似方法应用于全球海洋生态系统。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>MIT and Mass General Brigham launch joint seed program to accelerate innovations in health</title>
-        <link>http://localhost:1313/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</link>
+        <link>https://caxlee.github.io/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</guid>
+        <guid>https://caxlee.github.io/p/mit-and-mass-general-brigham-launch-joint-seed-program-to-accelerate-innovations-in-health/</guid>
         <description>&lt;p&gt;MIT and Mass General Brigham have launched the MIT-MGB Seed Program with support from Analog Devices Inc. The initiative funds joint research projects between the two institutions to advance human health research and develop innovative therapies, diagnostics, and digital tools. By combining expertise in AI, machine learning, and clinical research, the program aims to drive transformative changes in patient care. Funded by a gift from ADI, the program will support approximately six joint projects annually over three years. Selected teams will receive funding, access to entrepreneurial workshops, and opportunities to connect with industry leaders. The program, part of MIT HEALS, fosters interdisciplinary collaborations to address critical gaps in health and life sciences innovation.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>MIx helps innovators tackle challenges in national security</title>
-        <link>http://localhost:1313/p/mix-helps-innovators-tackle-challenges-in-national-security/</link>
+        <link>https://caxlee.github.io/p/mix-helps-innovators-tackle-challenges-in-national-security/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/mix-helps-innovators-tackle-challenges-in-national-security/</guid>
+        <guid>https://caxlee.github.io/p/mix-helps-innovators-tackle-challenges-in-national-security/</guid>
         <description>&lt;p&gt;MIT&amp;rsquo;s Mission Innovation X (MIx) bridges the gap between startups and government defense agencies by developing educational programs, supporting research, and facilitating connections among various stakeholders. Led by Gene Keselman, Sertac Karaman, and Fiona Murray, MIx helps startups understand defense customers&amp;rsquo; needs and navigate government engagement challenges. Through MIx, innovators receive funding and defense agencies gain access to cutting-edge technologies with dual civilian and defense applications. The program, rooted in MIT&amp;rsquo;s history of collaboration with the Department of Defense, aims to enhance America&amp;rsquo;s security capabilities while fostering innovation. MIx&amp;rsquo;s early successes include projects with startups like Picogrid and Nominal, demonstrating the program&amp;rsquo;s potential to drive future collaborations and advancements in defense technology.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>QS ranks MIT the world’s No. 1 university for 2025-26</title>
-        <link>http://localhost:1313/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</link>
+        <link>https://caxlee.github.io/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</guid>
+        <guid>https://caxlee.github.io/p/qs-ranks-mit-the-worlds-no.-1-university-for-2025-26/</guid>
         <description>&lt;p&gt;MIT has been named the world&amp;rsquo;s top university by the QS World University Rankings for the 14th consecutive year. The rankings are based on factors such as academic reputation, employer reputation, and student-to-faculty ratio. MIT was also ranked first in 11 subject areas and second in seven subject areas.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Researchers present bold ideas for AI at MIT Generative AI Impact Consortium kickoff event</title>
-        <link>http://localhost:1313/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</link>
+        <link>https://caxlee.github.io/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</guid>
+        <guid>https://caxlee.github.io/p/researchers-present-bold-ideas-for-ai-at-mit-generative-ai-impact-consortium-kickoff-event/</guid>
         <description>&lt;p&gt;今年2月推出的麻省理工学院生成AI影响联盟(MIT Generative AI Impact Consortium, MGAIC)，是由麻省理工学院创新与战略办公室领导的总统倡议，并由麻省理工学院斯蒂芬·A·施瓦茨曼计算机学院管理，发出了提案征集，邀请麻省理工学院各领域的研究人员提交研究高影响生成AI模型用途的创新项目的想法。&lt;/p&gt;
 &lt;p&gt;提案获得了来自MIT各个学院的近250名教师提交的180份提案。MGAIC的创始种子资助计划选中了55个提案，而其他几个提案将由该联盟的创始公司成员提供资助。&lt;/p&gt;
 &lt;p&gt;超过30名资助获得者在5月13日的启动活动上向麻省理工学院社区展示了他们的提案。该联盟的负责人、首席创新与战略官兼工程学院院长Anantha P. Chandrakasan感谢了联盟的创始行业成员，并强调了联盟跨学院合作的特点。&lt;/p&gt;
@@ -498,519 +786,145 @@
         </item>
         <item>
         <title>Summer 2025 reading from MIT</title>
-        <link>http://localhost:1313/p/summer-2025-reading-from-mit/</link>
+        <link>https://caxlee.github.io/p/summer-2025-reading-from-mit/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/summer-2025-reading-from-mit/</guid>
+        <guid>https://caxlee.github.io/p/summer-2025-reading-from-mit/</guid>
         <description>&lt;p&gt;MIT authors have published a variety of books in the past year covering topics in science, technology, society, education, arts, culture, and more. Highlights include books on the microcosmos and infectious diseases, nature&amp;rsquo;s wonders, healthcare analytics, longevity hubs, AI for societal good, the impact of technology, entrepreneurship, police reform, letterlocking, the global economy, minority rights, and the evolution of U.S. retailing. Additionally, there are books on fantasy novels, children&amp;rsquo;s literature, and picture books by MIT community members.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>The MIT Press acquires University Science Books from AIP Publishing</title>
-        <link>http://localhost:1313/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</link>
+        <link>https://caxlee.github.io/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</guid>
+        <guid>https://caxlee.github.io/p/the-mit-press-acquires-university-science-books-from-aip-publishing/</guid>
         <description>&lt;p&gt;MIT Press收购了教科书出版商University Science Books，该出版商成立于1978年，以出版中高级科学和参考书籍而闻名。它的教材在化学、物理和天文学领域被公认为行业标杆。MIT Press将于7月1日接管University Science Books的清单，并由Penguin Random House Publishing Services负责库存转移和销售分销。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>The tenured engineers of 2025</title>
-        <link>http://localhost:1313/p/the-tenured-engineers-of-2025/</link>
+        <link>https://caxlee.github.io/p/the-tenured-engineers-of-2025/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/the-tenured-engineers-of-2025/</guid>
+        <guid>https://caxlee.github.io/p/the-tenured-engineers-of-2025/</guid>
         <description>&lt;p&gt;2025年，麻省理工学院（MIT）授予了11名工程学院教师终身教职。今年获得终身教职的工程师成员分别来自航空航天工程、生物工程、化学工程、电气工程与计算机科学、材料科学与工程、机械工程和核科学与工程等部门。这些新获终身教职的工程教师在各自领域取得了显著成就，并致力于培养未来的创新者，为学术社区贡献力量。他们包括在传染病和免疫工程领域进行研究的Bryan Bryson、在化学工程和人工智能交叉领域开发新计算方法的Connor Coley、研究分布式和并行计算理论的Mohsen Ghaffari、在机器学习和原子模拟交叉领域工作的Rafael Gomez-Bombarelli、在模型压缩和TinyML领域取得创新的Song Han、以深度残差网络（ResNets）闻名的Kaiming He、研究计算机视觉、机器学习和人工智能的Phillip Isola、从事核科学与工程领域的Mingda Li、在航空航天领域研究天体动力学、空间系统和卫星自主性的Richard Linares、设计高性能计算机图形和加速计算工具的Jonathan Ragan-Kelley以及研究数据可视化、人机交互、人工智能和机器学习的Arvind Satyanarayan等人。这些教师的研究领域涵盖了多个关键领域，他们的成就不仅是对过去工作的肯定，也预示着未来将产生更大的影响。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Using generative AI to help robots jump higher and land safely</title>
-        <link>http://localhost:1313/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</link>
+        <link>https://caxlee.github.io/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</guid>
+        <guid>https://caxlee.github.io/p/using-generative-ai-to-help-robots-jump-higher-and-land-safely/</guid>
         <description>&lt;p&gt;Diffusion models like OpenAI’s DALL-E are being used to generate new designs by prompting AI systems to create images, videos, or blueprints. Generative artificial intelligence (GenAI) models are also creating working robots by generating structures and control systems. MIT’s CSAIL developed a system where users can draft a 3D model of a robot, specify parts to modify, and use GenAI to optimize the design, resulting in a robot that jumps higher. The AI-generated design featured curved linkages, improving the robot&amp;rsquo;s performance. The researchers optimized the design through multiple iterations, achieving significant improvements in jumping and landing abilities. The use of diffusion models in robot design could revolutionize how machines are created, with potential applications in various industries. Future iterations could incorporate lighter materials and more complex functionalities, paving the way for innovative robotics designs guided by generative AI.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>上海交大KinFormer：生成式符号回归模型助力自动发现未知化学反应动力学机制</title>
-        <link>http://localhost:1313/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</link>
+        <link>https://caxlee.github.io/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</guid>
+        <guid>https://caxlee.github.io/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7kinformer%E7%94%9F%E6%88%90%E5%BC%8F%E7%AC%A6%E5%8F%B7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E5%8A%A9%E5%8A%9B%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%BA%E5%88%B6/</guid>
         <description>&lt;p&gt;上海交通大学人工智能研究院 AI for Science 团队提出了 KinFormer 架构，用于发现化学反应动力学方程，该模型结合了数据驱动方法和智能搜索算法。通过条件训练策略和蒙特卡洛树搜索，KinFormer 能够准确预测反应动力学方程，并在实验验证中表现优异。该研究发表于 ICLR 2025，有望推动化学动力学研究向智能化、自动化发展。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>会“思考”的目标检测模型来了！IDEA提出Rex-Thinker：基于思维链的指代物体检测模型，准确率&#43;可解释性双突破</title>
-        <link>http://localhost:1313/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</link>
+        <link>https://caxlee.github.io/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</guid>
+        <guid>https://caxlee.github.io/p/%E4%BC%9A%E6%80%9D%E8%80%83%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86idea%E6%8F%90%E5%87%BArex-thinker%E5%9F%BA%E4%BA%8E%E6%80%9D%E7%BB%B4%E9%93%BE%E7%9A%84%E6%8C%87%E4%BB%A3%E7%89%A9%E4%BD%93%E6%A3%80%E6%B5%8B%E6%A8%A1%E5%9E%8B%E5%87%86%E7%A1%AE%E7%8E%87-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E5%8F%8C%E7%AA%81%E7%A0%B4/</guid>
         <description>&lt;p&gt;文章介绍了一种名为 Rex-Thinker 的全新解决方案，旨在让 AI 能够像人一样进行推理思考，提高了视觉指代任务的准确率和可解释性。Rex-Thinker 创新性地构建了可解释的推理框架，包括三个步骤：规划、验证和决策。通过基于检索的检测多模态模型设计和 CoT 推理，模型在推理能力方面取得了突破。训练过程采用了两阶段策略，构建了推理数据集 HumanRef-CoT，并通过 SFT 冷启动和 GRPO 强化学习后训练，使模型具备了强大的推理能力。实验结果表明，Rex-Thinker 在各项指标上都有显著提升，尤其在拒识能力上表现出色。另外，模型在跨类别评估和泛化能力方面也表现优异。文章还展示了 Rex-Thinker 的推理过程可视化结果，突出了其良好的目标理解能力和推理路径的清晰性与可解释性。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>刚刚，OpenAI全员放假一周！被Meta高薪连挖8人「偷家」，真麻了</title>
-        <link>http://localhost:1313/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</link>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</guid>
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E5%85%A8%E5%91%98%E6%94%BE%E5%81%87%E4%B8%80%E5%91%A8%E8%A2%ABmeta%E9%AB%98%E8%96%AA%E8%BF%9E%E6%8C%968%E4%BA%BA%E5%81%B7%E5%AE%B6%E7%9C%9F%E9%BA%BB%E4%BA%86/</guid>
         <description>&lt;p&gt;OpenAI 团队因遭到 Meta 一亿美元高薪挖人而陷入困境，多位高级研究人员被挖走。OpenAI 高管表示将积极应对挑战，但公司也宣布全员放假一周以恢复精力。Meta 持续加强研究人员招聘，包括向 OpenAI 招募顶尖人才。尽管困境重重，OpenAI 仍专注于实现通用人工智能目标。在竞争激烈的人才市场中，每位技术人才都需重新评估自身价值。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>只用2700万参数，这个推理模型超越了DeepSeek和Claude</title>
-        <link>http://localhost:1313/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</link>
+        <link>https://caxlee.github.io/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</guid>
+        <guid>https://caxlee.github.io/p/%E5%8F%AA%E7%94%A82700%E4%B8%87%E5%8F%82%E6%95%B0%E8%BF%99%E4%B8%AA%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E8%B6%85%E8%B6%8A%E4%BA%86deepseek%E5%92%8Cclaude/</guid>
         <description>&lt;p&gt;文章讨论了当前大语言模型在复杂推理任务上存在的问题，介绍了一种新的分层推理模型（HRM）架构，灵感来源于人脑分层和多时间尺度处理机制。HRM模型通过两个循环模块在单次前向传递中执行顺序推理任务，无需明确监督中间过程，且在复杂任务上表现优异。文章还介绍了HRM的设计原理、实验结果和与神经科学的对比，指出HRM具有推动通用计算变革性进步的潜力。详细内容请参阅原论文。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>响应香港数字资产发展政策宣言 蚂蚁数科在港开放四大核心技术</title>
-        <link>http://localhost:1313/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</link>
+        <link>https://caxlee.github.io/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</guid>
+        <guid>https://caxlee.github.io/p/%E5%93%8D%E5%BA%94%E9%A6%99%E6%B8%AF%E6%95%B0%E5%AD%97%E8%B5%84%E4%BA%A7%E5%8F%91%E5%B1%95%E6%94%BF%E7%AD%96%E5%AE%A3%E8%A8%80-%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%9C%A8%E6%B8%AF%E5%BC%80%E6%94%BE%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF/</guid>
         <description>&lt;p&gt;蚂蚁数科日前宣布为香港市场提供四大自研技术，支持香港打造全球数字资产创新中心。香港政府发布《数字资产发展政策宣言2.0》，强调代币化发展。蚂蚁数科表示将用领先技术赋能本地金融机构，共建数字技术生态。蚂蚁数科在区块链技术研发方面处于全球领先水平，曾加入香港金管局Ensemble沙盒。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>微软推出深度视频探索智能体，登顶多个长视频理解基准</title>
-        <link>http://localhost:1313/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</link>
+        <link>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</guid>
+        <guid>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/</guid>
         <description>&lt;p&gt;文章介绍了一种名为 Deep Video Discovery（DVD）的智能体，旨在通过将长视频分割为短片段并利用大型语言模型（LLM）的推理能力，以自主规划和工具使用的方式理解视频内容并回答问题。DVD在 LVBench 数据集上取得了74.2%的准确率，大幅超越了先前的工作，并强调了推理模型在智能体系统中的关键作用。研究还展示了不同基础模型在智能体中的行为差异以及工具设计的有效性。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>欧洲第一台百万兆次级超级计算机JUPITER ，排名第4，正打开广阔的科学计算前景         ScienceAI        ScienceAI     2025年06月30日 11:50 北京</title>
-        <link>http://localhost:1313/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</link>
+        <link>https://caxlee.github.io/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</guid>
+        <guid>https://caxlee.github.io/p/%E6%AC%A7%E6%B4%B2%E7%AC%AC%E4%B8%80%E5%8F%B0%E7%99%BE%E4%B8%87%E5%85%86%E6%AC%A1%E7%BA%A7%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BAjupiter-%E6%8E%92%E5%90%8D%E7%AC%AC4%E6%AD%A3%E6%89%93%E5%BC%80%E5%B9%BF%E9%98%94%E7%9A%84%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%89%8D%E6%99%AF-scienceai-scienceai-2025%E5%B9%B406%E6%9C%8830%E6%97%A5-1150-%E5%8C%97%E4%BA%AC/</guid>
         <description>&lt;p&gt;文章总结：
 欧洲首台百亿亿次超级计算机JUPITER已经全面投入运行，位列全球最强大计算机系统TOP500榜单第四。JUPITER在德国于利希超级计算中心运行，在科学计算领域展现出强大的性能。研究人员利用JUPITER进行天气预报和气候模型研究，揭示天气现象背后的物理过程。然而，超级计算机的能源消耗和可持续性问题也备受关注，需要寻找减少环境影响的方法。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>用好视觉Attention局部性，清华、字节提出Token Reorder，无损实现5倍稀疏、4比特量化</title>
-        <link>http://localhost:1313/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</link>
+        <link>https://caxlee.github.io/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</guid>
+        <guid>https://caxlee.github.io/p/%E7%94%A8%E5%A5%BD%E8%A7%86%E8%A7%89attention%E5%B1%80%E9%83%A8%E6%80%A7%E6%B8%85%E5%8D%8E%E5%AD%97%E8%8A%82%E6%8F%90%E5%87%BAtoken-reorder%E6%97%A0%E6%8D%9F%E5%AE%9E%E7%8E%B05%E5%80%8D%E7%A8%80%E7%96%8F4%E6%AF%94%E7%89%B9%E9%87%8F%E5%8C%96/</guid>
         <description>&lt;p&gt;文章主要介绍了清华大学电子工程系高能效计算实验室研究生赵天辰的研究成果，即针对视觉生成任务中的注意力优化问题，提出了一种名为PAROAttention的新方案。该方案通过Token重排操作，将多样且分散的注意力模式统一为硬件友好的块状模式，以实现更高效的稀疏化与量化处理。文章详细解析了方案的分析框架、设计思路、方案实施以及软硬件实验结果，展示了PAROAttention在提高算法性能保持和硬件效率方面的优势。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>豆包上线&#34;深入研究&#34;功能  几分钟解决复杂任务</title>
-        <link>http://localhost:1313/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</link>
+        <link>https://caxlee.github.io/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</guid>
+        <guid>https://caxlee.github.io/p/%E8%B1%86%E5%8C%85%E4%B8%8A%E7%BA%BF%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E5%8A%9F%E8%83%BD-%E5%87%A0%E5%88%86%E9%92%9F%E8%A7%A3%E5%86%B3%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1/</guid>
         <description>&lt;p&gt;豆包推出了「深入研究」功能，用户可免费体验。这一功能基于模型的搜索、推理和Agent能力，可以帮助用户更快速、全面和结构化地处理复杂任务，如长途旅行攻略、购买决策、政策解读等。用户只需在豆包App或电脑版选择&amp;quot;深入研究&amp;quot;，输入详细指令或一句话prompt，几分钟后即可生成报告。报告可通过可视化网页或文档形式展示，并可一键转成播客。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>首创Mid-training范式破解RL奥秘，Llama终于追平Qwen！</title>
-        <link>http://localhost:1313/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</link>
+        <link>https://caxlee.github.io/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</link>
         <pubDate>Mon, 30 Jun 2025 22:41:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</guid>
+        <guid>https://caxlee.github.io/p/%E9%A6%96%E5%88%9Bmid-training%E8%8C%83%E5%BC%8F%E7%A0%B4%E8%A7%A3rl%E5%A5%A5%E7%A7%98llama%E7%BB%88%E4%BA%8E%E8%BF%BD%E5%B9%B3qwen/</guid>
         <description>&lt;p&gt;一份来自上海创智学院、上海交通大学的前沿研究论文探讨了不同基础语言模型家族在强化学习训练中的差异表现，并提出了中期训练策略，成功将 Llama 模型改造成适配强化学习的高性能推理基础模型。该论文得到了广泛关注，包括 Meta AI 研究科学家、卡内基梅隆大学副教授等的认可。论文链接：https://arxiv.org/abs/2506.20512。同时，发布的 MegaMath-Web-Pro-Max 数据集也受到了学术界和工业界的高度关注。研究团队通过大规模中期训练成功改造了 Llama 模型，使其在数学推理上与 Qwen 模型媲美。他们提出的 OctoThinker 方案通过两阶段中等训练策略，将 Llama 模型显著提升，并在数学推理任务中展现出卓越性能。未来，研究团队计划继续探索精炼数学预训练语料库、设计新的 RL 友好型基础模型等方向。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Introducing the L. Rafael Reif Innovation Corridor</title>
-        <link>http://localhost:1313/p/introducing-the-l.-rafael-reif-innovation-corridor/</link>
-        <pubDate>Mon, 30 Jun 2025 10:26:02 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/introducing-the-l.-rafael-reif-innovation-corridor/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;文章总结：MIT校园中连接Hockfield Court和Massachusetts Avenue的开放空间现在被命名为L. Rafael Reif创新走廊，以纪念第17任校长。在一次献辞仪式上，Reif的同事、朋友和家人们聚集在一起，表彰他的遗产，并揭开了这条之前被称为North Corridor或&amp;quot;Outfinite&amp;quot;的步道的标志。Reif担任校长超过10年，被誉为新世界思维和老世界魅力的结合，他对MIT的影响深远。他致力于教育创新，推动了多个重要项目，并关注MIT社区的健康和幸福。在未来，他希望这个走廊将继续见证年轻人在MIT掀起改变世界的无限激情。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Island rivers carve passageways through coral reefs</title>
-        <link>http://localhost:1313/p/island-rivers-carve-passageways-through-coral-reefs/</link>
-        <pubDate>Mon, 30 Jun 2025 10:26:02 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/island-rivers-carve-passageways-through-coral-reefs/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;研究人员发现，珊瑚礁通道是由岛屿河流所塑造的。研究人员通过分析南太平洋的社会群岛，发现珊瑚礁通道的位置与岛屿河流汇集的地方相一致。他们认为，岛屿上的河流在汇入海岸时，携带的淡水和泥沙会流向珊瑚礁，形成通道。研究结果表明，河流对珊瑚礁的形成和维持起着重要作用。随着岛屿变老，沉降到海洋中，珊瑚礁通道会逐渐减少。研究还探讨了如何通过工程手段利用河流造成的通道来促进循环，有益于珊瑚礁的健康。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>LLMs factor in unrelated information when recommending medical treatments</title>
-        <link>http://localhost:1313/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</link>
-        <pubDate>Mon, 30 Jun 2025 10:26:02 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/llms-factor-in-unrelated-information-when-recommending-medical-treatments/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一项由麻省理工学院研究人员进行的研究发现，大型语言模型（LLM）在进行治疗建议时可能会受到患者信息中的非临床信息的影响，例如拼写错误、额外的空格、缺少性别标记或使用不确定、夸张和非正式语言。他们发现，对消息进行风格或语法更改会增加LLM建议患者自行管理其报告的健康状况的可能性，而不是前来就诊，即使该患者应该寻求医疗护理。&lt;/p&gt;
-&lt;p&gt;研究人员还发现，这些文本中的非临床变化更有可能改变模型对女性患者的治疗建议，导致建议女性患者不要寻求医疗护理的比例更高，而这与人类医生的建议相左。&lt;/p&gt;
-&lt;p&gt;研究人员认为，这些发现表明LLMs以前未知的方式考虑非临床信息进行临床决策。他们指出，这突显了在LLMs被用于高风险应用（如制定治疗建议）之前需要进行更严格的研究的必要性。&lt;/p&gt;
-&lt;p&gt;研究人员设计了一项研究，通过更改模型的输入数据，如交换或删除性别标记、添加丰富多彩或不确定的语言，或在患者消息中插入额外的空格和拼写错误，来探讨非临床信息如何影响模型的判断。研究结果显示，LLMs在处理经过修改的数据时存在治疗建议不一致和显著分歧的情况。对女性患者的错误建议比例较高，而这些变化对人类临床医生的准确性则没有影响。&lt;/p&gt;
-&lt;p&gt;研究人员计划通过设计自然语言扰动来捕捉其他弱势群体并更好地模拟真实消息，以扩展这项工作。他们还想探讨LLMs如何从临床文本中推断性别。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>MyFirstBlog</title>
-        <link>http://localhost:1313/p/myfirstblog/</link>
-        <pubDate>Mon, 30 Jun 2025 09:17:34 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/myfirstblog/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://caxlee.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://caxlee.github.io/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>Markdown Syntax Guide</title>
-        <link>http://localhost:1313/p/markdown-syntax-guide/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="http://localhost:1313/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-&lt;h2 id=&#34;headings&#34;&gt;Headings
-&lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;h1 id=&#34;h1&#34;&gt;H1
-&lt;/h1&gt;&lt;h2 id=&#34;h2&#34;&gt;H2
-&lt;/h2&gt;&lt;h3 id=&#34;h3&#34;&gt;H3
-&lt;/h3&gt;&lt;h4 id=&#34;h4&#34;&gt;H4
-&lt;/h4&gt;&lt;h5 id=&#34;h5&#34;&gt;H5
-&lt;/h5&gt;&lt;h6 id=&#34;h6&#34;&gt;H6
-&lt;/h6&gt;&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph
-&lt;/h2&gt;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
-&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
-&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes
-&lt;/h2&gt;&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
-&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
-&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
-&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;tables&#34;&gt;Tables
-&lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;Age&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Bob&lt;/td&gt;
-          &lt;td&gt;27&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Alice&lt;/td&gt;
-          &lt;td&gt;23&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables
-&lt;/h4&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Italics&lt;/th&gt;
-          &lt;th&gt;Bold&lt;/th&gt;
-          &lt;th&gt;Code&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;A&lt;/th&gt;
-          &lt;th&gt;B&lt;/th&gt;
-          &lt;th&gt;C&lt;/th&gt;
-          &lt;th&gt;D&lt;/th&gt;
-          &lt;th&gt;E&lt;/th&gt;
-          &lt;th&gt;F&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td&gt;
-          &lt;td&gt;Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td&gt;
-          &lt;td&gt;Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td&gt;
-          &lt;td&gt;Proin sit amet velit nec enim imperdiet vehicula.&lt;/td&gt;
-          &lt;td&gt;Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td&gt;
-          &lt;td&gt;Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks
-&lt;/h2&gt;&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces
-&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;diff-code-block&#34;&gt;Diff code block
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[dependencies.bevy]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;list-types&#34;&gt;List Types
-&lt;/h2&gt;&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List
-&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;First item&lt;/li&gt;
-&lt;li&gt;Second item&lt;/li&gt;
-&lt;li&gt;Third item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;Another item&lt;/li&gt;
-&lt;li&gt;And another item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;nested-list&#34;&gt;Nested list
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Fruit
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Orange&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dairy
-&lt;ul&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;li&gt;Cheese&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark
-&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;ALT&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
-&lt;h2 id=&#34;hyperlinked-image&#34;&gt;Hyperlinked image
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Google&#34;
-	
-	
-&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Placeholder Text</title>
-        <link>http://localhost:1313/p/placeholder-text/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/placeholder-text/</guid>
-        <description>&lt;img src="http://localhost:1313/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
-&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
-&lt;li&gt;Duce pollice&lt;/li&gt;
-&lt;li&gt;Eris modo&lt;/li&gt;
-&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;/li&gt;
-&lt;li&gt;Post torum vates letum Tiresia&lt;/li&gt;
-&lt;li&gt;Flumen querellas&lt;/li&gt;
-&lt;li&gt;Arcanaque montibus omnes&lt;/li&gt;
-&lt;li&gt;Quidem et&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;vagus-elidunt&#34;&gt;Vagus elidunt
-&lt;/h1&gt;&lt;p&gt;&lt;svg class=&#34;canon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; overflow=&#34;visible&#34; viewBox=&#34;0 0 496 373&#34; height=&#34;373&#34; width=&#34;496&#34;&gt;&lt;g fill=&#34;none&#34;&gt;&lt;path stroke=&#34;#000&#34; stroke-width=&#34;.75&#34; d=&#34;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&#34;&gt;&lt;/path&gt;&lt;path stroke=&#34;#ED1C24&#34; stroke-width=&#34;.75&#34; d=&#34;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&#34;&gt;&lt;/path&gt;&lt;path stroke=&#34;#000&#34; stroke-width=&#34;.75&#34; d=&#34;M.479.375h495v372h-495zM247.979.875v372&#34;&gt;&lt;/path&gt;&lt;ellipse cx=&#34;498.729&#34; cy=&#34;177.625&#34; rx=&#34;.75&#34; ry=&#34;1.25&#34;&gt;&lt;/ellipse&gt;&lt;ellipse cx=&#34;247.229&#34; cy=&#34;377.375&#34; rx=&#34;.75&#34; ry=&#34;1.25&#34;&gt;&lt;/ellipse&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;mane-refeci-capiebant-unda-mulcebat&#34;&gt;Mane refeci capiebant unda mulcebat
-&lt;/h2&gt;&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
-&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
-&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
-        <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
-        <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
-&lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a partial under &lt;code&gt;/layouts/partials/math.html&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Within this partial reference the &lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/autorender.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Auto-render Extension&lt;/a&gt; or host these scripts locally.&lt;/li&gt;
-&lt;li&gt;Include the partial in your templates like so:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; or .Params.math .Site.Params.math &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;math.html&amp;#34;&lt;/span&gt; . &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; end &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;To enable KaTeX globally set the parameter &lt;code&gt;math&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in a project&amp;rsquo;s configuration&lt;/li&gt;
-&lt;li&gt;To enable KaTeX on a per page basis include the parameter &lt;code&gt;math: true&lt;/code&gt; in content files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Use the online reference of &lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/supported.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Supported TeX Functions&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;examples&#34;&gt;Examples
-&lt;/h3&gt;&lt;p&gt;Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;p&gt;Block math:
-&lt;/p&gt;
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$</description>
-        </item>
-        <item>
-        <title>Emoji Support</title>
-        <link>http://localhost:1313/p/emoji-support/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/emoji-support/</guid>
-        <description>&lt;img src="http://localhost:1313/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
-&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;http://www.emoji-cheat-sheet.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.emoji {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
         </item>
         <item>
         <title>About</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://caxlee.github.io/about/</link>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://caxlee.github.io/about/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -1035,18 +949,18 @@ $$</description>
         </item>
         <item>
         <title>Daily News</title>
-        <link>http://localhost:1313/daily/</link>
+        <link>https://caxlee.github.io/daily/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/daily/</guid>
+        <guid>https://caxlee.github.io/daily/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://caxlee.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://caxlee.github.io/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1078,10 +992,10 @@ $$</description>
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://caxlee.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://caxlee.github.io/search/</guid>
         <description></description>
         </item>
         

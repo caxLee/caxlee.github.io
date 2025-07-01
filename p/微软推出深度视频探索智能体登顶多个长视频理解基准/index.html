@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="文章介绍了一种名为 Deep Video Discovery（DVD）的智能体，旨在通过将长视频分割为短片段并利用大型语言模型（LLM）的推理能力，以自主规划和工具使用的方式理解视频内容并回答问题。DVD在 LVBench 数据集上取得了74.2%的准确率，大幅超越了先前的工作，并强调了推理模型在智能体系统中的关键作用。研究还展示了不同基础模型在智能体中的行为差异以及工具设计的有效性。\n">
 <title>微软推出深度视频探索智能体，登顶多个长视频理解基准</title>
 
-<link rel='canonical' href='http://localhost:1313/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/'>
+<link rel='canonical' href='https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/'>
 
 <link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="微软推出深度视频探索智能体，登顶多个长视频理解基准">
 <meta property='og:description' content="文章介绍了一种名为 Deep Video Discovery（DVD）的智能体，旨在通过将长视频分割为短片段并利用大型语言模型（LLM）的推理能力，以自主规划和工具使用的方式理解视频内容并回答问题。DVD在 LVBench 数据集上取得了74.2%的准确率，大幅超越了先前的工作，并强调了推理模型在智能体系统中的关键作用。研究还展示了不同基础模型在智能体中的行为差异以及工具设计的有效性。\n">
-<meta property='og:url' content='http://localhost:1313/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/'>
+<meta property='og:url' content='https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E6%B7%B1%E5%BA%A6%E8%A7%86%E9%A2%91%E6%8E%A2%E7%B4%A2%E6%99%BA%E8%83%BD%E4%BD%93%E7%99%BB%E9%A1%B6%E5%A4%9A%E4%B8%AA%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E5%9F%BA%E5%87%86/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-01T08:41:31&#43;08:00'/><meta property='article:modified_time' content='2025-07-01T08:41:31&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-01T22:37:19&#43;08:00'/><meta property='article:modified_time' content='2025-07-01T22:37:19&#43;08:00'/>
 <meta name="twitter:title" content="微软推出深度视频探索智能体，登顶多个长视频理解基准">
 <meta name="twitter:description" content="文章介绍了一种名为 Deep Video Discovery（DVD）的智能体，旨在通过将长视频分割为短片段并利用大型语言模型（LLM）的推理能力，以自主规划和工具使用的方式理解视频内容并回答问题。DVD在 LVBench 数据集上取得了74.2%的准确率，大幅超越了先前的工作，并强调了推理模型在智能体系统中的关键作用。研究还展示了不同基础模型在智能体中的行为差异以及工具设计的有效性。\n">
     </head>
@@ -280,7 +280,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
