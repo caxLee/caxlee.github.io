@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://caxlee.github.io/ar/'>
 
-<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="موقع تجريبي">
+<link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="موقع تجريبي">
 <meta property='og:description' content="وصف تجريبي">
 <meta property='og:url' content='https://caxlee.github.io/ar/'>
 <meta property='og:site_name' content='موقع تجريبي'>
@@ -254,16 +254,22 @@
             align-items: center;
             gap: 1rem;
         }
-
-        .date-selector-form input[type="date"] {
-            padding: 0.5rem;
-            border: 1px solid var(--border-color);
-            border-radius: var(--border-radius);
-            background-color: var(--card-background);
-            color: var(--body-font-color);
+        .article-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
         }
-
-        .date-selector-form button {
+        .pagination-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .pagination-btn {
             padding: 0.5rem 1rem;
             border: 1px solid var(--border-color);
             border-radius: var(--border-radius);
@@ -271,21 +277,24 @@
             color: var(--body-font-color);
             cursor: pointer;
         }
-        .date-selector-form button:hover {
+        .pagination-btn.active {
+            font-weight: bold;
             background-color: var(--border-color);
+        }
+        .pagination-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
         }
     </style>
 
     <div class="date-selector-form">
-        <label for="date-input">Select Date:</label>
+        <label for="date-input">选择日期:</label>
         <input type="date" id="date-input" name="date" value="">
     </div>
-    
-    
-    
-    
 
-    <section class="article-list">
+    <section class="article-list" id="article-list">
+        
+        
         
             <div class="article-wrapper" data-date="2019-03-09">
                 
@@ -396,62 +405,76 @@
             </div>
         
     </section>
-<script>
+
+    <div class="pagination-controls" id="pagination-controls"></div>
+
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
             const datePicker = document.getElementById('date-input');
-            const articleList = document.querySelector('.article-list');
-            const articles = Array.from(articleList.querySelectorAll('.article-wrapper[data-date]'));
-            const urlParams = new URLSearchParams(window.location.search);
-            const selectedDate = urlParams.get('date');
+            const articleList = document.getElementById('article-list');
+            const allArticles = Array.from(articleList.querySelectorAll('.article-wrapper[data-date]'));
+            const paginationControls = document.getElementById('pagination-controls');
+            const pageSize = 9;
+            let filteredArticles = allArticles;
+            let currentPage = 1;
 
-            datePicker.addEventListener('change', function() {
-                const date = this.value;
-                if (date) {
-                    window.location.href = 'https:\/\/caxlee.github.io\/?date=' + date;
-                } else {
-                    window.location.href = 'https:\/\/caxlee.github.io\/';
+            function renderPage(page) {
+                
+                allArticles.forEach(a => a.style.display = 'none');
+                
+                const start = (page - 1) * pageSize;
+                const end = start + pageSize;
+                filteredArticles.slice(start, end).forEach(a => a.style.display = 'block');
+            }
+
+            function renderPagination() {
+                paginationControls.innerHTML = '';
+                const totalPages = Math.ceil(filteredArticles.length / pageSize);
+                if (totalPages <= 1) return;
+                
+                const prevBtn = document.createElement('button');
+                prevBtn.textContent = '上一页';
+                prevBtn.className = 'pagination-btn';
+                prevBtn.disabled = currentPage === 1;
+                prevBtn.onclick = () => { if (currentPage > 1) { currentPage--; update(); } };
+                paginationControls.appendChild(prevBtn);
+                
+                for (let i = 1; i <= totalPages; i++) {
+                    const btn = document.createElement('button');
+                    btn.textContent = i;
+                    btn.className = 'pagination-btn' + (i === currentPage ? ' active' : '');
+                    btn.onclick = () => { currentPage = i; update(); };
+                    paginationControls.appendChild(btn);
                 }
-            });
+                
+                const nextBtn = document.createElement('button');
+                nextBtn.textContent = '下一页';
+                nextBtn.className = 'pagination-btn';
+                nextBtn.disabled = currentPage === totalPages;
+                nextBtn.onclick = () => { if (currentPage < totalPages) { currentPage++; update(); } };
+                paginationControls.appendChild(nextBtn);
+            }
 
-            function filterArticles() {
+            function update() {
+                renderPage(currentPage);
+                renderPagination();
+            }
+
+            function filterByDate() {
                 const date = datePicker.value;
-
                 if (!date) {
-                    articles.forEach(article => article.style.display = 'block');
-                    return;
+                    filteredArticles = allArticles;
+                } else {
+                    filteredArticles = allArticles.filter(a => a.dataset.date === date);
                 }
-
-                let found = false;
-                articles.forEach(article => {
-                    if (article.dataset.date === date) {
-                        article.style.display = 'block';
-                        found = true;
-                    } else {
-                        article.style.display = 'none';
-                    }
-                });
-
-                const noResults = document.querySelector('.no-results');
-                if (!found && noResults) {
-                    noResults.style.display = 'block';
-                } else if (noResults) {
-                    noResults.style.display = 'none';
-                }
+                currentPage = 1;
+                update();
             }
 
-            if (selectedDate) {
-                datePicker.value = selectedDate;
-            }
+            datePicker.addEventListener('change', filterByDate);
 
-            filterArticles();
-
-            if (!document.querySelector('.no-results')) {
-                const noResultsDiv = document.createElement('div');
-                noResultsDiv.className = 'no-results';
-                noResultsDiv.style.display = 'none';
-                noResultsDiv.innerHTML = '<p>No posts found for the selected date.</p>';
-                articleList.insertAdjacentElement('afterend', noResultsDiv);
-            }
+            
+            filterByDate();
         });
     </script><footer class="site-footer">
     <section class="copyright">
