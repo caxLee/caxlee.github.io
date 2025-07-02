@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：通用视觉模型（VGM）曾是计算机视觉研究的热点，但随着多模态大模型的兴起，视觉模型正被重新定义。清华大学团队发表的综述论文系统梳理了VGM研究进展，强调视觉领域仍需保有特色。VGM具备处理多模态输入、多任务学习和统一框架设计的关键能力，但仍面临优化设计、训练效率和数据获取等挑战。\n主题标签：计算机视觉、人工智能、研究进展\n原文摘要 过去几年， 通用视觉模型 （Vision Generalist Model，简称 VGM）曾是计算机视觉领域的研究热点。它们试图构建统一的架构，能够处理图像、点云、视频等多种视觉模态输入，以及分类、检测、分割等多样的下游任务，向着「视觉模型大一统」的目标迈进。 然而，随着大语言模型 LLM 的迅猛发展，研究热点已经悄然发生转移。如今，多模态大模型兴起，视觉被看作是语言模型众多输入模态中的一种，视觉模态数据被离散化为 Token，与文本一起被统一建模，视觉的「独立性」正在被重新定义。 在这种趋势下，传统意义上以视觉任务为核心、以视觉范式为驱动的通用视觉模型研究，似乎正在逐渐被边缘化。然而，我们认为视觉领域仍应保有自己的特色和研究重点。与语言数据相比，视觉数据具有结构化强、空间信息丰富等天然优势，但也存在视觉模态间差异大、难替代的挑战。例如：如何统一处理 2D 图像、3D 点云和视频流等异质输入？如何设计统一的输出表示来同时支持像素级分割和目标检测等不同任务？这些问题在当前的多模态范式中并未被充分解决。 正因如此，在这个多模态模型席卷科研与工业的新时代，回顾并总结纯视觉范式下的通用视觉模型&hellip;\n">
+<title>大模型时代，通用视觉模型将何去何从？</title>
+
+<link rel='canonical' href='https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/'>
+
+<link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="大模型时代，通用视觉模型将何去何从？">
+<meta property='og:description' content="摘要：通用视觉模型（VGM）曾是计算机视觉研究的热点，但随着多模态大模型的兴起，视觉模型正被重新定义。清华大学团队发表的综述论文系统梳理了VGM研究进展，强调视觉领域仍需保有特色。VGM具备处理多模态输入、多任务学习和统一框架设计的关键能力，但仍面临优化设计、训练效率和数据获取等挑战。\n主题标签：计算机视觉、人工智能、研究进展\n原文摘要 过去几年， 通用视觉模型 （Vision Generalist Model，简称 VGM）曾是计算机视觉领域的研究热点。它们试图构建统一的架构，能够处理图像、点云、视频等多种视觉模态输入，以及分类、检测、分割等多样的下游任务，向着「视觉模型大一统」的目标迈进。 然而，随着大语言模型 LLM 的迅猛发展，研究热点已经悄然发生转移。如今，多模态大模型兴起，视觉被看作是语言模型众多输入模态中的一种，视觉模态数据被离散化为 Token，与文本一起被统一建模，视觉的「独立性」正在被重新定义。 在这种趋势下，传统意义上以视觉任务为核心、以视觉范式为驱动的通用视觉模型研究，似乎正在逐渐被边缘化。然而，我们认为视觉领域仍应保有自己的特色和研究重点。与语言数据相比，视觉数据具有结构化强、空间信息丰富等天然优势，但也存在视觉模态间差异大、难替代的挑战。例如：如何统一处理 2D 图像、3D 点云和视频流等异质输入？如何设计统一的输出表示来同时支持像素级分割和目标检测等不同任务？这些问题在当前的多模态范式中并未被充分解决。 正因如此，在这个多模态模型席卷科研与工业的新时代，回顾并总结纯视觉范式下的通用视觉模型&hellip;\n">
+<meta property='og:url' content='https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-02T16:42:32&#43;08:00'/><meta property='article:modified_time' content='2025-07-02T16:42:32&#43;08:00'/>
+<meta name="twitter:title" content="大模型时代，通用视觉模型将何去何从？">
+<meta name="twitter:description" content="摘要：通用视觉模型（VGM）曾是计算机视觉研究的热点，但随着多模态大模型的兴起，视觉模型正被重新定义。清华大学团队发表的综述论文系统梳理了VGM研究进展，强调视觉领域仍需保有特色。VGM具备处理多模态输入、多任务学习和统一框架设计的关键能力，但仍面临优化设计、训练效率和数据获取等挑战。\n主题标签：计算机视觉、人工智能、研究进展\n原文摘要 过去几年， 通用视觉模型 （Vision Generalist Model，简称 VGM）曾是计算机视觉领域的研究热点。它们试图构建统一的架构，能够处理图像、点云、视频等多种视觉模态输入，以及分类、检测、分割等多样的下游任务，向着「视觉模型大一统」的目标迈进。 然而，随着大语言模型 LLM 的迅猛发展，研究热点已经悄然发生转移。如今，多模态大模型兴起，视觉被看作是语言模型众多输入模态中的一种，视觉模态数据被离散化为 Token，与文本一起被统一建模，视觉的「独立性」正在被重新定义。 在这种趋势下，传统意义上以视觉任务为核心、以视觉范式为驱动的通用视觉模型研究，似乎正在逐渐被边缘化。然而，我们认为视觉领域仍应保有自己的特色和研究重点。与语言数据相比，视觉数据具有结构化强、空间信息丰富等天然优势，但也存在视觉模态间差异大、难替代的挑战。例如：如何统一处理 2D 图像、3D 点云和视频流等异质输入？如何设计统一的输出表示来同时支持像素级分割和目标检测等不同任务？这些问题在当前的多模态范式中并未被充分解决。 正因如此，在这个多模态模型席卷科研与工业的新时代，回顾并总结纯视觉范式下的通用视觉模型&hellip;\n">
+<style>
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/css/custom-post.css"> 
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended">
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#原文摘要">原文摘要</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/">大模型时代，通用视觉模型将何去何从？</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 02, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+    
+    <section class="article-content">
+    <p>摘要：通用视觉模型（VGM）曾是计算机视觉研究的热点，但随着多模态大模型的兴起，视觉模型正被重新定义。清华大学团队发表的综述论文系统梳理了VGM研究进展，强调视觉领域仍需保有特色。VGM具备处理多模态输入、多任务学习和统一框架设计的关键能力，但仍面临优化设计、训练效率和数据获取等挑战。</p>
+<p>主题标签：计算机视觉、人工智能、研究进展</p>
+<h2 id="原文摘要">原文摘要
+</h2><p>过去几年，
+通用视觉模型
+（Vision Generalist Model，简称 VGM）曾是计算机视觉领域的研究热点。它们试图构建统一的架构，能够处理图像、点云、视频等多种视觉模态输入，以及分类、检测、分割等多样的下游任务，向着「视觉模型大一统」的目标迈进。
+然而，随着大语言模型 LLM 的迅猛发展，研究热点已经悄然发生转移。如今，多模态大模型兴起，视觉被看作是语言模型众多输入模态中的一种，视觉模态数据被离散化为 Token，与文本一起被统一建模，视觉的「独立性」正在被重新定义。
+在这种趋势下，传统意义上以视觉任务为核心、以视觉范式为驱动的通用视觉模型研究，似乎正在逐渐被边缘化。然而，我们认为视觉领域仍应保有自己的特色和研究重点。与语言数据相比，视觉数据具有结构化强、空间信息丰富等天然优势，但也存在视觉模态间差异大、难替代的挑战。例如：如何统一处理 2D 图像、3D 点云和视频流等异质输入？如何设计统一的输出表示来同时支持像素级分割和目标检测等不同任务？这些问题在当前的多模态范式中并未被充分解决。
+正因如此，在这个多模态模型席卷科研与工业的新时代，回顾并总结纯视觉范式下的通用视觉模型&hellip;</p>
+</section>
+    
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+    
+    
+    
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">
+            
+        </time>
+    
+</article> 
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
