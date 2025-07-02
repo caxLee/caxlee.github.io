@@ -14,6 +14,34 @@
 <meta property='og:type' content='website'>
 <meta name="twitter:title" content="موقع تجريبي">
 <meta name="twitter:description" content="وصف تجريبي"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/ar/index.xml">
+<style>
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/css/custom-post.css"> 
     </head>
     <body class="">
     <script>
@@ -189,15 +217,27 @@
             transition: all 0.3s ease;
             border: 1px solid var(--border-color);
             min-height: 400px;
+            position: relative;
+            cursor: pointer;
         }
         .article-wrapper:hover {
             transform: translateY(-6px);
             box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
         }
+        .article-wrapper a.card-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
         .article-wrapper article {
             height: 100%;
             display: flex;
             flex-direction: column;
+            position: relative;
+            z-index: 0;
         }
         .article-wrapper .article-image img {
             width: 100%;
@@ -221,6 +261,8 @@
             line-height: 1.3;
             margin-bottom: 1.5rem;
             color: var(--card-text-color-main);
+            position: relative;
+            z-index: 0;
         }
         .article-wrapper .article-title a {
             color: inherit;
@@ -239,12 +281,16 @@
             -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            position: relative;
+            z-index: 0;
         }
         .article-wrapper .article-time {
             font-size: 1rem;
             color: var(--card-text-color-tertiary);
             margin-top: auto;
             font-weight: 500;
+            position: relative;
+            z-index: 0;
         }
         .pagination-controls {
             display: flex;

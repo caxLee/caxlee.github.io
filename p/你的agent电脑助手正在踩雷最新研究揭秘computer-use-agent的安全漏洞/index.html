@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=65181&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：上海 AI Lab、中国科学技术大学和上海交通大学联合推出了CUA安全测试基准RiOSWorld，旨在评估智能助手在电脑使用中的安全风险。研究发现，大多数基于MLLM的CUA缺乏风险意识，容易受到网络诈骗和恶意操作的影响，安全性存疑。\n主题标签：人工智能安全、电脑使用智能助手、风险评估\n原文摘要 本文由上海 AI Lab、中国科学技术大学和上海交通大学联合完成。主要作者包括中国科学技术大学硕士生杨靖懿、上海交通大学本科生邵帅。通讯作者为刘东瑞和邵婧，上海 AI Lab 安全团队，研究方向为 AI 安全可信。 从 Anthropic 的 Claude 3.5 Sonnet 自带 Computer-Use 功能，到 OpenAI 的 Operator CUA 横空出世，再到 Manus 直接火爆出圈，现在的 Computer-Use Agent 简直像开了外挂，只需一条指令，就能独立完成 code project（coding/debug）、处理邮件、刷网页、做 PPT/教案，样样精通！ 但先别着急着欢呼——你有没有想过，把电脑操纵权交给这些「智能」助手，可能跟把银行卡密码告诉陌生人一样危险？ 为了使 Computer-Use Agent（CUA）在未来能够大规模、安全地部署在实际应用场景中，来自 上海 AI Lab、中国科学技术大学和上海交通大学 的团队强势出手，推出 CUA 安全测试基准—— RiOSWorld ！称得上是 CUA 的「安全体检中心」！该测试基准全面地评估了 C&hellip;\n">
 <title>你的Agent电脑助手正在踩雷！最新研究揭秘Computer-Use Agent的安全漏洞</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/%E4%BD%A0%E7%9A%84agent%E7%94%B5%E8%84%91%E5%8A%A9%E6%89%8B%E6%AD%A3%E5%9C%A8%E8%B8%A9%E9%9B%B7%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98computer-use-agent%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/'>
+<link rel='canonical' href='http://localhost:65181/p/%E4%BD%A0%E7%9A%84agent%E7%94%B5%E8%84%91%E5%8A%A9%E6%89%8B%E6%AD%A3%E5%9C%A8%E8%B8%A9%E9%9B%B7%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98computer-use-agent%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/'>
 
 <link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="你的Agent电脑助手正在踩雷！最新研究揭秘Computer-Use Agent的安全漏洞">
 <meta property='og:description' content="摘要：上海 AI Lab、中国科学技术大学和上海交通大学联合推出了CUA安全测试基准RiOSWorld，旨在评估智能助手在电脑使用中的安全风险。研究发现，大多数基于MLLM的CUA缺乏风险意识，容易受到网络诈骗和恶意操作的影响，安全性存疑。\n主题标签：人工智能安全、电脑使用智能助手、风险评估\n原文摘要 本文由上海 AI Lab、中国科学技术大学和上海交通大学联合完成。主要作者包括中国科学技术大学硕士生杨靖懿、上海交通大学本科生邵帅。通讯作者为刘东瑞和邵婧，上海 AI Lab 安全团队，研究方向为 AI 安全可信。 从 Anthropic 的 Claude 3.5 Sonnet 自带 Computer-Use 功能，到 OpenAI 的 Operator CUA 横空出世，再到 Manus 直接火爆出圈，现在的 Computer-Use Agent 简直像开了外挂，只需一条指令，就能独立完成 code project（coding/debug）、处理邮件、刷网页、做 PPT/教案，样样精通！ 但先别着急着欢呼——你有没有想过，把电脑操纵权交给这些「智能」助手，可能跟把银行卡密码告诉陌生人一样危险？ 为了使 Computer-Use Agent（CUA）在未来能够大规模、安全地部署在实际应用场景中，来自 上海 AI Lab、中国科学技术大学和上海交通大学 的团队强势出手，推出 CUA 安全测试基准—— RiOSWorld ！称得上是 CUA 的「安全体检中心」！该测试基准全面地评估了 C&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/%E4%BD%A0%E7%9A%84agent%E7%94%B5%E8%84%91%E5%8A%A9%E6%89%8B%E6%AD%A3%E5%9C%A8%E8%B8%A9%E9%9B%B7%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98computer-use-agent%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/'>
+<meta property='og:url' content='http://localhost:65181/p/%E4%BD%A0%E7%9A%84agent%E7%94%B5%E8%84%91%E5%8A%A9%E6%89%8B%E6%AD%A3%E5%9C%A8%E8%B8%A9%E9%9B%B7%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98computer-use-agent%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-01T22:37:19&#43;08:00'/><meta property='article:modified_time' content='2025-07-01T22:37:19&#43;08:00'/>
 <meta name="twitter:title" content="你的Agent电脑助手正在踩雷！最新研究揭秘Computer-Use Agent的安全漏洞">
 <meta name="twitter:description" content="摘要：上海 AI Lab、中国科学技术大学和上海交通大学联合推出了CUA安全测试基准RiOSWorld，旨在评估智能助手在电脑使用中的安全风险。研究发现，大多数基于MLLM的CUA缺乏风险意识，容易受到网络诈骗和恶意操作的影响，安全性存疑。\n主题标签：人工智能安全、电脑使用智能助手、风险评估\n原文摘要 本文由上海 AI Lab、中国科学技术大学和上海交通大学联合完成。主要作者包括中国科学技术大学硕士生杨靖懿、上海交通大学本科生邵帅。通讯作者为刘东瑞和邵婧，上海 AI Lab 安全团队，研究方向为 AI 安全可信。 从 Anthropic 的 Claude 3.5 Sonnet 自带 Computer-Use 功能，到 OpenAI 的 Operator CUA 横空出世，再到 Manus 直接火爆出圈，现在的 Computer-Use Agent 简直像开了外挂，只需一条指令，就能独立完成 code project（coding/debug）、处理邮件、刷网页、做 PPT/教案，样样精通！ 但先别着急着欢呼——你有没有想过，把电脑操纵权交给这些「智能」助手，可能跟把银行卡密码告诉陌生人一样危险？ 为了使 Computer-Use Agent（CUA）在未来能够大规模、安全地部署在实际应用场景中，来自 上海 AI Lab、中国科学技术大学和上海交通大学 的团队强势出手，推出 CUA 安全测试基准—— RiOSWorld ！称得上是 CUA 的「安全体检中心」！该测试基准全面地评估了 C&hellip;\n">
+<style>
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/css/custom-post.css"> 
     </head>
     <body class="
     article-page
@@ -74,7 +102,7 @@
 
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="">
     <header class="article-header">
 
     <div class="article-details">
@@ -130,10 +158,8 @@
 </div>
 
 </header>
-
+    
     <section class="article-content">
-    
-    
     <p>摘要：上海 AI Lab、中国科学技术大学和上海交通大学联合推出了CUA安全测试基准RiOSWorld，旨在评估智能助手在电脑使用中的安全风险。研究发现，大多数基于MLLM的CUA缺乏风险意识，容易受到网络诈骗和恶意操作的影响，安全性存疑。</p>
 <p>主题标签：人工智能安全、电脑使用智能助手、风险评估</p>
 <h2 id="原文摘要">原文摘要
@@ -145,10 +171,8 @@
 的团队强势出手，推出 CUA 安全测试基准——
 RiOSWorld
 ！称得上是 CUA 的「安全体检中心」！该测试基准全面地评估了 C&hellip;</p>
-
 </section>
-
-
+    
     <footer class="article-footer">
     
 
@@ -166,9 +190,23 @@ RiOSWorld
     </section>
     </footer>
 
-
     
-</article>
+    
+    
+    
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">
+            
+        </time>
+    
+</article> 
 
     
 
@@ -321,7 +359,7 @@ RiOSWorld
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
