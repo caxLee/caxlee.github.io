@@ -7,7 +7,357 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 02 Jul 2025 16:42:32 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Jul 2025 21:53:09 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>3 Questions: How MIT’s venture studio is partnering with MIT labs to solve “holy grail” problems</title>
+        <link>https://caxlee.github.io/news.mit.edu/2025/3-questions-venture-studio-partnering-mit-labs-solve-holy-grail-problems-0702</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/news.mit.edu/2025/3-questions-venture-studio-partnering-mit-labs-solve-holy-grail-problems-0702</guid>
+        <description>&lt;p&gt;摘要：麻省理工学院（MIT）内部的风险投资工作室Proto Ventures旨在从零开始创建全新的初创公司，而不是支持现有的初创公司。Proto Ventures积极建立起利用MIT技术、人才和创意解决高影响产业挑战的初创公司。该项目帮助MIT研究人员将技术转化为商业项目，填补了技术突破与商业化之间的鸿沟。&lt;/p&gt;
+&lt;p&gt;主题标签：科技创新、高等教育、创业投资&lt;/p&gt;
+&lt;h2 id=&#34;原文链接&#34;&gt;原文链接
+&lt;/h2&gt;&lt;p&gt;3 Questions: How MIT’s venture studio is partnering with MIT labs to solve “holy grail” problems
+&lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/3-questions-venture-studio-partnering-mit-labs-solve-holy-grail-problems-0702&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/3-questions-venture-studio-partnering-mit-labs-solve-holy-grail-problems-0702&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;MIT Proto Ventures is the Institute’s in-house venture studio — a program designed not to support existing startups, but to create entirely new ones from the ground up. Operating at the intersection of breakthrough research and urgent real-world problems, Proto Ventures proactively builds startups that leverage MIT technologies, talent, and ideas to address high-impact industry challenges. &lt;/p&gt;
+&lt;p&gt;Each venture-building effort begins with a “channel” — a defined domain such as clean energy, fusion, or &amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AI 编程十字路口：为什么说 Copilot 模式是创业陷阱？</title>
+        <link>https://caxlee.github.io/p/ai-%E7%BC%96%E7%A8%8B%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4-copilot-%E6%A8%A1%E5%BC%8F%E6%98%AF%E5%88%9B%E4%B8%9A%E9%99%B7%E9%98%B1/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/ai-%E7%BC%96%E7%A8%8B%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4-copilot-%E6%A8%A1%E5%BC%8F%E6%98%AF%E5%88%9B%E4%B8%9A%E9%99%B7%E9%98%B1/</guid>
+        <description>&lt;p&gt;摘要：蔻町智能团队决定自研基座模型，选择端到端路径，瞄准增量需求市场，与AI编程主流观念不同。他们认为大模型仍处于婴幼儿期，网络结构创新是破局关键；避开大厂赛道是伪命题，一体化解决问题更有效；个性化应用市场即将爆发，L3路径能抓住增量需求机遇。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能编程, 创新技术, 市场机遇&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;当整个人工智能行业都在为「如何给程序员打造更快的马」而疯狂投入时，一支特立独行的团队选择「直接去造汽车」。
+「大模型的发展，更像一场篮球比赛才刚刚打完第一节。所有人都在用第一节的比分去判断整场比赛的胜负，但我们认为，还有第二、三、四节要打。」蔻町智能（AIGCode）创始人兼 CEO 宿文用这样一个比喻，为当前略显拥挤的 AI 编程赛道，提供了一个不同的观察视角。
+自 2022 年底 ChatGPT 引爆全球以来，AI 编程被普遍认为是大语言模型最快、最确定能实现严肃商业化（PMF）的一个赛道。从 GitHub Copilot 的成功，到科技大厂和创业公司纷纷推出自己的编程助手，行业似乎已经形成一种共识：AI 是程序员的「副驾驶」，其核心价值在于提升代码编写效率。
+然而，宿文和他的蔻町智能，正试图证明这是对终局的误判。在与机器之心的最近一次访谈中，宿文拆解了他对 AI 编程的三大「非共识」判断。
+非共识一：基座模型仍处「婴幼儿期」
+网络结构创新是破局关键
+在许多人眼中，大模型的基座之战似乎已尘埃落定。后来者尤其是创业公司，只能在应用层寻找机会。宿文对此的看法截然不同：「我们认为大模型技&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Confronting the AI/energy conundrum</title>
+        <link>https://caxlee.github.io/news.mit.edu/2025/confronting-ai-energy-conundrum-0702</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/news.mit.edu/2025/confronting-ai-energy-conundrum-0702</guid>
+        <description>&lt;p&gt;摘要：人工智能驱动的计算中心的爆炸性增长导致对电力需求激增，可能会对电网造成压力，阻碍气候目标的实现。然而，人工智能技术也有可能彻底改变能源系统，加快向清洁能源的过渡。&lt;/p&gt;
+&lt;p&gt;主题标签：能源转型、人工智能、环境保护&lt;/p&gt;
+&lt;h2 id=&#34;原文链接&#34;&gt;原文链接
+&lt;/h2&gt;&lt;p&gt;Confronting the AI/energy conundrum
+&lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/confronting-ai-energy-conundrum-0702&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/confronting-ai-energy-conundrum-0702&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;The explosive growth of AI-powered computing centers is creating an unprecedented surge in electricity demand that threatens to overwhelm power grids and derail climate goals. At the same time, artificial intelligence technologies could revolutionize energy systems, accelerating the transition to clean power.&lt;/p&gt;
+&lt;p&gt;“We’re at a cusp of potentially gigantic change throughout the economy,” said William H. Green, director of the MIT Energy Initiative (MITEI) and Hoyt C. Hottel Professor in the MIT Depart&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ICML 2025 Oral工作再升级！上海AI Lab联合复旦、港中文推出支持更长视频理解的最佳工具VideoRoPE&#43;&#43;</title>
+        <link>https://caxlee.github.io/p/icml-2025-oral%E5%B7%A5%E4%BD%9C%E5%86%8D%E5%8D%87%E7%BA%A7%E4%B8%8A%E6%B5%B7ai-lab%E8%81%94%E5%90%88%E5%A4%8D%E6%97%A6%E6%B8%AF%E4%B8%AD%E6%96%87%E6%8E%A8%E5%87%BA%E6%94%AF%E6%8C%81%E6%9B%B4%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E7%9A%84%E6%9C%80%E4%BD%B3%E5%B7%A5%E5%85%B7videorope-/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/icml-2025-oral%E5%B7%A5%E4%BD%9C%E5%86%8D%E5%8D%87%E7%BA%A7%E4%B8%8A%E6%B5%B7ai-lab%E8%81%94%E5%90%88%E5%A4%8D%E6%97%A6%E6%B8%AF%E4%B8%AD%E6%96%87%E6%8E%A8%E5%87%BA%E6%94%AF%E6%8C%81%E6%9B%B4%E9%95%BF%E8%A7%86%E9%A2%91%E7%90%86%E8%A7%A3%E7%9A%84%E6%9C%80%E4%BD%B3%E5%B7%A5%E5%85%B7videorope-/</guid>
+        <description>&lt;p&gt;摘要：研究者提出了VideoRoPE++，一种针对视频领域的位置编码策略，通过三维结构保留时空关系，采用低频时间分配减少振荡，对角布局保持空间对称性，可调时间间隔解耦时间和空间索引，以及外推方案YaRN-V。实验证明，VideoRoPE++在长视频检索、视频理解和视频幻觉任务中表现优异。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、视频领域、位置编码&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;本文第一作者魏熙林，复旦大学计算机科学技术学院人工智能方向博士生，研究方向是多模态大模型、高效长上下文；目前在上海人工智能实验室实习，指导 mentor 是臧宇航、王佳琦。
+一、背景介绍
+虽然旋转位置编码（RoPE）及其变体因其长上下文处理能力而被广泛采用，但将一维 RoPE 扩展到具有复杂时空结构的视频领域仍然是一个悬而未决的挑战。
+VideoRoPE++ 这项工作首先进行了全面分析，确定了将 RoPE 有效应用于视频所需的五个关键特性，而先前的工作并未充分考虑这些特性。
+作为分析的一部分，这项工作构建了一个全新的评测基准 ——V-RULER，其中的子任务 “带干扰项的大海捞针（Needle Retrieval under Distractor, NRD）” 表明：当前 RoPE 变体在缺乏合理时间维度建模策略时，容易被周期性干扰项误导，表现不稳定。
+基于分析，作者提出了 VideoRoPE++，它具有三维结构，旨在保留时空关系。VideoRoPE 的特点包括低频时间分配以减轻周期性碰撞、对角布局以保持空间对称性，以及可调整的时间间隔以解耦时间和空间索引。
+此外，为提升模型在训练范围&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>IEEE TPAMI 2025 | 北京大学提出LSTKC&#43;&#43;，长短期知识解耦与巩固驱动的终身行人重识别</title>
+        <link>https://caxlee.github.io/p/ieee-tpami-2025-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%8F%90%E5%87%BAlstkc-%E9%95%BF%E7%9F%AD%E6%9C%9F%E7%9F%A5%E8%AF%86%E8%A7%A3%E8%80%A6%E4%B8%8E%E5%B7%A9%E5%9B%BA%E9%A9%B1%E5%8A%A8%E7%9A%84%E7%BB%88%E8%BA%AB%E8%A1%8C%E4%BA%BA%E9%87%8D%E8%AF%86%E5%88%AB/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/ieee-tpami-2025-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%8F%90%E5%87%BAlstkc-%E9%95%BF%E7%9F%AD%E6%9C%9F%E7%9F%A5%E8%AF%86%E8%A7%A3%E8%80%A6%E4%B8%8E%E5%B7%A9%E5%9B%BA%E9%A9%B1%E5%8A%A8%E7%9A%84%E7%BB%88%E8%BA%AB%E8%A1%8C%E4%BA%BA%E9%87%8D%E8%AF%86%E5%88%AB/</guid>
+        <description>&lt;p&gt;摘要：北京大学王选计算机研究所团队在 IEEE TPAMI 发布了LSTKC++框架，用于解决终身行人重识别中的知识遗忘问题。该框架引入长短期知识解耦与动态纠正及融合机制，有效平衡新旧知识的学习和保留。实验结果显示，LSTKC++在已知领域和未知领域的性能均有显著提升。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、计算机科学、学术研究&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;本文的第一作者为北京大学博士二年级学生徐昆仑，通讯作者为北京大学王选计算机研究所研究员、助理教授周嘉欢。
+近日，北京大学王选计算机研究所周嘉欢团队在人工智能重要国际期刊 IEEE TPAMI 发布了一项最新的研究成果：
+LSTKC++
+。
+该框架引入了长短期知识解耦与动态纠正及融合机制，有效保障了模型在终身学习过程中对新知识的学习和对历史知识的记忆。目前该研究已被 IEEE TPAMI 接收，相关代码已开源。
+论文标题：Long Short-Term Knowledge Decomposition and Consolidation for Lifelong Person Re-Identification
+论文链接：https://ieeexplore.ieee.org/abstract/document/11010188/
+代码链接：https://github.com/zhoujiahuan1991/LSTKC-Plus-Plus
+接收期刊：T-PAMI（CCF A 类/中科院一区 Top）
+单位：北京大学王选计算机研究所，华中科技大学人工智能与自动化学院
+行人重识别（Pers&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Meta-Think ≠ 记套路，多智能体强化学习解锁大模型元思考泛化</title>
+        <link>https://caxlee.github.io/p/meta-think-%E8%AE%B0%E5%A5%97%E8%B7%AF%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E9%94%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%83%E6%80%9D%E8%80%83%E6%B3%9B%E5%8C%96/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/meta-think-%E8%AE%B0%E5%A5%97%E8%B7%AF%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E9%94%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%83%E6%80%9D%E8%80%83%E6%B3%9B%E5%8C%96/</guid>
+        <description>&lt;p&gt;摘要：本研究提出了一种名为ReMA的新框架，通过多智能体强化学习来训练大模型进行复杂推理任务，将推理过程分解为元思维智能体和推理智能体两个层级化部分，实现元思维与推理的协同工作，以提高泛化能力和探索效率。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、强化学习、智能体&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;本文第一作者为上海交通大学计算机科学四年级博士生万梓煜，主要研究方向为强化学习、基础模型的复杂推理，通讯作者为上海交通大学人工智能学院温颖副教授和上海人工智能实验室胡舒悦老师。团队其他成员包括来自英属哥伦比亚大学的共同第一作者李云想、Mark Schmidt 教授，伦敦大学学院的宋研、杨林易和汪军教授，上海交通大学的温潇雨，王翰竟和张伟楠教授。
+引言
+最近，关于大模型推理的测试时间扩展（Test time scaling law ）的探索不断涌现出新的范式，包括① 结构化搜索结（如 MCTS），② 过程奖励模型（Process Reward Model ）+ PPO，③ 可验证奖励 （Verifiable Reward）+ GRPO（DeepSeek R1）。然而，大模型何时产生 “顿悟（Aha Moment）” 的机理仍未明晰。近期多项研究提出推理模式（reasoning pattern）对于推理能力的重要作用。类似的，本研究认为
+大模型复杂推理的能力强弱本质在于元思维能力的强弱。
+所谓 “元思维” （meta-thinking），即监控、评估和控制自身的推理过程，以实现更具适应性和&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Study: Babies’ poor vision may help organize visual brain pathways</title>
+        <link>https://caxlee.github.io/news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703</guid>
+        <description>&lt;p&gt;摘要：麻省理工学院的一项新研究揭示了视觉系统中两条通路是如何受发育因素塑造的。研究表明，早期的低质量、模糊的视觉输入可能有助于大脑发展出处理不同空间频率和颜色的两个通路。研究人员通过训练视觉模型验证了这一假设，发现模型在接受类似婴儿早期接收的低质量图像后，展现出类似于人类视觉系统的处理特征。&lt;/p&gt;
+&lt;p&gt;主题标签：神经科学、视觉系统、婴儿视觉&lt;/p&gt;
+&lt;h2 id=&#34;原文链接&#34;&gt;原文链接
+&lt;/h2&gt;&lt;p&gt;Study: Babies’ poor vision may help organize visual brain pathways
+&lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;Incoming information from the retina is channeled into two pathways in the brain’s visual system: one that’s responsible for processing color and fine spatial detail, and another that’s involved in spatial localization and detecting high temporal frequencies. A new study from MIT provides an account for how these two pathways may be shaped by developmental factors.&lt;/p&gt;
+&lt;p&gt;Newborns typically have poor visual acuity and poor color vision because their retinal cone cells are not well-developed at birth. &amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The high-tech wizardry of integrated photonics</title>
+        <link>https://caxlee.github.io/news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702</guid>
+        <description>&lt;p&gt;摘要：7岁的Sabrina Corsetti受到“哈利·波特”故事和迪士尼频道节目“韦弗利街的巫师”启发，决定成为一名物理学家，并在MIT攻读电气工程和计算机科学研究生。她在集成光子学领域进行研究，开发出微型3D打印机和微型“牵引光束”等创新设备，同时也参与困离子量子计算项目。&lt;/p&gt;
+&lt;p&gt;标签：[科学研究, 技术创新, 教育培训]&lt;/p&gt;
+&lt;h2 id=&#34;原文链接&#34;&gt;原文链接
+&lt;/h2&gt;&lt;p&gt;The high-tech wizardry of integrated photonics
+&lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;Inspired by the “Harry Potter” stories and the Disney Channel show “Wizards of Waverly Place,” 7-year-old Sabrina Corsetti emphatically declared to her parents one afternoon that she was, in fact, a wizard.&lt;/p&gt;
+&lt;p&gt;“My dad turned to me and said that, if I really wanted to be a wizard, then I should become a physicist. Physicists are the real wizards of the world,” she recalls.&lt;/p&gt;
+&lt;p&gt;That conversation stuck with Corsetti throughout her childhood, all the way up to her decision to double-major in physics and &amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>全球首款AI原生UGC游戏引擎诞生！输入文字秒建GTA世界，试玩体验来了</title>
+        <link>https://caxlee.github.io/p/%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BEai%E5%8E%9F%E7%94%9Fugc%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E8%AF%9E%E7%94%9F%E8%BE%93%E5%85%A5%E6%96%87%E5%AD%97%E7%A7%92%E5%BB%BAgta%E4%B8%96%E7%95%8C%E8%AF%95%E7%8E%A9%E4%BD%93%E9%AA%8C%E6%9D%A5%E4%BA%86/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BEai%E5%8E%9F%E7%94%9Fugc%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E8%AF%9E%E7%94%9F%E8%BE%93%E5%85%A5%E6%96%87%E5%AD%97%E7%A7%92%E5%BB%BAgta%E4%B8%96%E7%95%8C%E8%AF%95%E7%8E%A9%E4%BD%93%E9%AA%8C%E6%9D%A5%E4%BA%86/</guid>
+        <description>&lt;p&gt;摘要：全球首个由实时世界模型驱动的AI原生游戏引擎Mirage问世，支持玩家实时生成、修改整个游戏世界，发布了两款可玩游戏演示，实现了实时UGC创作、影视级画质呈现和持久交互体验。Mirage基于下一代AI构建，支持零门槛创作、实时共创演化和无限动态体验，通过强大的训练基础和交互式生成技术突破传统游戏设计限制。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能科技, 游戏开发技术, 创新科技&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;从此，游戏的未来不单单由专业设计师逐关打造，而是让每一个人都能实时构思、生成并体验游戏世界。
+就在今天，
+全球首个由实时世界模型驱动的 AI 原生游戏引擎问世了！
+该游戏引擎名为「
+Mirage
+」，由 Dynamics Lab 开发。
+该系统专为构建动态、交互式且持续演变的游戏体验而设计，
+玩家可以通过自然语言、键盘或控制器实时生成并修改整个游戏世界。
+从功能定位来看，Mirage 支持多类型的游戏开发。
+目前发布了两款可玩游戏演示，包括
+都市乱斗（GTA 风格）
+和
+海岸漂移（极限竞速地平线风格）
+。
+都市乱斗：https://demo.dynamicslab.ai/chaos
+海岸漂移：
+&lt;a class=&#34;link&#34; href=&#34;https://demo.dynamicslab.ai/drift&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://demo.dynamicslab.ai/drift&lt;/a&gt;
+所有场景都是实时动态生成的
+，并非预设脚本。我们看到的是一个随着玩家操作实时演变的可交互动态模拟世界。
+      都市乱斗（GTA 风格）
+      海岸漂移（极限竞速地平线风格）
+机器之心上手试玩了一下都市乱斗（GTA 风格），打开后界面是下面这样的，左边是控制选项，右边是街景选项。
+体验了一小会，我们发现：游戏延迟还比较&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>刚刚，NLP先驱、斯坦福教授Manning学术休假，加盟风投公司任合伙人</title>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Anlp%E5%85%88%E9%A9%B1%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%95%99%E6%8E%88manning%E5%AD%A6%E6%9C%AF%E4%BC%91%E5%81%87%E5%8A%A0%E7%9B%9F%E9%A3%8E%E6%8A%95%E5%85%AC%E5%8F%B8%E4%BB%BB%E5%90%88%E4%BC%99%E4%BA%BA/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Anlp%E5%85%88%E9%A9%B1%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%95%99%E6%8E%88manning%E5%AD%A6%E6%9C%AF%E4%BC%91%E5%81%87%E5%8A%A0%E7%9B%9F%E9%A3%8E%E6%8A%95%E5%85%AC%E5%8F%B8%E4%BB%BB%E5%90%88%E4%BC%99%E4%BA%BA/</guid>
+        <description>&lt;p&gt;摘要：斯坦福人工智能实验室前主任克里斯托弗·曼宁加入风险投资公司AIX Ventures担任普通合伙人，专注于投资深度AI领域的初创公司。曼宁教授是NLP领域的先驱人物，在深度学习、注意力机制、机器翻译等方面做出了重要贡献。他的加入将为AIX Ventures带来丰富的经验和指导。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、科技创新、投资与发展&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;NLP 领域被引用次数最多的研究者之一、斯坦福人工智能实验室（Stanford AI Lab）前主任克里斯托弗・曼宁（Christopher Manning）已从斯坦福大学休假，加入风险投资公司 AIX Ventures 担任普通合伙人。
+来源：https://www.wsj.com/articles/ai-researcher-christopher-manning-takes-leave-from-stanford-for-aix-ventures-0ab3cb4e?st=gLsy7t
+此前，曼宁自 2021 年起以兼职投资人身份与 AIX 展开合作，现在将全职投入为公司提供咨询服务。 
+曼宁本人在 X（前 Twitter）上确认了这一消息，并表示：「我已加入 AIX Ventures，担任普通合伙人，专注于投资深度 AI 领域的初创公司。期待与各位创始人携手攻克 AI 领域的难题，并见证这些创新产品的诞生！」 
+对于曼宁的加入，AIX Ventures 的创始合伙人 Shaun Johnson 表示：「所有顶尖的 AI 原生工程师都认识 Chris，并且他们都希望与他合作。」 
+&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>北大团队提出MTPNet：首个靶标感知的「活性悬崖」通用预测框架</title>
+        <link>https://caxlee.github.io/p/%E5%8C%97%E5%A4%A7%E5%9B%A2%E9%98%9F%E6%8F%90%E5%87%BAmtpnet%E9%A6%96%E4%B8%AA%E9%9D%B6%E6%A0%87%E6%84%9F%E7%9F%A5%E7%9A%84%E6%B4%BB%E6%80%A7%E6%82%AC%E5%B4%96%E9%80%9A%E7%94%A8%E9%A2%84%E6%B5%8B%E6%A1%86%E6%9E%B6/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%8C%97%E5%A4%A7%E5%9B%A2%E9%98%9F%E6%8F%90%E5%87%BAmtpnet%E9%A6%96%E4%B8%AA%E9%9D%B6%E6%A0%87%E6%84%9F%E7%9F%A5%E7%9A%84%E6%B4%BB%E6%80%A7%E6%82%AC%E5%B4%96%E9%80%9A%E7%94%A8%E9%A2%84%E6%B5%8B%E6%A1%86%E6%9E%B6/</guid>
+        <description>&lt;p&gt;摘要：北大团队提出了首个靶标蛋白感知的「活性悬崖」通用预测框架 MTPNet，通过多粒度靶标语义感知机制，成功解决了微小结构修改导致的活性差异难题。该框架在活性悬崖任务中取得显著性能提升，展现出理想的泛化能力与可解释性。&lt;/p&gt;
+&lt;p&gt;主题标签：科技创新、人工智能、药物研发&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;编辑 | ScienceAI
+「两个几乎一模一样的分子，一个药效惊人，一个却毫无活性。」这是药物发现中最让 AI「抓狂」的谜团 ——Activity Cliffs（活性悬崖），它是结构 - 活性映射中最难缠的一类现象：微小的结构修改，带来巨大而难以预测的活性差异。
+为了解决这一问题，北大团队提出了首个靶标蛋白感知的「活性悬崖」通用预测框架 MTPNet（Multi-Grained Target Perception Network），首次引入 「多粒度靶标语义感知机制」将靶标蛋白的宏观特征与结合位点的微观特征相结合，统一建模各类「受体 - 配体」相互作用网络，在 30 个活性悬崖数据集上取得了显著性能提升，展现出理想的泛化能力与可解释性。
+相关论文以「MTPNet: Multi-Grained Target Perception for Unified Activity Cliff Prediction」为题发布，已被 IJCAI 2025 录用。
+论文地址：https://arxiv.org/pdf/2506.05427
+开源地址：https://github.com/ZishanS&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>印度小哥简历90%造假，还身兼数职，干翻硅谷一圈AI创业公司</title>
+        <link>https://caxlee.github.io/p/%E5%8D%B0%E5%BA%A6%E5%B0%8F%E5%93%A5%E7%AE%80%E5%8E%8690%E9%80%A0%E5%81%87%E8%BF%98%E8%BA%AB%E5%85%BC%E6%95%B0%E8%81%8C%E5%B9%B2%E7%BF%BB%E7%A1%85%E8%B0%B7%E4%B8%80%E5%9C%88ai%E5%88%9B%E4%B8%9A%E5%85%AC%E5%8F%B8/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%8D%B0%E5%BA%A6%E5%B0%8F%E5%93%A5%E7%AE%80%E5%8E%8690%E9%80%A0%E5%81%87%E8%BF%98%E8%BA%AB%E5%85%BC%E6%95%B0%E8%81%8C%E5%B9%B2%E7%BF%BB%E7%A1%85%E8%B0%B7%E4%B8%80%E5%9C%88ai%E5%88%9B%E4%B8%9A%E5%85%AC%E5%8F%B8/</guid>
+        <description>&lt;p&gt;摘要：一名名为Soham Parekh的印度工程师被多家公司雇佣后发现履历造假，表现糟糕，引发业界热议。多家公司CEO分享被坑经历，揭露其多面造假行为。然而，此人在科技圈早有贡献，引发关注。&lt;/p&gt;
+&lt;p&gt;主题标签：人才招聘、职场欺诈、科技圈风波&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;这回不止奥特曼一个人头大了。
+我们知道大模型时代，最稀缺的资源是人才。
+本周四，半个硅谷的 CEO 都在讨论一个名为 Soham Parekh 的人才，不过不是因为他 AI 技术出众，而是因为他另一方面的「身怀绝技」。
+事情的爆发是在 7 月 2 日，有一个 AI 创业公司 PlayGround 的创始人发推通知大家避雷：
+该公司的创始人 Suhail Doshi 此前招募了一位名叫 Soham Parekh 的印度小哥来当工程师，结果发现他工作能力并不如意，还身兼数职，遂决定将其开除。没想到这段一年前的经历只是 Soham Parekh 神奇事迹一个小小的节点。
+Soham Parekh 是谁？作为用人单位，Suhail Doshi 贴出了 Soham 提供的简历，一看水平还挺高，佐治亚理工 CS 硕士毕业，曾在不少创业公司工作。
+Suhail 估计其中的内容 90% 是假的，而且其中大多数链接都失效了。
+另外工作地点也是假的。PlayGround 公司在雇佣 Soham Parekh 以后，曾以为他们在美国招到了人，还给他提供的假地址寄去了笔记本电脑，结果被原路退回。当时招进来工作&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>智源新出OmniGen2开源神器，一键解锁AI绘图「哆啦 A 梦」任意门</title>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90%E6%96%B0%E5%87%BAomnigen2%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E8%A7%A3%E9%94%81ai%E7%BB%98%E5%9B%BE%E5%93%86%E5%95%A6-a-%E6%A2%A6%E4%BB%BB%E6%84%8F%E9%97%A8/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90%E6%96%B0%E5%87%BAomnigen2%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E8%A7%A3%E9%94%81ai%E7%BB%98%E5%9B%BE%E5%93%86%E5%95%A6-a-%E6%A2%A6%E4%BB%BB%E6%84%8F%E9%97%A8/</guid>
+        <description>&lt;p&gt;摘要：智源研究院发布统一图像生成模型OmniGen2，通过分离式架构和双编码器策略提升图像生成质量，支持基于自然语言指令的图像编辑和多模态上下文参考的图像生成。OmniGen2还探索了图像生成反思机制，推出科研体验版并开源模型，助力统一图像生成模型实现现实应用。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、图像生成、科技创新&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;2024 年 9 月，智源研究院发布了
+统一图像生成模型 OmniGen
+。该模型在单一架构内即可支持多种图像生成任务，包括文本生成图像（Text-to-Image Generation）、图像编辑（Image Editing）和主题驱动图像生成（Subject-driven Image Generation）。用户仅需使用多模态的自然语言指令，便可灵活实现上述功能，无需依赖额外的上下文提示、插件或预处理模块。凭借其功能的高度通用性与架构的高度简洁性，OmniGen 一经发布便获得社区的广泛好评。随后，随着 Gemini 2.0 Flash 和 GPT-4o 等闭源多模态模型的相继发布，构建统一图像生成模型成为当前最受关注的研究与应用方向之一。 
+在这一背景下，OmniGen 迎来重大技术升级，正式发布
+OmniGen2
+。新一代模型在保持简洁架构的基础上，
+显著增强了上下文理解能力、指令遵循能力和图像生成质量。
+同时，OmniGen2 全面继承了其基座多模态大模型在上下文理解与生成方面的能力，
+同时支持图像和文字生成，进一步打通了多模态技术生态。
+同时，
+模型权重、训练代码及训练数&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>生命科学不香了？NSF研究生奖学金正倾向于AI和量子领域</title>
+        <link>https://caxlee.github.io/p/%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E4%B8%8D%E9%A6%99%E4%BA%86nsf%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A5%96%E5%AD%A6%E9%87%91%E6%AD%A3%E5%80%BE%E5%90%91%E4%BA%8Eai%E5%92%8C%E9%87%8F%E5%AD%90%E9%A2%86%E5%9F%9F/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E4%B8%8D%E9%A6%99%E4%BA%86nsf%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A5%96%E5%AD%A6%E9%87%91%E6%AD%A3%E5%80%BE%E5%90%91%E4%BA%8Eai%E5%92%8C%E9%87%8F%E5%AD%90%E9%A2%86%E5%9F%9F/</guid>
+        <description>&lt;p&gt;摘要：美国国家科学基金会的研究生研究奖学金项目的最新一轮获奖者中，生态学家、神经科学家和分子生物学家数量稀少，而计算机科学家获奖比例较高。科学家担心这反映了政府对科学领域多样性的投资不足，可能导致对未来科学人才培养的挑战。NSF未解释奖学金分配差异的原因。&lt;/p&gt;
+&lt;p&gt;主题标签：科学研究、教育培训、科技创新&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;编辑 | 白菜叶
+美国国家科学基金会（NSF）享有盛誉的研究生研究奖学金项目（GRFP）的获奖者中，大约五分之一通常从事生命科学领域的工作。
+然而，在 6 月初公布的最新一轮 500 名获奖者中，却没有一位是生态学家、神经科学家或分子生物学家。与此同时，计算机科学家获得的奖项比例远高于前几轮，该项目每年提供 3.7 万美元的津贴，为期三年。
+NSF 并未解释为何本届奖学金获得者的研究领域与两个月前宣布的 1000 名奖学金获得者名单如此不同。但新的分配方案似乎与唐纳德·特朗普优先发展人工智能和量子信息科学的举措相符。
+一些科学家担心，这或许也反映了特朗普反对任何旨在扩大科学领域参与度的联邦投资，因为最新一届奖学金获得者中的大多数从事的研究领域都以男性、白人和亚裔为主。
+该项目面向 NSF 资助的任何领域的学生开放，自 1952 年启动以来已培养了 50 位诺贝尔奖得主。但许多科学家认为，2025 年首届学生规模（不到以往年度人数的一半）背离了 NSF 培养下一代美国科学家和工程师的历史使命。上个月，NSF 的监管机构表示希望看到私营部门资助大量未来研究员，这加剧了他们的担忧。
+NSF &amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>登上热搜！Prompt不再是AI重点，新热点是Context Engineering</title>
+        <link>https://caxlee.github.io/p/%E7%99%BB%E4%B8%8A%E7%83%AD%E6%90%9Cprompt%E4%B8%8D%E5%86%8D%E6%98%AFai%E9%87%8D%E7%82%B9%E6%96%B0%E7%83%AD%E7%82%B9%E6%98%AFcontext-engineering/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E7%99%BB%E4%B8%8A%E7%83%AD%E6%90%9Cprompt%E4%B8%8D%E5%86%8D%E6%98%AFai%E9%87%8D%E7%82%B9%E6%96%B0%E7%83%AD%E7%82%B9%E6%98%AFcontext-engineering/</guid>
+        <description>&lt;p&gt;摘要：「上下文工程」近期备受关注，以构建有效的输入文本来引导模型生成输出文本为核心。与过去的「提示词工程」不同，「上下文工程」强调构建自动化系统，从数据库、文档等来源自动抓取、整合信息，为模型提供完整的上下文。工程师在实践中应从科学实验的角度出发，通过严谨的流程规划和构建系统，将「上下文工程」转变为工程科学。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能, 技术创新, 数据科学&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;最近
+「
+上下文工程
+」
+有多火？Andrej Karpathy 为其打 Call，Phil Schmid 介绍上下文工程的文章成为 Hacker News 榜首，还登上了知乎热搜榜。
+之前我们介绍了
+上下文工程的基本概念
+，今天我们来聊聊实操。
+为什么关注「上下文工程」
+我们很容易将 LLM 拟人化——把它们当作能够「思考」、「理解」或「感到困惑」的超级助手。从工程学的角度来看，这是一个根本性的错误。LLM 并不具备信念或意图，它是一个智能的文本生成器。
+更准确的看法是：LLM 是一个
+通用的、不确定的
+函数。这个函数的工作方式是：你给它一段
+文本（上下文）
+，它会生成一段新的
+文本（输出）
+。
+通用
+：意味着它能处理各种任务（如翻译、写代码），无需为每个任务单独编程。
+不确定
+：意味着同样的输入，每次可能得到稍有不同的输出。这是它的特点，不是毛病。
+无状态
+：意味着它没有记忆。你必须在每次输入时，提供所有相关的背景信息，它才能「记住」对话。
+这个视角至关重要，因为它明确了我们的工作重心：我们无法改变模型本身，但可以完全
+控制输入
+。所有优化的关键，在于如何构建最有效的输入文本（即上&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>重磅发现！大模型的「aha moment」不是装腔作势，内部信息量暴增数倍！</title>
+        <link>https://caxlee.github.io/p/%E9%87%8D%E7%A3%85%E5%8F%91%E7%8E%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84aha-moment%E4%B8%8D%E6%98%AF%E8%A3%85%E8%85%94%E4%BD%9C%E5%8A%BF%E5%86%85%E9%83%A8%E4%BF%A1%E6%81%AF%E9%87%8F%E6%9A%B4%E5%A2%9E%E6%95%B0%E5%80%8D/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%87%8D%E7%A3%85%E5%8F%91%E7%8E%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84aha-moment%E4%B8%8D%E6%98%AF%E8%A3%85%E8%85%94%E4%BD%9C%E5%8A%BF%E5%86%85%E9%83%A8%E4%BF%A1%E6%81%AF%E9%87%8F%E6%9A%B4%E5%A2%9E%E6%95%B0%E5%80%8D/</guid>
+        <description>&lt;p&gt;摘要：中国人民大学等研究团队通过信息论手段揭示大型模型内部推理过程中的&amp;quot;信息高峰&amp;quot;现象，证明了&amp;quot;思考词汇&amp;quot;在模型推理中的重要性。他们提出了两种无需额外训练的方法，可显著提升模型推理性能。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、信息论、机器学习&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;刘勇，中国人民大学，长聘副教授，博士生导师，国家级高层次青年人才。长期从事机器学习基础理论研究，共发表论文 100 余篇，其中以第一作者/通讯作者发表顶级期刊和会议论文近 50 篇，涵盖机器学习领域顶级期刊 JMLR、IEEE TPAMI、Artificial Intelligence 和顶级会议 ICML、NeurIPS 等。
+你肯定见过大模型在解题时「装模作样」地输出：「Hmm…」、「Wait, let me think」、「Therefore…」这些看似「人类化」的思考词。
+但一个灵魂拷问始终存在：
+这些词真的代表模型在「思考」，还是仅仅为了「表演」更像人类而添加的语言装饰？是模型的「顿悟时刻」，还是纯粹的「烟雾弹」？
+现在，实锤来了！
+来自中国人民大学高瓴人工智能学院、上海人工智能实验室、伦敦大学学院（UCL）和大连理工大学的联合研究团队，在最新论文中首次利用
+信息论
+这把「手术刀」，精准解剖了大模型内部的推理动态，给出了令人信服的答案：
+当这些「思考词」出现的瞬间，模型大脑（隐空间）中关于正确答案的信息量，会突然飙升数倍！
+这绝非偶然装饰，而是真正的「
+信息高峰
+」与「
+决策&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>首次！世界模型、动作模型融合，全自回归模型WorldVLA来了</title>
+        <link>https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/</link>
+        <pubDate>Thu, 03 Jul 2025 21:53:09 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/</guid>
+        <description>&lt;p&gt;摘要：阿里巴巴达摩院研究员岑俊提出了WorldVLA模型，将世界模型和动作模型融合，实现了统一的文本、图片、动作理解和生成模型。该模型通过自回归机制实现双向图像与动作的理解和生成，采用动作注意力掩码策略解决了动作累积误差问题，在实验中表现出良好的性能。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、机器学习、模型融合&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;岑俊，阿里巴巴达摩院具身智能大模型算法研究员，博士毕业于香港科技大学。研究方向主要是：具身智能 VLA 模型，世界模型。
+阿里巴巴达摩院提出了 WorldVLA, 首次将世界模型 (World Model) 和动作模型 (Action Model/VLA Model) 融合到了一个模型中。WorldVLA 是一个统一了文本、图片、动作理解和生成的全自回归模型。
+论文标题：WorldVLA: Towards Autoregressive Action World Model
+论文地址：https://arxiv.org/pdf/2506.21539
+代码地址：https://github.com/alibaba-damo-academy/WorldVLA
+研究简介
+近年来，视觉 - 语言 - 动作（Vision-Language-Action, VLA）模型的发展成为机器人动作建模研究的重要方向。这类模型通常是在大规模预训练的多模态大语言模型（Multimodal Large Language Models, MLLMs）基础上，添加一个动作输出头或专门的动作模块，以实现对动作的生成。M&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>AI Agent、传统聊天机器人有何区别？如何评测？这篇30页综述讲明白了</title>
         <link>https://caxlee.github.io/p/ai-agent%E4%BC%A0%E7%BB%9F%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB%E5%A6%82%E4%BD%95%E8%AF%84%E6%B5%8B%E8%BF%99%E7%AF%8730%E9%A1%B5%E7%BB%BC%E8%BF%B0%E8%AE%B2%E6%98%8E%E7%99%BD%E4%BA%86/</link>
         <pubDate>Wed, 02 Jul 2025 16:42:32 +0800</pubDate>

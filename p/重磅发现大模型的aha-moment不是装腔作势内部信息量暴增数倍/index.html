@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：中国人民大学等研究团队通过信息论手段揭示大型模型内部推理过程中的&quot;信息高峰&quot;现象，证明了&quot;思考词汇&quot;在模型推理中的重要性。他们提出了两种无需额外训练的方法，可显著提升模型推理性能。\n主题标签：人工智能、信息论、机器学习\n原文摘要 刘勇，中国人民大学，长聘副教授，博士生导师，国家级高层次青年人才。长期从事机器学习基础理论研究，共发表论文 100 余篇，其中以第一作者/通讯作者发表顶级期刊和会议论文近 50 篇，涵盖机器学习领域顶级期刊 JMLR、IEEE TPAMI、Artificial Intelligence 和顶级会议 ICML、NeurIPS 等。 你肯定见过大模型在解题时「装模作样」地输出：「Hmm…」、「Wait, let me think」、「Therefore…」这些看似「人类化」的思考词。 但一个灵魂拷问始终存在： 这些词真的代表模型在「思考」，还是仅仅为了「表演」更像人类而添加的语言装饰？是模型的「顿悟时刻」，还是纯粹的「烟雾弹」？ 现在，实锤来了！ 来自中国人民大学高瓴人工智能学院、上海人工智能实验室、伦敦大学学院（UCL）和大连理工大学的联合研究团队，在最新论文中首次利用 信息论 这把「手术刀」，精准解剖了大模型内部的推理动态，给出了令人信服的答案： 当这些「思考词」出现的瞬间，模型大脑（隐空间）中关于正确答案的信息量，会突然飙升数倍！ 这绝非偶然装饰，而是真正的「 信息高峰 」与「 决策&hellip;\n">
+<title>重磅发现！大模型的「aha moment」不是装腔作势，内部信息量暴增数倍！</title>
+
+<link rel='canonical' href='https://caxlee.github.io/p/%E9%87%8D%E7%A3%85%E5%8F%91%E7%8E%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84aha-moment%E4%B8%8D%E6%98%AF%E8%A3%85%E8%85%94%E4%BD%9C%E5%8A%BF%E5%86%85%E9%83%A8%E4%BF%A1%E6%81%AF%E9%87%8F%E6%9A%B4%E5%A2%9E%E6%95%B0%E5%80%8D/'>
+
+<link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="重磅发现！大模型的「aha moment」不是装腔作势，内部信息量暴增数倍！">
+<meta property='og:description' content="摘要：中国人民大学等研究团队通过信息论手段揭示大型模型内部推理过程中的&quot;信息高峰&quot;现象，证明了&quot;思考词汇&quot;在模型推理中的重要性。他们提出了两种无需额外训练的方法，可显著提升模型推理性能。\n主题标签：人工智能、信息论、机器学习\n原文摘要 刘勇，中国人民大学，长聘副教授，博士生导师，国家级高层次青年人才。长期从事机器学习基础理论研究，共发表论文 100 余篇，其中以第一作者/通讯作者发表顶级期刊和会议论文近 50 篇，涵盖机器学习领域顶级期刊 JMLR、IEEE TPAMI、Artificial Intelligence 和顶级会议 ICML、NeurIPS 等。 你肯定见过大模型在解题时「装模作样」地输出：「Hmm…」、「Wait, let me think」、「Therefore…」这些看似「人类化」的思考词。 但一个灵魂拷问始终存在： 这些词真的代表模型在「思考」，还是仅仅为了「表演」更像人类而添加的语言装饰？是模型的「顿悟时刻」，还是纯粹的「烟雾弹」？ 现在，实锤来了！ 来自中国人民大学高瓴人工智能学院、上海人工智能实验室、伦敦大学学院（UCL）和大连理工大学的联合研究团队，在最新论文中首次利用 信息论 这把「手术刀」，精准解剖了大模型内部的推理动态，给出了令人信服的答案： 当这些「思考词」出现的瞬间，模型大脑（隐空间）中关于正确答案的信息量，会突然飙升数倍！ 这绝非偶然装饰，而是真正的「 信息高峰 」与「 决策&hellip;\n">
+<meta property='og:url' content='https://caxlee.github.io/p/%E9%87%8D%E7%A3%85%E5%8F%91%E7%8E%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84aha-moment%E4%B8%8D%E6%98%AF%E8%A3%85%E8%85%94%E4%BD%9C%E5%8A%BF%E5%86%85%E9%83%A8%E4%BF%A1%E6%81%AF%E9%87%8F%E6%9A%B4%E5%A2%9E%E6%95%B0%E5%80%8D/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-03T21:53:09&#43;08:00'/><meta property='article:modified_time' content='2025-07-03T21:53:09&#43;08:00'/>
+<meta name="twitter:title" content="重磅发现！大模型的「aha moment」不是装腔作势，内部信息量暴增数倍！">
+<meta name="twitter:description" content="摘要：中国人民大学等研究团队通过信息论手段揭示大型模型内部推理过程中的&quot;信息高峰&quot;现象，证明了&quot;思考词汇&quot;在模型推理中的重要性。他们提出了两种无需额外训练的方法，可显著提升模型推理性能。\n主题标签：人工智能、信息论、机器学习\n原文摘要 刘勇，中国人民大学，长聘副教授，博士生导师，国家级高层次青年人才。长期从事机器学习基础理论研究，共发表论文 100 余篇，其中以第一作者/通讯作者发表顶级期刊和会议论文近 50 篇，涵盖机器学习领域顶级期刊 JMLR、IEEE TPAMI、Artificial Intelligence 和顶级会议 ICML、NeurIPS 等。 你肯定见过大模型在解题时「装模作样」地输出：「Hmm…」、「Wait, let me think」、「Therefore…」这些看似「人类化」的思考词。 但一个灵魂拷问始终存在： 这些词真的代表模型在「思考」，还是仅仅为了「表演」更像人类而添加的语言装饰？是模型的「顿悟时刻」，还是纯粹的「烟雾弹」？ 现在，实锤来了！ 来自中国人民大学高瓴人工智能学院、上海人工智能实验室、伦敦大学学院（UCL）和大连理工大学的联合研究团队，在最新论文中首次利用 信息论 这把「手术刀」，精准解剖了大模型内部的推理动态，给出了令人信服的答案： 当这些「思考词」出现的瞬间，模型大脑（隐空间）中关于正确答案的信息量，会突然飙升数倍！ 这绝非偶然装饰，而是真正的「 信息高峰 」与「 决策&hellip;\n">
+<style>
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/css/custom-post.css"> 
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended">
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#原文摘要">原文摘要</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E9%87%8D%E7%A3%85%E5%8F%91%E7%8E%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84aha-moment%E4%B8%8D%E6%98%AF%E8%A3%85%E8%85%94%E4%BD%9C%E5%8A%BF%E5%86%85%E9%83%A8%E4%BF%A1%E6%81%AF%E9%87%8F%E6%9A%B4%E5%A2%9E%E6%95%B0%E5%80%8D/">重磅发现！大模型的「aha moment」不是装腔作势，内部信息量暴增数倍！</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 03, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+    
+    <section class="article-content">
+    <p>摘要：中国人民大学等研究团队通过信息论手段揭示大型模型内部推理过程中的&quot;信息高峰&quot;现象，证明了&quot;思考词汇&quot;在模型推理中的重要性。他们提出了两种无需额外训练的方法，可显著提升模型推理性能。</p>
+<p>主题标签：人工智能、信息论、机器学习</p>
+<h2 id="原文摘要">原文摘要
+</h2><p>刘勇，中国人民大学，长聘副教授，博士生导师，国家级高层次青年人才。长期从事机器学习基础理论研究，共发表论文 100 余篇，其中以第一作者/通讯作者发表顶级期刊和会议论文近 50 篇，涵盖机器学习领域顶级期刊 JMLR、IEEE TPAMI、Artificial Intelligence 和顶级会议 ICML、NeurIPS 等。
+你肯定见过大模型在解题时「装模作样」地输出：「Hmm…」、「Wait, let me think」、「Therefore…」这些看似「人类化」的思考词。
+但一个灵魂拷问始终存在：
+这些词真的代表模型在「思考」，还是仅仅为了「表演」更像人类而添加的语言装饰？是模型的「顿悟时刻」，还是纯粹的「烟雾弹」？
+现在，实锤来了！
+来自中国人民大学高瓴人工智能学院、上海人工智能实验室、伦敦大学学院（UCL）和大连理工大学的联合研究团队，在最新论文中首次利用
+信息论
+这把「手术刀」，精准解剖了大模型内部的推理动态，给出了令人信服的答案：
+当这些「思考词」出现的瞬间，模型大脑（隐空间）中关于正确答案的信息量，会突然飙升数倍！
+这绝非偶然装饰，而是真正的「
+信息高峰
+」与「
+决策&hellip;</p>
+</section>
+    
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+    
+    
+    
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--reading">
+            
+        </time>
+    
+</article> 
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
