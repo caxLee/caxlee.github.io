@@ -321,23 +321,23 @@ article:hover {
 /* Article Grid Layout - 3x3 grid */
 .article-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* two huge cards per row */
-    gap: 60px;
-    margin-top: 60px;
-    padding: 0 40px;
+    grid-template-columns: repeat(3, 1fr); /* three cards per row */
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0 20px;
     counter-reset: article-counter !important; /* 强制重置计数器 */
 }
 
 .article-grid article {
     border: 1px solid #eaeaea;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: visible !important; /* 确保伪元素不被裁剪 */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     position: relative !important; /* 确保定位上下文 */
 }
 
 .article-grid .article-image {
-    height: 500px; /* taller image */
+    height: 200px; /* normal image height */
 }
 
 .article-grid .article-image img {
@@ -355,23 +355,23 @@ article:hover {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     background-color: #fff;
 }
 
 .article-grid .article-title {
-    font-size: 2rem;
-    margin-bottom: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 .article-grid .article-summary {
-    font-size: 1.2rem;
-    line-height: 1.9;
-    margin-bottom: 25px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 .article-grid .article-time {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 /* Improved Article Numbering */
@@ -388,24 +388,24 @@ article:hover {
     right: 0;
     transform: translate(50%, -50%);
     pointer-events: none; /* 防止阻止点击 */
-    background-color: #7b1fa2 !important; /* 深紫色 */
+    background-color: rgba(0, 0, 0, 0.5) !important; /* 半透明黑色 */
     color: #ffffff !important; /* 白色文字 */
-    width: 36px !important; /* 调整为36px */
-    height: 36px !important; /* 调整为36px */
+    width: 28px !important; /* 调整为28px */
+    height: 28px !important; /* 调整为28px */
     border-radius: 50%;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    font-size: 2rem !important; /* 调整为2rem */
+    font-size: 0.9rem !important; /* 调整为0.9rem */
     font-weight: bold;
     z-index: 100 !important; /* 提高z-index确保显示在最上层 */
     transition: transform 0.2s ease;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* 添加阴影增强可见性 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 添加阴影增强可见性 */
 }
 
 .article-grid article:hover::before {
-    background-color: #4a148c !important; /* 悬停更深紫 */
-    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.7) !important; /* 悬停更深黑 */
+    transform: translate(50%, -50%) scale(1.05);
 }
 
 /* Numbered Post in List View */
