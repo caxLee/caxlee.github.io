@@ -10,7 +10,7 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/404.html'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-03T21:53:09&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-04T20:13:19&#43;08:00 '/>
 <meta name="twitter:title" content="404 Page not found">
 <meta name="twitter:description" content="Example description">
 <style>
@@ -42,7 +42,7 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
     </head>
-    <body class="">
+    <body class=" simplified-layout">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -65,7 +65,38 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended">
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">Select Date</label>
+            
+            <input type="date" id="date-select" value="2025-07-04">
+        </div>
+    </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> <div class="container main-container">
             <main class="main full-width">
     <div class="not-found-card">
         <h1 class="article-title">Not Found</h1>
@@ -140,4 +171,4 @@
 </script>
 
     </body>
-</html>
+</html> 

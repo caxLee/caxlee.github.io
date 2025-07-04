@@ -42,7 +42,7 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
     </head>
-    <body class="template-archives">
+    <body class="template-archives simplified-layout">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -65,7 +65,38 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended">
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">Select Date</label>
+            
+            <input type="date" id="date-select" value="2025-07-04">
+        </div>
+    </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> <div class="container main-container">
             <main class="main full-width">
     <header>
         <h2 class="section-title">Categories</h2>
@@ -151,6 +182,17 @@
     <div class="archives-group" id="2025">
         <h2 class="archives-date section-title"><a href="/archives/#2025">2025</a></h2>
         <div class="article-list--compact">
+            
+                <article class="preview">
+    <a href="/news.mit.edu/2025/mit-mgh-researchers-find-disparities-organ-allocation-0703" class="article-link">
+        <div class="article-details">
+            <h2 class="article-title">MIT and Mass General Hospital researchers find disparities in organ allocation</h2>
+            <footer class="article-time">
+                <time datetime="2025-07-04 20:13:19 &#43;0800 CST">Jul 04, 2025</time>
+            </footer>
+        </div>
+    </a>
+</article> 
             
                 <article class="preview">
     <a href="/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/" class="article-link">
@@ -1127,4 +1169,4 @@
 </script>
 
     </body>
-</html>
+</html> 

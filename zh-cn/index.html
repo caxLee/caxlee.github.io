@@ -43,7 +43,7 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
     </head>
-    <body class="">
+    <body class=" simplified-layout">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -66,443 +66,47 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended">
-            <main class="main full-width">
-    <style>
-        .header-section {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-            padding: 1rem 0;
-            border-bottom: 2px solid var(--border-color);
-        }
-        .daily-news-title {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            font-size: 2rem;
-            font-weight: bold;
-            color: var(--card-text-color-main);
-        }
-        .daily-news-icon {
-            width: 48px;
-            height: 48px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-        .date-selector-form {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            background: var(--card-background);
-            padding: 1.25rem 2rem;
-            border-radius: 16px;
-            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-            border: 3px solid var(--border-color);
-            transition: all 0.3s ease;
-            min-width: 350px;
-            cursor: pointer;
-            position: relative;
-        }
-        .date-selector-form:hover {
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-            border-color: var(--accent-color);
-            transform: translateY(-2px);
-        }
-        .date-selector-form:active {
-            transform: translateY(0);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-        }
-        .date-selector-form::after {
-            content: "点击选择日期";
-            position: absolute;
-            top: -30px;
-            right: 0;
-            background: var(--accent-color);
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            pointer-events: none;
-        }
-        .date-selector-form:hover::after {
-            opacity: 1;
-        }
-        .date-selector-form label {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-weight: 700;
-            color: var(--card-text-color-main);
-            font-size: 1.2rem;
-            white-space: nowrap;
-        }
-        .date-selector-form label::before {
-            content: "📅";
-            font-size: 1.5rem;
-        }
-        .date-selector-form input[type="date"] {
-            padding: 1rem 1.5rem;
-            border: 3px solid transparent;
-            border-radius: 12px;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            color: var(--body-font-color);
-            font-size: 1.1rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            min-width: 180px;
-            flex-grow: 1;
-        }
-        .date-selector-form input[type="date"]:focus {
-            outline: none;
-            border-color: var(--accent-color);
-            background: var(--card-background);
-            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
-            transform: translateY(-1px);
-        }
-        .date-selector-form input[type="date"]:hover {
-            background: var(--card-background);
-            transform: translateY(-1px);
-        }
-        .date-selector-form input[type="date"]:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-            background: #f5f5f5;
-        }
-         
-        .date-selector-form input[type="date"]::-webkit-calendar-picker-indicator {
-            background: transparent;
-            color: var(--accent-color);
-            cursor: pointer;
-            padding: 0.5rem;
-            border-radius: 6px;
-            transition: all 0.3s ease;
-            font-size: 1.2rem;
-        }
-        .date-selector-form input[type="date"]::-webkit-calendar-picker-indicator:hover {
-            background: var(--accent-color);
-            color: white;
-            transform: scale(1.1);
-        }
-        .article-list {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2.5rem;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 2rem 0;
-        }
-        .article-wrapper {
-            background: var(--card-background);
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            border: 1px solid var(--border-color);
-            min-height: 400px;
-            position: relative;
-            cursor: pointer;
-        }
-        .article-wrapper:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
-        }
-        .article-wrapper a.card-link {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-        }
-        .article-wrapper article {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            z-index: 0;
-        }
-        .article-wrapper .article-image img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-        .article-wrapper:hover .article-image img {
-            transform: scale(1.05);
-        }
-        .article-wrapper .article-details {
-            padding: 2rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .article-wrapper .article-title {
-            font-size: 1.6rem;
-            font-weight: 700;
-            line-height: 1.3;
-            margin-bottom: 1.5rem;
-            color: var(--card-text-color-main);
-            position: relative;
-            z-index: 0;
-        }
-        .article-wrapper .article-title a {
-            color: inherit;
-            text-decoration: none;
-        }
-        .article-wrapper .article-title a:hover {
-            color: var(--accent-color);
-        }
-        .article-wrapper .article-summary {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            color: var(--card-text-color-secondary);
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            position: relative;
-            z-index: 0;
-        }
-        .article-wrapper .article-time {
-            font-size: 1rem;
-            color: var(--card-text-color-tertiary);
-            margin-top: auto;
-            font-weight: 500;
-            position: relative;
-            z-index: 0;
-        }
-        .pagination-controls {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.5rem;
-            margin: 3rem 0;
-        }
-        .pagination-btn {
-            padding: 1rem 1.5rem;
-            border: 2px solid var(--border-color);
-            border-radius: 10px;
-            background-color: var(--card-background);
-            color: var(--body-font-color);
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            min-width: 50px;
-            font-size: 1.1rem;
-        }
-        .pagination-btn:hover:not(:disabled) {
-            background-color: var(--accent-color);
-            color: var(--accent-color-text);
-            border-color: var(--accent-color);
-            transform: translateY(-2px);
-        }
-        .pagination-btn.active {
-            background-color: var(--accent-color);
-            color: var(--accent-color-text);
-            border-color: var(--accent-color);
-            font-weight: bold;
-        }
-        .pagination-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-        .no-articles {
-            text-align: center;
-            padding: 4rem;
-            color: var(--card-text-color-secondary);
-            font-size: 1.4rem;
-        }
-        @media (max-width: 1200px) {
-            .article-list {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 2rem;
-            }
-        }
-        @media (max-width: 768px) {
-            .article-list {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-            .header-section {
-                flex-direction: column;
-                gap: 1rem;
-                align-items: flex-start;
-            }
-            .daily-news-title {
-                font-size: 1.5rem;
-            }
-            .daily-news-icon {
-                width: 40px;
-                height: 40px;
-                font-size: 1.2rem;
-            }
-        }
-    </style>
-
-    <div class="header-section">
-        <div class="daily-news-title">
-            <div class="daily-news-icon">🤖</div>
-            Daily AI News
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
         </div>
-        <div class="date-selector-form">
-            <label for="date-input">选择日期:</label>
-            <input type="date" id="date-input" name="date" value="">
+        
+        <div class="date-selector">
+            <label for="date-select">选择日期</label>
+            
+            <input type="date" id="date-select" value="2025-07-04">
         </div>
     </div>
-
-    <section class="article-list" id="article-list">
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> <div class="container main-container">
+            <main class="main full-width">
+    
+    
+    
+    
+    
+    <section class="article-grid" style="counter-reset: article-counter;">
         
-        
-        
-    </section>
-
-    <div class="pagination-controls" id="pagination-controls"></div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const datePicker = document.getElementById('date-input');
-            const articleList = document.getElementById('article-list');
-            const allArticles = Array.from(articleList.querySelectorAll('.article-wrapper[data-date]'));
-            const paginationControls = document.getElementById('pagination-controls');
-            const pageSize = 9;
-            let filteredArticles = allArticles;
-            let currentPage = 1;
-
-            
-            const today = new Date().toISOString().split('T')[0];
-            datePicker.max = today;
-
-            
-            datePicker.value = today;
-
-            function renderPage(page) {
-                
-                allArticles.forEach(a => a.style.display = 'none');
-                
-                const start = (page - 1) * pageSize;
-                const end = start + pageSize;
-                const articlesToShow = filteredArticles.slice(start, end);
-                articlesToShow.forEach(a => a.style.display = 'block');
-                
-                
-                if (filteredArticles.length === 0) {
-                    const noArticles = document.createElement('div');
-                    noArticles.className = 'no-articles';
-                    noArticles.innerHTML = '<p>该日期暂无文章</p>';
-                    articleList.appendChild(noArticles);
-                } else {
-                    const existingNoArticles = articleList.querySelector('.no-articles');
-                    if (existingNoArticles) {
-                        existingNoArticles.remove();
-                    }
-                }
-            }
-
-            function renderPagination() {
-                paginationControls.innerHTML = '';
-                const totalPages = Math.ceil(filteredArticles.length / pageSize);
-                if (totalPages <= 1) return;
-                
-                
-                const prevBtn = document.createElement('button');
-                prevBtn.textContent = '‹';
-                prevBtn.className = 'pagination-btn';
-                prevBtn.disabled = currentPage === 1;
-                prevBtn.onclick = () => { if (currentPage > 1) { currentPage--; update(); } };
-                paginationControls.appendChild(prevBtn);
-                
-                
-                const maxVisiblePages = 5;
-                let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-                let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-                
-                if (endPage - startPage + 1 < maxVisiblePages) {
-                    startPage = Math.max(1, endPage - maxVisiblePages + 1);
-                }
-                
-                for (let i = startPage; i <= endPage; i++) {
-                    const btn = document.createElement('button');
-                    btn.textContent = i;
-                    btn.className = 'pagination-btn' + (i === currentPage ? ' active' : '');
-                    btn.onclick = () => { currentPage = i; update(); };
-                    paginationControls.appendChild(btn);
-                }
-                
-                
-                const nextBtn = document.createElement('button');
-                nextBtn.textContent = '›';
-                nextBtn.className = 'pagination-btn';
-                nextBtn.disabled = currentPage === totalPages;
-                nextBtn.onclick = () => { if (currentPage < totalPages) { currentPage++; update(); } };
-                paginationControls.appendChild(nextBtn);
-            }
-
-            function update() {
-                renderPage(currentPage);
-                renderPagination();
-            }
-
-            function filterByDate() {
-                const date = datePicker.value;
-                console.log('Date changed to:', date); 
-                
-                if (!date) {
-                    filteredArticles = allArticles;
-                } else {
-                    filteredArticles = allArticles.filter(a => a.dataset.date === date);
-                }
-                
-                console.log('Filtered articles count:', filteredArticles.length); 
-                currentPage = 1;
-                update();
-            }
-
-            
-            datePicker.addEventListener('click', function(e) {
-                e.preventDefault();
-                this.showPicker();
-            });
-
-            
-            datePicker.addEventListener('change', filterByDate);
-            datePicker.addEventListener('input', filterByDate);
-            datePicker.addEventListener('blur', filterByDate);
-
-            
-            const dateSelectorForm = document.querySelector('.date-selector-form');
-            dateSelectorForm.addEventListener('click', function(e) {
-                if (e.target !== datePicker) {
-                    datePicker.focus();
-                    datePicker.showPicker();
-                }
-            });
-
-            
-            console.log('Initializing with date:', today); 
-            filterByDate();
-        });
-    </script><footer class="site-footer">
+    </section><footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -537,4 +141,4 @@
 </script>
 
     </body>
-</html>
+</html> 

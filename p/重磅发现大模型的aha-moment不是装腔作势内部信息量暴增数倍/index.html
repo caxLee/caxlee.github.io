@@ -44,7 +44,7 @@
     </head>
     <body class="
     article-page
-    ">
+     simplified-layout">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -67,40 +67,38 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended">
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
         </div>
-        <h2 class="widget-title section-title">Table of contents</h2>
         
-        <div class="widget--toc">
-            <nav id="TableOfContents">
-  <ol>
-    <li><a href="#原文摘要">原文摘要</a></li>
-  </ol>
-</nav>
-        </div>
-    </section>
-
+        <div class="date-selector">
+            <label for="date-select">Select Date</label>
             
-        
-    </aside>
-
-
+            <input type="date" id="date-select" value="2025-07-04">
+        </div>
+    </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> <div class="container main-container">
             <main class="main full-width">
     <article class="">
     <header class="article-header">
@@ -378,4 +376,4 @@
 </script>
 
     </body>
-</html>
+</html> 

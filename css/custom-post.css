@@ -217,4 +217,262 @@ article:hover {
 .article-wrapper:active {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Header Styles - Inspired by daily-arXiv-ai-enhanced */
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px; /* increase height */
+}
+
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ai-news-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem;
+}
+
+.ai-news-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.date-selector label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* New calendar-style input */
+.date-selector input[type="date"] {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 220px;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 30px 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+/* Add padding to main container to account for fixed header */
+.main-container {
+    padding-top: 80px !important;
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+
+/* Simplified Layout */
+.simplified-layout .container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.simplified-layout .main {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Article Grid Layout - 3x3 grid */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two huge cards per row */
+    gap: 60px;
+    margin-top: 60px;
+    padding: 0 40px;
+    counter-reset: article-counter !important; /* 强制重置计数器 */
+}
+
+.article-grid article {
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    overflow: visible !important; /* 确保伪元素不被裁剪 */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    position: relative !important; /* 确保定位上下文 */
+}
+
+.article-grid .article-image {
+    height: 500px; /* taller image */
+}
+
+.article-grid .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.article-grid article:hover .article-image img {
+    transform: scale(1.05);
+}
+
+.article-grid .article-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.article-grid .article-title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.article-grid .article-summary {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+.article-grid .article-time {
+    font-size: 1.1rem;
+}
+
+/* Improved Article Numbering */
+.article-grid article {
+    position: relative;
+}
+
+/* 修复伪元素样式 */
+.article-grid article::before {
+    counter-increment: article-counter;
+    content: counter(article-counter) !important; /* 强制生成内容 */
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    pointer-events: none; /* 防止阻止点击 */
+    background-color: #7b1fa2 !important; /* 深紫色 */
+    color: #ffffff !important; /* 白色文字 */
+    width: 36px !important; /* 调整为36px */
+    height: 36px !important; /* 调整为36px */
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 2rem !important; /* 调整为2rem */
+    font-weight: bold;
+    z-index: 100 !important; /* 提高z-index确保显示在最上层 */
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* 添加阴影增强可见性 */
+}
+
+.article-grid article:hover::before {
+    background-color: #4a148c !important; /* 悬停更深紫 */
+    transform: scale(1.05);
+}
+
+/* Numbered Post in List View */
+.numbered-post {
+    display: flex;
+    position: relative;
+    padding-left: 40px;
+}
+
+.post-number {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.post-content {
+    flex-grow: 1;
+}
+
+/* Hide footer */
+.footer {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .article-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .main-container {
+        padding-top: 140px !important;
+    }
+    
+    .article-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0 20px;
+    }
+    .article-grid .article-image {
+        height: 350px;
+    }
+    
+    .date-selector {
+        width: 100%;
+    }
+    
+    .date-selector select {
+        width: 100%;
+    }
 } 
