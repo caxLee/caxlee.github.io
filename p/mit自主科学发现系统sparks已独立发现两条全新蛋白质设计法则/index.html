@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：清华大学博士生郑凯文提出了一种新的视觉生成模型优化方法——直接判别优化（DDO），通过将基于似然的生成模型隐式参数化为GAN，解决了传统最大似然训练的性能瓶颈。DDO不需额外网络、训练高效，提高了生成质量。该方法在多个标准图像生成任务中刷新了现有SOTA。\n主题标签：人工智能、深度学习、计算机视觉\n原文摘要 文章一作郑凯文为清华大学三年级博士生，研究方向为深度生成模型，曾提出流式扩散模型最大似然估计改进技术 i-DODE，扩散模型高效采样器 DPM-Solver-v3，扩散桥模型采样器 DBIM 以及掩码式离散扩散模型采样器 FHS 等。 清华大学朱军教授团队与 NVIDIA Deep Imagination 研究组联合提出一种全新的视觉生成模型优化范式 —— 直接判别优化（DDO）。该方法将基于似然的生成模型（如扩散模型、自回归模型）隐式参数化为 GAN，从而设计出一种无需额外网络、训练高效的微调方法，并大幅突破传统最大似然训练的性能瓶颈。 论文标题：Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator 论文链接：https://arxiv.org/abs/2503.01103 代码仓库：https://github.com/NVlabs/DDO 背景 | 基于似然的生成模型 近年来，扩散模型（Diffusion M&hellip;\n">
-<title>ICML 2025 Spotlight | 清华朱军组&amp;NVIDIA提出DDO：扩散/自回归模型训练新范式，刷新图像生成SOTA</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：麻省理工学院推出了自主科学发现模型SPARKS，这是一个多模态多智能体AI模型，可以自主进行整个科学发现过程，包括假设生成、实验设计和迭代改进，无需人工干预。研究人员已证明SPARKS适用于各个领域，揭示了蛋白质设计中的两条新规则。\n主题标签：人工智能、科学发现、多模态智能体\n原文摘要 编辑 | 萝卜皮 人工智能（AI）的进步有望实现自主科学发现，但大多数系统仍在重复训练数据中潜藏的知识。 几个月前，麻省理工学院（MIT）的 Markus J. Buehler 和 Alireza Ghafarollahi 推出了自主科学发现模型 SPARKS。 这是一个多模态多智能体（Agent） AI 模型，它可以执行整个发现周期，包括假设生成、实验设计和迭代改进，从而在无需人工干预的情况下开发出可推广的原则并生成报告。 论文链接：https://arxiv.org/abs/2504.19017 研究人员已证明其适用于从蛋白质、仿生材料到无机材料等各个领域的广泛问题空间。SPARKS 利用实践学习，通过自我批判进行思考，并使用递归交互创造知识；它不仅与数据交互，还与其自身想法的物理和逻辑后果交互。 它完成了整个科学循环——假设生成、数据检索、编码、模拟、评审、改进以及详细的稿件撰写——无需提示、手动调整或人工监督。 视频：SPARKS 简介。（来源：X） SPARKS 与当下的前沿模型有着本质不同。 虽然像 o3-pro 和 o3 deep research 这样的模型可以生成摘要&hellip;\n">
+<title>MIT自主科学发现系统SPARKS：已独立发现两条全新蛋白质设计法则</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/icml-2025-spotlight-%E6%B8%85%E5%8D%8E%E6%9C%B1%E5%86%9B%E7%BB%84nvidia%E6%8F%90%E5%87%BAddo%E6%89%A9%E6%95%A3/%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%96%B0%E8%8C%83%E5%BC%8F%E5%88%B7%E6%96%B0%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90sota/'>
+<link rel='canonical' href='https://caxlee.github.io/p/mit%E8%87%AA%E4%B8%BB%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%B3%BB%E7%BB%9Fsparks%E5%B7%B2%E7%8B%AC%E7%AB%8B%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E5%85%A8%E6%96%B0%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AE%BE%E8%AE%A1%E6%B3%95%E5%88%99/'>
 
-<link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="ICML 2025 Spotlight | 清华朱军组&NVIDIA提出DDO：扩散/自回归模型训练新范式，刷新图像生成SOTA">
-<meta property='og:description' content="摘要：清华大学博士生郑凯文提出了一种新的视觉生成模型优化方法——直接判别优化（DDO），通过将基于似然的生成模型隐式参数化为GAN，解决了传统最大似然训练的性能瓶颈。DDO不需额外网络、训练高效，提高了生成质量。该方法在多个标准图像生成任务中刷新了现有SOTA。\n主题标签：人工智能、深度学习、计算机视觉\n原文摘要 文章一作郑凯文为清华大学三年级博士生，研究方向为深度生成模型，曾提出流式扩散模型最大似然估计改进技术 i-DODE，扩散模型高效采样器 DPM-Solver-v3，扩散桥模型采样器 DBIM 以及掩码式离散扩散模型采样器 FHS 等。 清华大学朱军教授团队与 NVIDIA Deep Imagination 研究组联合提出一种全新的视觉生成模型优化范式 —— 直接判别优化（DDO）。该方法将基于似然的生成模型（如扩散模型、自回归模型）隐式参数化为 GAN，从而设计出一种无需额外网络、训练高效的微调方法，并大幅突破传统最大似然训练的性能瓶颈。 论文标题：Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator 论文链接：https://arxiv.org/abs/2503.01103 代码仓库：https://github.com/NVlabs/DDO 背景 | 基于似然的生成模型 近年来，扩散模型（Diffusion M&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/icml-2025-spotlight-%E6%B8%85%E5%8D%8E%E6%9C%B1%E5%86%9B%E7%BB%84nvidia%E6%8F%90%E5%87%BAddo%E6%89%A9%E6%95%A3/%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%96%B0%E8%8C%83%E5%BC%8F%E5%88%B7%E6%96%B0%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90sota/'>
+<link rel="stylesheet" href="/scss/style.min.ee36f3b1c262e9ee31e77636bd21600aa5fbc08e33d66a40000d925ec90e18a3.css"><meta property='og:title' content="MIT自主科学发现系统SPARKS：已独立发现两条全新蛋白质设计法则">
+<meta property='og:description' content="摘要：麻省理工学院推出了自主科学发现模型SPARKS，这是一个多模态多智能体AI模型，可以自主进行整个科学发现过程，包括假设生成、实验设计和迭代改进，无需人工干预。研究人员已证明SPARKS适用于各个领域，揭示了蛋白质设计中的两条新规则。\n主题标签：人工智能、科学发现、多模态智能体\n原文摘要 编辑 | 萝卜皮 人工智能（AI）的进步有望实现自主科学发现，但大多数系统仍在重复训练数据中潜藏的知识。 几个月前，麻省理工学院（MIT）的 Markus J. Buehler 和 Alireza Ghafarollahi 推出了自主科学发现模型 SPARKS。 这是一个多模态多智能体（Agent） AI 模型，它可以执行整个发现周期，包括假设生成、实验设计和迭代改进，从而在无需人工干预的情况下开发出可推广的原则并生成报告。 论文链接：https://arxiv.org/abs/2504.19017 研究人员已证明其适用于从蛋白质、仿生材料到无机材料等各个领域的广泛问题空间。SPARKS 利用实践学习，通过自我批判进行思考，并使用递归交互创造知识；它不仅与数据交互，还与其自身想法的物理和逻辑后果交互。 它完成了整个科学循环——假设生成、数据检索、编码、模拟、评审、改进以及详细的稿件撰写——无需提示、手动调整或人工监督。 视频：SPARKS 简介。（来源：X） SPARKS 与当下的前沿模型有着本质不同。 虽然像 o3-pro 和 o3 deep research 这样的模型可以生成摘要&hellip;\n">
+<meta property='og:url' content='https://caxlee.github.io/p/mit%E8%87%AA%E4%B8%BB%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%B3%BB%E7%BB%9Fsparks%E5%B7%B2%E7%8B%AC%E7%AB%8B%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E5%85%A8%E6%96%B0%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AE%BE%E8%AE%A1%E6%B3%95%E5%88%99/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-02T16:36:48&#43;08:00'/><meta property='article:modified_time' content='2025-07-02T16:36:48&#43;08:00'/>
-<meta name="twitter:title" content="ICML 2025 Spotlight | 清华朱军组&NVIDIA提出DDO：扩散/自回归模型训练新范式，刷新图像生成SOTA">
-<meta name="twitter:description" content="摘要：清华大学博士生郑凯文提出了一种新的视觉生成模型优化方法——直接判别优化（DDO），通过将基于似然的生成模型隐式参数化为GAN，解决了传统最大似然训练的性能瓶颈。DDO不需额外网络、训练高效，提高了生成质量。该方法在多个标准图像生成任务中刷新了现有SOTA。\n主题标签：人工智能、深度学习、计算机视觉\n原文摘要 文章一作郑凯文为清华大学三年级博士生，研究方向为深度生成模型，曾提出流式扩散模型最大似然估计改进技术 i-DODE，扩散模型高效采样器 DPM-Solver-v3，扩散桥模型采样器 DBIM 以及掩码式离散扩散模型采样器 FHS 等。 清华大学朱军教授团队与 NVIDIA Deep Imagination 研究组联合提出一种全新的视觉生成模型优化范式 —— 直接判别优化（DDO）。该方法将基于似然的生成模型（如扩散模型、自回归模型）隐式参数化为 GAN，从而设计出一种无需额外网络、训练高效的微调方法，并大幅突破传统最大似然训练的性能瓶颈。 论文标题：Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator 论文链接：https://arxiv.org/abs/2503.01103 代码仓库：https://github.com/NVlabs/DDO 背景 | 基于似然的生成模型 近年来，扩散模型（Diffusion M&hellip;\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-05T16:20:29&#43;08:00'/><meta property='article:modified_time' content='2025-07-05T16:20:29&#43;08:00'/>
+<meta name="twitter:title" content="MIT自主科学发现系统SPARKS：已独立发现两条全新蛋白质设计法则">
+<meta name="twitter:description" content="摘要：麻省理工学院推出了自主科学发现模型SPARKS，这是一个多模态多智能体AI模型，可以自主进行整个科学发现过程，包括假设生成、实验设计和迭代改进，无需人工干预。研究人员已证明SPARKS适用于各个领域，揭示了蛋白质设计中的两条新规则。\n主题标签：人工智能、科学发现、多模态智能体\n原文摘要 编辑 | 萝卜皮 人工智能（AI）的进步有望实现自主科学发现，但大多数系统仍在重复训练数据中潜藏的知识。 几个月前，麻省理工学院（MIT）的 Markus J. Buehler 和 Alireza Ghafarollahi 推出了自主科学发现模型 SPARKS。 这是一个多模态多智能体（Agent） AI 模型，它可以执行整个发现周期，包括假设生成、实验设计和迭代改进，从而在无需人工干预的情况下开发出可推广的原则并生成报告。 论文链接：https://arxiv.org/abs/2504.19017 研究人员已证明其适用于从蛋白质、仿生材料到无机材料等各个领域的广泛问题空间。SPARKS 利用实践学习，通过自我批判进行思考，并使用递归交互创造知识；它不仅与数据交互，还与其自身想法的物理和逻辑后果交互。 它完成了整个科学循环——假设生成、数据检索、编码、模拟、评审、改进以及详细的稿件撰写——无需提示、手动调整或人工监督。 视频：SPARKS 简介。（来源：X） SPARKS 与当下的前沿模型有着本质不同。 虽然像 o3-pro 和 o3 deep research 这样的模型可以生成摘要&hellip;\n">
 <style>
     .original-source,
     .original-summary {
@@ -108,7 +108,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/icml-2025-spotlight-%E6%B8%85%E5%8D%8E%E6%9C%B1%E5%86%9B%E7%BB%84nvidia%E6%8F%90%E5%87%BAddo%E6%89%A9%E6%95%A3/%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E6%96%B0%E8%8C%83%E5%BC%8F%E5%88%B7%E6%96%B0%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90sota/">ICML 2025 Spotlight | 清华朱军组&amp;NVIDIA提出DDO：扩散/自回归模型训练新范式，刷新图像生成SOTA</a>
+            <a href="/p/mit%E8%87%AA%E4%B8%BB%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%B3%BB%E7%BB%9Fsparks%E5%B7%B2%E7%8B%AC%E7%AB%8B%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E5%85%A8%E6%96%B0%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AE%BE%E8%AE%A1%E6%B3%95%E5%88%99/">MIT自主科学发现系统SPARKS：已独立发现两条全新蛋白质设计法则</a>
         </h2>
     
         
@@ -130,7 +130,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 02, 2025</time>
+                <time class="article-time--published">Jul 05, 2025</time>
             </div>
         
 
@@ -158,16 +158,19 @@
 </header>
     
     <section class="article-content">
-    <p>摘要：清华大学博士生郑凯文提出了一种新的视觉生成模型优化方法——直接判别优化（DDO），通过将基于似然的生成模型隐式参数化为GAN，解决了传统最大似然训练的性能瓶颈。DDO不需额外网络、训练高效，提高了生成质量。该方法在多个标准图像生成任务中刷新了现有SOTA。</p>
-<p>主题标签：人工智能、深度学习、计算机视觉</p>
+    <p>摘要：麻省理工学院推出了自主科学发现模型SPARKS，这是一个多模态多智能体AI模型，可以自主进行整个科学发现过程，包括假设生成、实验设计和迭代改进，无需人工干预。研究人员已证明SPARKS适用于各个领域，揭示了蛋白质设计中的两条新规则。</p>
+<p>主题标签：人工智能、科学发现、多模态智能体</p>
 <h2 id="原文摘要">原文摘要
-</h2><p>文章一作郑凯文为清华大学三年级博士生，研究方向为深度生成模型，曾提出流式扩散模型最大似然估计改进技术 i-DODE，扩散模型高效采样器 DPM-Solver-v3，扩散桥模型采样器 DBIM 以及掩码式离散扩散模型采样器 FHS 等。
-清华大学朱军教授团队与 NVIDIA Deep Imagination 研究组联合提出一种全新的视觉生成模型优化范式 —— 直接判别优化（DDO）。该方法将基于似然的生成模型（如扩散模型、自回归模型）隐式参数化为 GAN，从而设计出一种无需额外网络、训练高效的微调方法，并大幅突破传统最大似然训练的性能瓶颈。
-论文标题：Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator
-论文链接：https://arxiv.org/abs/2503.01103
-代码仓库：https://github.com/NVlabs/DDO
-背景 | 基于似然的生成模型
-近年来，扩散模型（Diffusion M&hellip;</p>
+</h2><p>编辑 | 萝卜皮
+人工智能（AI）的进步有望实现自主科学发现，但大多数系统仍在重复训练数据中潜藏的知识。
+几个月前，麻省理工学院（MIT）的 Markus J. Buehler 和 Alireza Ghafarollahi 推出了自主科学发现模型 SPARKS。
+这是一个多模态多智能体（Agent） AI 模型，它可以执行整个发现周期，包括假设生成、实验设计和迭代改进，从而在无需人工干预的情况下开发出可推广的原则并生成报告。
+论文链接：https://arxiv.org/abs/2504.19017
+研究人员已证明其适用于从蛋白质、仿生材料到无机材料等各个领域的广泛问题空间。SPARKS 利用实践学习，通过自我批判进行思考，并使用递归交互创造知识；它不仅与数据交互，还与其自身想法的物理和逻辑后果交互。
+它完成了整个科学循环——假设生成、数据检索、编码、模拟、评审、改进以及详细的稿件撰写——无需提示、手动调整或人工监督。
+视频：SPARKS 简介。（来源：X）
+SPARKS 与当下的前沿模型有着本质不同。
+虽然像 o3-pro 和 o3 deep research 这样的模型可以生成摘要&hellip;</p>
 </section>
     
     <footer class="article-footer">

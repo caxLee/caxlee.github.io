@@ -7,7 +7,93 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 04 Jul 2025 20:13:19 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Jul 2025 16:20:29 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MIT自主科学发现系统SPARKS：已独立发现两条全新蛋白质设计法则</title>
+        <link>https://caxlee.github.io/p/mit%E8%87%AA%E4%B8%BB%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%B3%BB%E7%BB%9Fsparks%E5%B7%B2%E7%8B%AC%E7%AB%8B%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E5%85%A8%E6%96%B0%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AE%BE%E8%AE%A1%E6%B3%95%E5%88%99/</link>
+        <pubDate>Sat, 05 Jul 2025 16:20:29 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/mit%E8%87%AA%E4%B8%BB%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%B3%BB%E7%BB%9Fsparks%E5%B7%B2%E7%8B%AC%E7%AB%8B%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E5%85%A8%E6%96%B0%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AE%BE%E8%AE%A1%E6%B3%95%E5%88%99/</guid>
+        <description>&lt;p&gt;摘要：麻省理工学院推出了自主科学发现模型SPARKS，这是一个多模态多智能体AI模型，可以自主进行整个科学发现过程，包括假设生成、实验设计和迭代改进，无需人工干预。研究人员已证明SPARKS适用于各个领域，揭示了蛋白质设计中的两条新规则。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、科学发现、多模态智能体&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;编辑 | 萝卜皮
+人工智能（AI）的进步有望实现自主科学发现，但大多数系统仍在重复训练数据中潜藏的知识。
+几个月前，麻省理工学院（MIT）的 Markus J. Buehler 和 Alireza Ghafarollahi 推出了自主科学发现模型 SPARKS。
+这是一个多模态多智能体（Agent） AI 模型，它可以执行整个发现周期，包括假设生成、实验设计和迭代改进，从而在无需人工干预的情况下开发出可推广的原则并生成报告。
+论文链接：https://arxiv.org/abs/2504.19017
+研究人员已证明其适用于从蛋白质、仿生材料到无机材料等各个领域的广泛问题空间。SPARKS 利用实践学习，通过自我批判进行思考，并使用递归交互创造知识；它不仅与数据交互，还与其自身想法的物理和逻辑后果交互。
+它完成了整个科学循环——假设生成、数据检索、编码、模拟、评审、改进以及详细的稿件撰写——无需提示、手动调整或人工监督。
+视频：SPARKS 简介。（来源：X）
+SPARKS 与当下的前沿模型有着本质不同。
+虽然像 o3-pro 和 o3 deep research 这样的模型可以生成摘要&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>以玩促学？游戏代码驱动数据合成，提升多模态大模型通用推理</title>
+        <link>https://caxlee.github.io/p/%E4%BB%A5%E7%8E%A9%E4%BF%83%E5%AD%A6%E6%B8%B8%E6%88%8F%E4%BB%A3%E7%A0%81%E9%A9%B1%E5%8A%A8%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E6%8F%90%E5%8D%87%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%9A%E7%94%A8%E6%8E%A8%E7%90%86/</link>
+        <pubDate>Sat, 05 Jul 2025 16:20:29 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BB%A5%E7%8E%A9%E4%BF%83%E5%AD%A6%E6%B8%B8%E6%88%8F%E4%BB%A3%E7%A0%81%E9%A9%B1%E5%8A%A8%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E6%8F%90%E5%8D%87%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%9A%E7%94%A8%E6%8E%A8%E7%90%86/</guid>
+        <description>&lt;p&gt;摘要：复旦NLP实验室联合字节跳动团队研究发现，利用游戏代码自动生成视觉推理数据，提出了Code2Logic方法。他们基于此方法构建了GameQA数据集，证实游戏数据训练能显著提升多模态大模型的通用推理能力，甚至击败了几何数据集。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能, 数据科学, 计算机视觉&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;如果告诉你，AI在推箱子等游戏场景上训练，能让它在几何推理与图表推理上表现更好，你会相信吗？
+复旦NLP实验室联合字节跳动智能服务团队的最新研究给出了一个令人意外的发现：
+游戏不仅是娱乐工具，更是训练AI推理能力的宝贵资源。
+标题：Code2Logic: Game-Code-Driven Data Synthesis for Enhancing VLMs General Reasoning
+论文链接：https://arxiv.org/abs/2505.13886
+代码仓库：https://github.com/tongjingqi/Code2Logic
+数据和模型：https://huggingface.co/Code2Logic
+引言
+高质量多模态推理数据的极度稀缺，制约了视觉语言模型（VLMs）复杂推理能力的提升。那么，有没有一种低成本又可靠的方法来大规模生成这些数据呢？
+复旦与字节的研究团队创新性地提出了一个巧妙的思路：
+利用游戏代码自动合成视觉推理数据。
+图1：GameQA数据集中各游戏类别的代表性游戏：3D重建、七巧板（变体）、数独和推箱子。各游戏展示两个视觉问答示例，包&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>告别盲选LLM！ICML 2025新研究解释大模型选择的「玄学」</title>
+        <link>https://caxlee.github.io/p/%E5%91%8A%E5%88%AB%E7%9B%B2%E9%80%89llmicml-2025%E6%96%B0%E7%A0%94%E7%A9%B6%E8%A7%A3%E9%87%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9%E7%9A%84%E7%8E%84%E5%AD%A6/</link>
+        <pubDate>Sat, 05 Jul 2025 16:20:29 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%91%8A%E5%88%AB%E7%9B%B2%E9%80%89llmicml-2025%E6%96%B0%E7%A0%94%E7%A9%B6%E8%A7%A3%E9%87%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9%E7%9A%84%E7%8E%84%E5%AD%A6/</guid>
+        <description>&lt;p&gt;摘要：弗吉尼亚理工大学提出的LensLLM框架能够精准预测大语言模型微调性能，降低计算成本，解决了LLM选型的困境。该框架基于PAC - 贝叶斯泛化界限揭示微调动力学，运用NTK技术实现对模型性能的准确预测和高效选择，为大模型选择提供新的透视和方法。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能、模型选择、计算机科学&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;本文第一作者为 Virginia Tech 计算机系博士 Candidate 曾欣悦，研究聚焦于提升大语言模型的理论可解释性与实证性能，以增强其在实际应用中的可靠性与泛化能力（个人主页：https://susan571.github.io/）。通讯作者为周大为助理教授。
+还在为海量 LLM 如何高效选型而头疼？还在苦恼资源有限无法穷尽所有微调可能？来自弗吉尼亚理工大学的最新研究，提出 LensLLM 框架，不仅能精准预测大模型微调性能，更大幅降低计算成本，让 LLM 选型不再是 “开盲盒”！
+论文名称：LensLLM: Unveiling Fine-Tuning Dynamics for LLM Selection
+作者：Xinyue Zeng, Haohui Wang, Junhong Lin, Jun Wu, Tyler Cody, Dawei Zhou
+所属机构：Department of Computer Science, Virginia Tech, Blacksburg, VA, USA 等
+开源地址：https://github.com/Susan571/LENSLLM
+&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>野生DeepSeek火了，速度碾压官方版，权重开源</title>
+        <link>https://caxlee.github.io/p/%E9%87%8E%E7%94%9Fdeepseek%E7%81%AB%E4%BA%86%E9%80%9F%E5%BA%A6%E7%A2%BE%E5%8E%8B%E5%AE%98%E6%96%B9%E7%89%88%E6%9D%83%E9%87%8D%E5%BC%80%E6%BA%90/</link>
+        <pubDate>Sat, 05 Jul 2025 16:20:29 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%87%8E%E7%94%9Fdeepseek%E7%81%AB%E4%BA%86%E9%80%9F%E5%BA%A6%E7%A2%BE%E5%8E%8B%E5%AE%98%E6%96%B9%E7%89%88%E6%9D%83%E9%87%8D%E5%BC%80%E6%BA%90/</guid>
+        <description>&lt;p&gt;摘要：一款名为DeepSeek R1T2的新型AI模型在性能上表现出色，速度比R1快20%，在问答基准和数学推理基准上表现优异。该模型由德国AI咨询公司TNG推出，采用了专家组合技术，参数规模为671B，是R1T Chimera的首次迭代版本。与其他模型相比，R1T2在智能、速度和性能方面具备一定优势，但也存在一些局限性。&lt;/p&gt;
+&lt;p&gt;主题标签：人工智能技术, 新型AI模型, 模型性能优化&lt;/p&gt;
+&lt;h2 id=&#34;原文摘要&#34;&gt;原文摘要
+&lt;/h2&gt;&lt;p&gt;没等来 DeepSeek 官方的 R2，却迎来了一个速度更快、性能不弱于 R1 的「野生」变体！
+这两天，一个名为「
+DeepSeek R1T2
+」的模型火了！
+这个模型的速度
+比 R1-0528 快 200%，比 R1 快 20%
+。除了速度上的显著优势，它在 GPQA Diamond（专家级推理能力问答基准）和 AIME 24（数学推理基准）上的表现均优于 R1，但未达到 R1-0528 的水平。
+在技术层面，采用了
+专家组合（Assembly of Experts，AoE）技术
+开发，并融合了 DeepSeek 官方的 V3、R1 和 R1-0528 三大模型。
+当然，这个模型也是开源的，遵循 MIT 协议，并在 Hugging Face 上开放了权重。
+Hugging Face 地址：https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera
+经过进一步了解，我们发现：DeepSeek R1T2 是德国一家 AI 咨询公司「TNG」推出的，模型全称为「DeepSeek-TNG R1T2 Chimera」（以下简称 R1T2）&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>MIT and Mass General Hospital researchers find disparities in organ allocation</title>
         <link>https://caxlee.github.io/news.mit.edu/2025/mit-mgh-researchers-find-disparities-organ-allocation-0703</link>
         <pubDate>Fri, 04 Jul 2025 20:13:19 +0800</pubDate>
