@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：麻省理工学院计算机音乐先驱、媒体实验室创始成员之一、音乐与戏剧艺术部门的发展领袖Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe将音乐创造力与科学探究相结合，推动了音乐技术和实验作曲领域的发展，最终影响了人们的音乐体验。\n主题标签：教育科技、音乐艺术、科学创新\n">
 <title>Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</title>
 
-<link rel='canonical' href='https://caxlee.github.io/news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707'>
+<link rel='canonical' href='http://localhost:1313/news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87">
 <meta property='og:description' content="摘要：麻省理工学院计算机音乐先驱、媒体实验室创始成员之一、音乐与戏剧艺术部门的发展领袖Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe将音乐创造力与科学探究相结合，推动了音乐技术和实验作曲领域的发展，最终影响了人们的音乐体验。\n主题标签：教育科技、音乐艺术、科学创新\n">
-<meta property='og:url' content='https://caxlee.github.io/news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707'>
+<meta property='og:url' content='http://localhost:1313/news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-08T09:30:21&#43;08:00'/><meta property='article:modified_time' content='2025-07-08T09:30:21&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-08T09:38:55&#43;08:00'/><meta property='article:modified_time' content='2025-07-08T09:38:55&#43;08:00'/>
 <meta name="twitter:title" content="Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87">
 <meta name="twitter:description" content="摘要：麻省理工学院计算机音乐先驱、媒体实验室创始成员之一、音乐与戏剧艺术部门的发展领袖Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe将音乐创造力与科学探究相结合，推动了音乐技术和实验作曲领域的发展，最终影响了人们的音乐体验。\n主题标签：教育科技、音乐艺术、科学创新\n">
 <style>
@@ -161,8 +161,7 @@
     <p>摘要：麻省理工学院计算机音乐先驱、媒体实验室创始成员之一、音乐与戏剧艺术部门的发展领袖Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe将音乐创造力与科学探究相结合，推动了音乐技术和实验作曲领域的发展，最终影响了人们的音乐体验。</p>
 <p>主题标签：教育科技、音乐艺术、科学创新</p>
 <h2 id="原文链接">原文链接
-</h2><p>Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87
-<a class="link" href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707"  target="_blank" rel="noopener"
+</h2><p><a class="link" href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707"  target="_blank" rel="noopener"
     >https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707</a></p></section>
     
     <footer class="article-footer">
@@ -351,7 +350,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
