@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64015&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：麻省理工学院的研究人员揭示了稀土元素如何在植物内部移动和作用，发现稀土元素可以增强叶绿素对紫外线的抵抗能力，有助于提高作物产量和增强对极端天气的抵抗力。研究还发现，较大的稀土元素如镧对叶绿素的强化效果更好，可能有助于改善稀土元素供应链的稳定性。\n主题标签：农业科技，植物生长，环境保护\n原文链接 Study shows how a common fertilizer ingredient benefits plants https://news.mit.edu/2025/study-shows-how-common-fertilizer-ingredient-benefits-plants-0707\n原文摘要 Lanthanides are a class of rare earth elements that in many countries are added to fertilizer as micronutrients to stimulate plant growth. But little is known about how they are absorbed by plants or influence photosynthesis, potentially leaving their benefits untapped.\nNow, researchers from MIT have shed light on how lanthanides move through and operate within plants. These insights could help farmers optimize their use to grow some of the world’s most popular crops.\n">
 <title>Study shows how a common fertilizer ingredient benefits plants</title>
 
-<link rel='canonical' href='https://caxlee.github.io/news.mit.edu/2025/study-shows-how-common-fertilizer-ingredient-benefits-plants-0707'>
+<link rel='canonical' href='http://localhost:64015/news.mit.edu/2025/study-shows-how-common-fertilizer-ingredient-benefits-plants-0707'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Study shows how a common fertilizer ingredient benefits plants">
 <meta property='og:description' content="摘要：麻省理工学院的研究人员揭示了稀土元素如何在植物内部移动和作用，发现稀土元素可以增强叶绿素对紫外线的抵抗能力，有助于提高作物产量和增强对极端天气的抵抗力。研究还发现，较大的稀土元素如镧对叶绿素的强化效果更好，可能有助于改善稀土元素供应链的稳定性。\n主题标签：农业科技，植物生长，环境保护\n原文链接 Study shows how a common fertilizer ingredient benefits plants https://news.mit.edu/2025/study-shows-how-common-fertilizer-ingredient-benefits-plants-0707\n原文摘要 Lanthanides are a class of rare earth elements that in many countries are added to fertilizer as micronutrients to stimulate plant growth. But little is known about how they are absorbed by plants or influence photosynthesis, potentially leaving their benefits untapped.\nNow, researchers from MIT have shed light on how lanthanides move through and operate within plants. These insights could help farmers optimize their use to grow some of the world’s most popular crops.\n">
-<meta property='og:url' content='https://caxlee.github.io/news.mit.edu/2025/study-shows-how-common-fertilizer-ingredient-benefits-plants-0707'>
+<meta property='og:url' content='http://localhost:64015/news.mit.edu/2025/study-shows-how-common-fertilizer-ingredient-benefits-plants-0707'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-07T20:25:54&#43;08:00'/><meta property='article:modified_time' content='2025-07-07T20:25:54&#43;08:00'/>
 <meta name="twitter:title" content="Study shows how a common fertilizer ingredient benefits plants">
@@ -153,8 +153,7 @@
     
 
     
-</div>
-
+</div> 
 </header>
     
     <section class="article-content">
@@ -356,7 +355,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>定向进化 on Example Site</title>
+        <link>http://localhost:64989/tags/%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96/</link>
+        <description>Recent content in 定向进化 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Wed, 09 Jul 2025 11:29:57 +0000</lastBuildDate><atom:link href="http://localhost:64989/tags/%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MIT chemists boost the efficiency of a key enzyme in photosynthesis</title>
+        <link>http://localhost:64989/p/mit-chemists-boost-the-efficiency-of-a-key-enzyme/</link>
+        <pubDate>Wed, 09 Jul 2025 11:29:57 +0000</pubDate>
+        
+        <guid>http://localhost:64989/p/mit-chemists-boost-the-efficiency-of-a-key-enzyme/</guid>
+        <description>&lt;p&gt;麻省理工学院的化学家通过定向进化的过程，成功提高了细菌中一种版本的rubisco的催化效率，最高可提高25%。研究人员计划将这一技术应用于植物中的rubisco形式，以帮助提高光合作用速率，潜在地提高作物产量。这项研究为改善rubisco的酶特性提供了希望，有望在工程其他形式的rubisco方面取得成功。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文链接：&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/mit-chemists-boost-efficiency-key-enzyme-photosynthesis-0707&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/mit-chemists-boost-efficiency-key-enzyme-photosynthesis-0707&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During photosynthesis, an enzyme called rubisco catalyzes a key reaction — the incorporation of carbon dioxide into organic compounds to create sugars. However, rubisco, which is believed to be the most abundant enzyme on Earth, is very inefficient compared to the other enzymes involved in photosynthesis.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;MIT chemists have now shown that they can greatly enhance a version of rubisco found in bacteria from a low-oxygen environment. Using a process known as directed evolution, they identified mut&amp;hellip;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

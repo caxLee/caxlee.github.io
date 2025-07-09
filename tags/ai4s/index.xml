@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>AI4S on Example Site</title>
+        <link>http://localhost:64989/tags/ai4s/</link>
+        <description>Recent content in AI4S on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Wed, 09 Jul 2025 11:15:47 +0000</lastBuildDate><atom:link href="http://localhost:64989/tags/ai4s/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Study could lead to LLMs that are better at complex reasoning</title>
+        <link>http://localhost:64989/p/tudy-could-lead-to-llm-that-are-better-at-complex/</link>
+        <pubDate>Wed, 09 Jul 2025 11:15:47 +0000</pubDate>
+        
+        <guid>http://localhost:64989/p/tudy-could-lead-to-llm-that-are-better-at-complex/</guid>
+        <description>&lt;p&gt;麻省理工学院的研究人员发现，通过测试时间训练方法可以显著提高大型语言模型在陌生、困难问题上的性能，使其适应需要规划或抽象思维的复杂任务。他们的研究有望改善模型的灵活性，使其在医疗诊断、供应链管理等需要逻辑推理的应用中更加准确。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文链接：&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/study-could-lead-llms-better-complex-reasoning-0708&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/study-could-lead-llms-better-complex-reasoning-0708&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For all their impressive capabilities, large language models (LLMs) often fall short when given challenging new tasks that require complex reasoning skills.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;While an accounting firm’s LLM might excel at summarizing financial reports, that same model could fail unexpectedly if tasked with predicting market trends or identifying fraudulent transactions.&lt;/p&gt;
+&lt;p&gt;To make LLMs more adaptable, MIT researchers investigated how a certain training technique can be strategically deployed to boost a model’s perf&amp;hellip;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

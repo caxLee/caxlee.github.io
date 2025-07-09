@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>多模态 on Example Site</title>
+        <link>http://localhost:64989/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/</link>
+        <description>Recent content in 多模态 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Wed, 09 Jul 2025 11:29:57 +0000</lastBuildDate><atom:link href="http://localhost:64989/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>At MIT, musicians make new tools for new tunes</title>
+        <link>http://localhost:64989/p/at-mit-musicians-make-new-tools-for-new-tunes/</link>
+        <pubDate>Wed, 09 Jul 2025 11:29:57 +0000</pubDate>
+        
+        <guid>http://localhost:64989/p/at-mit-musicians-make-new-tools-for-new-tunes/</guid>
+        <description>&lt;p&gt;麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探讨创造性技术，还探索自己的创造性。课程中的学生们通过开发数字乐器和音乐软件，发现了新的创意表达方式。教授Eran Egozy的课程关注创造包含人机交互元素的音乐体验，学生们通过设计、实现和测试创造性音乐系统来深化对音乐和技术的理解。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文链接：&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The MIT Music Technology Program carves out a space to explore new sounds, tunes, and experiences. From the classroom to the community, students in music tech grapple with developing both creative technology and their creative selves.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;In the course 21M.080 (Intro to Music Technology), it dawned on Thelonious Cooper ’25 that he had the skills to create his own instruments. “I can literally make a new instrument. I don’t think most people consider that as an option. But it totally is,” Cooper say&amp;hellip;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Study could lead to LLMs that are better at complex reasoning</title>
+        <link>http://localhost:64989/p/tudy-could-lead-to-llm-that-are-better-at-complex/</link>
+        <pubDate>Wed, 09 Jul 2025 11:15:47 +0000</pubDate>
+        
+        <guid>http://localhost:64989/p/tudy-could-lead-to-llm-that-are-better-at-complex/</guid>
+        <description>&lt;p&gt;麻省理工学院的研究人员发现，通过测试时间训练方法可以显著提高大型语言模型在陌生、困难问题上的性能，使其适应需要规划或抽象思维的复杂任务。他们的研究有望改善模型的灵活性，使其在医疗诊断、供应链管理等需要逻辑推理的应用中更加准确。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文链接：&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/study-could-lead-llms-better-complex-reasoning-0708&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.mit.edu/2025/study-could-lead-llms-better-complex-reasoning-0708&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原文摘要：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For all their impressive capabilities, large language models (LLMs) often fall short when given challenging new tasks that require complex reasoning skills.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;While an accounting firm’s LLM might excel at summarizing financial reports, that same model could fail unexpectedly if tasked with predicting market trends or identifying fraudulent transactions.&lt;/p&gt;
+&lt;p&gt;To make LLMs more adaptable, MIT researchers investigated how a certain training technique can be strategically deployed to boost a model’s perf&amp;hellip;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
