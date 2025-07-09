@@ -2,39 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Infra on Example Site</title>
-        <link>http://localhost:64989/tags/infra/</link>
+        <link>https://caxlee.github.io/tags/infra/</link>
         <description>Recent content in Infra on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 09 Jul 2025 11:29:57 +0000</lastBuildDate><atom:link href="http://localhost:64989/tags/infra/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 09 Jul 2025 12:59:00 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/infra/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>At MIT, musicians make new tools for new tunes</title>
-        <link>http://localhost:64989/p/at-mit-musicians-make-new-tools-for-new-tunes/</link>
-        <pubDate>Wed, 09 Jul 2025 11:29:57 +0000</pubDate>
+        <link>https://caxlee.github.io/p/at-mit-musicians-make-new-tools-for-new-tunes/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
         
-        <guid>http://localhost:64989/p/at-mit-musicians-make-new-tools-for-new-tunes/</guid>
-        <description>&lt;p&gt;麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探讨创造性技术，还探索自己的创造性。课程中的学生们通过开发数字乐器和音乐软件，发现了新的创意表达方式。教授Eran Egozy的课程关注创造包含人机交互元素的音乐体验，学生们通过设计、实现和测试创造性音乐系统来深化对音乐和技术的理解。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原文链接：&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原文摘要：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The MIT Music Technology Program carves out a space to explore new sounds, tunes, and experiences. From the classroom to the community, students in music tech grapple with developing both creative technology and their creative selves.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;In the course 21M.080 (Intro to Music Technology), it dawned on Thelonious Cooper ’25 that he had the skills to create his own instruments. “I can literally make a new instrument. I don’t think most people consider that as an option. But it totally is,” Cooper say&amp;hellip;&lt;/p&gt;</description>
+        <guid>https://caxlee.github.io/p/at-mit-musicians-make-new-tools-for-new-tunes/</guid>
+        <description>&lt;p&gt;麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>Study could lead to LLMs that are better at complex reasoning</title>
-        <link>http://localhost:64989/p/tudy-could-lead-to-llm-that-are-better-at-complex/</link>
-        <pubDate>Wed, 09 Jul 2025 11:15:47 +0000</pubDate>
+        <title>New postdoctoral fellowship program to accelerate innovation in health care</title>
+        <link>https://caxlee.github.io/p/new-postdoctoral-fellowship-program-to-accelerate-innovation-in-h/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
         
-        <guid>http://localhost:64989/p/tudy-could-lead-to-llm-that-are-better-at-complex/</guid>
-        <description>&lt;p&gt;麻省理工学院的研究人员发现，通过测试时间训练方法可以显著提高大型语言模型在陌生、困难问题上的性能，使其适应需要规划或抽象思维的复杂任务。他们的研究有望改善模型的灵活性，使其在医疗诊断、供应链管理等需要逻辑推理的应用中更加准确。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原文链接：&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://news.mit.edu/2025/study-could-lead-llms-better-complex-reasoning-0708&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://news.mit.edu/2025/study-could-lead-llms-better-complex-reasoning-0708&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原文摘要：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;For all their impressive capabilities, large language models (LLMs) often fall short when given challenging new tasks that require complex reasoning skills.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;While an accounting firm’s LLM might excel at summarizing financial reports, that same model could fail unexpectedly if tasked with predicting market trends or identifying fraudulent transactions.&lt;/p&gt;
-&lt;p&gt;To make LLMs more adaptable, MIT researchers investigated how a certain training technique can be strategically deployed to boost a model’s perf&amp;hellip;&lt;/p&gt;</description>
+        <guid>https://caxlee.github.io/p/new-postdoctoral-fellowship-program-to-accelerate-innovation-in-h/</guid>
+        <description>&lt;p&gt;麻省理工学院健康与生命科学合作计划（MIT HEALS）推出Biswas博士后奖学金计划，旨在通过资助杰出的博士后研究人员，将前沿研究应用于改善医疗保健和数百万人的生活。该计划将支持在人类健康保健创新领域致力于通过各种途径实现创新的博士后，如利用AI进行健康相关研究、开发低成本诊断工具等。首批资金为1200万美元，将在接下来的四年中每年颁发五个为期四年的奖学金。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</title>
+        <link>https://caxlee.github.io/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/</guid>
+        <description>&lt;p&gt;MIT计算机音乐领域的先驱Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe在音乐、科学和创新领域做出了深远贡献，推动了音乐体验的提升，尤其是对年轻人的影响。他创办了MIT的实验音乐工作室，开发了先进的音乐技术，如算法作曲和数字合成，影响了音乐技术与工程的交叉领域，留下了深远的影响。&lt;/p&gt;</description>
         </item>
         
     </channel>
