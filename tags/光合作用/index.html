@@ -10,7 +10,7 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/tags/%E5%85%89%E5%90%88%E4%BD%9C%E7%94%A8/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-09T12:59:00&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-10T22:06:08&#43;08:00 '/>
 <meta name="twitter:title" content="Tag: 光合作用 - Example Site">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/tags/%E5%85%89%E5%90%88%E4%BD%9C%E7%94%A8/index.xml">
 <style>
@@ -41,6 +41,64 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        <style>
+            .article-modal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0,0,0,0.4);
+            }
+            .article-modal.is-active {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .modal-content-wrapper {
+                background-color: var(--card-background);
+                color: var(--card-text-color);
+                margin: auto;
+                padding: 20px;
+                border: 1px solid var(--border-color);
+                width: 80%;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                border-radius: var(--card-border-radius);
+            }
+            body.modal-open {
+                overflow: hidden;
+            }
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .article-tags .article-tags-list-item a {
+                display: inline-block;
+                background: var(--tertiary-background-color);
+                color: var(--secondary-text-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: var(--card-border-radius);
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: background-color 0.2s, color 0.2s;
+            }
+            .article-tags .article-tags-list-item a:hover {
+                background: var(--theme-color);
+                color: var(--background-color);
+            }
+        </style>
     </head>
     <body class=" simplified-layout">
     <script>
@@ -75,7 +133,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-09">
+            <input type="date" id="date-select" value="2025-07-10">
         </div>
     </div>
 </div>
@@ -103,7 +161,7 @@
     </header><section class="article-grid">
         
             
-<article class=" article-card" data-date="2025-07-09">
+<article class=" article-card" data-date="2025-07-09" data-url="/p/mit-chemists-boost-the-efficiency-of-a-key-enzyme-in-photosynthes/">
     <header class="article-header">
 
     <div class="article-details">
@@ -111,7 +169,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/mit-chemists-boost-the-efficiency-of-a-key-enzyme-in-photosynthes/">MIT chemists boost the efficiency of a key enzyme in photosynthesis</a>
+            <a href="javascript:void(0);">MIT chemists boost the efficiency of a key enzyme in photosynthesis</a>
         </h2>
     
         
@@ -156,6 +214,40 @@
     
 
     
+    <footer class="article-tags">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+        <ul class="article-tags-list">
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/rubisco/" class="article-tags-list-link">
+                    rubisco
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96/" class="article-tags-list-link">
+                    定向进化
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%85%89%E5%90%88%E4%BD%9C%E7%94%A8/" class="article-tags-list-link">
+                    光合作用
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+    
+
+    
 </div> 
 </header>
 </article> 
@@ -184,7 +276,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.30be69b174dcff94329e700efea13ce80951011ed36cd4a24491ee77edd4d17e.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -197,5 +289,11 @@
     }());
 </script>
 
+
+        <div id="article-modal" class="article-modal">
+            <div class="modal-content-wrapper">
+                <div id="modal-content"></div>
+            </div>
+        </div>
     </body>
 </html> 

@@ -41,6 +41,64 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        <style>
+            .article-modal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0,0,0,0.4);
+            }
+            .article-modal.is-active {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .modal-content-wrapper {
+                background-color: var(--card-background);
+                color: var(--card-text-color);
+                margin: auto;
+                padding: 20px;
+                border: 1px solid var(--border-color);
+                width: 80%;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                border-radius: var(--card-border-radius);
+            }
+            body.modal-open {
+                overflow: hidden;
+            }
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .article-tags .article-tags-list-item a {
+                display: inline-block;
+                background: var(--tertiary-background-color);
+                color: var(--secondary-text-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: var(--card-border-radius);
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: background-color 0.2s, color 0.2s;
+            }
+            .article-tags .article-tags-list-item a:hover {
+                background: var(--theme-color);
+                color: var(--background-color);
+            }
+        </style>
     </head>
     <body class="
     article-page
@@ -77,7 +135,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-09">
+            <input type="date" id="date-select" value="2025-07-10">
         </div>
     </div>
 </div>
@@ -108,7 +166,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/">RL 圈的夏夜之约！12 人唠嗑局：当强化学习撞上大模型 Agent</a>
+            <a href="javascript:void(0);">RL 圈的夏夜之约！12 人唠嗑局：当强化学习撞上大模型 Agent</a>
         </h2>
     
         
@@ -149,6 +207,34 @@
                 </time>
             </div>
         
+    </footer>
+    
+
+    
+    <footer class="article-tags">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+        <ul class="article-tags-list">
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                    基模
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                    多模态
+                </a>
+            </li>
+            
+        </ul>
     </footer>
     
 
@@ -246,7 +332,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href=""></a>
+            <a href="javascript:void(0);"></a>
         </h2>
     
         
@@ -274,6 +360,8 @@
 
         
     </footer>
+    
+
     
 
     
@@ -310,7 +398,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href=""></a>
+            <a href="javascript:void(0);"></a>
         </h2>
     
         
@@ -338,6 +426,8 @@
 
         
     </footer>
+    
+
     
 
     
@@ -374,7 +464,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href=""></a>
+            <a href="javascript:void(0);"></a>
         </h2>
     
         
@@ -402,6 +492,140 @@
 
         
     </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
     
 
     
@@ -566,7 +790,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.30be69b174dcff94329e700efea13ce80951011ed36cd4a24491ee77edd4d17e.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -579,5 +803,11 @@
     }());
 </script>
 
+
+        <div id="article-modal" class="article-modal">
+            <div class="modal-content-wrapper">
+                <div id="modal-content"></div>
+            </div>
+        </div>
     </body>
 </html> 
