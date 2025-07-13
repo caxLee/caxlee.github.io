@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：阿里巴巴达摩院研究员岑俊提出了WorldVLA模型，将世界模型和动作模型融合，实现了统一的文本、图片、动作理解和生成模型。该模型通过自回归机制实现双向图像与动作的理解和生成，采用动作注意力掩码策略解决了动作累积误差问题，在实验中表现出良好的性能。\n主题标签：人工智能、机器学习、模型融合\n原文摘要 岑俊，阿里巴巴达摩院具身智能大模型算法研究员，博士毕业于香港科技大学。研究方向主要是：具身智能 VLA 模型，世界模型。 阿里巴巴达摩院提出了 WorldVLA, 首次将世界模型 (World Model) 和动作模型 (Action Model/VLA Model) 融合到了一个模型中。WorldVLA 是一个统一了文本、图片、动作理解和生成的全自回归模型。 论文标题：WorldVLA: Towards Autoregressive Action World Model 论文地址：https://arxiv.org/pdf/2506.21539 代码地址：https://github.com/alibaba-damo-academy/WorldVLA 研究简介 近年来，视觉 - 语言 - 动作（Vision-Language-Action, VLA）模型的发展成为机器人动作建模研究的重要方向。这类模型通常是在大规模预训练的多模态大语言模型（Multimodal Large Language Models, MLLMs）基础上，添加一个动作输出头或专门的动作模块，以实现对动作的生成。M&hellip;\n">
 <title>首次！世界模型、动作模型融合，全自回归模型WorldVLA来了</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/'>
+<link rel='canonical' href='http://localhost:1313/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="首次！世界模型、动作模型融合，全自回归模型WorldVLA来了">
 <meta property='og:description' content="摘要：阿里巴巴达摩院研究员岑俊提出了WorldVLA模型，将世界模型和动作模型融合，实现了统一的文本、图片、动作理解和生成模型。该模型通过自回归机制实现双向图像与动作的理解和生成，采用动作注意力掩码策略解决了动作累积误差问题，在实验中表现出良好的性能。\n主题标签：人工智能、机器学习、模型融合\n原文摘要 岑俊，阿里巴巴达摩院具身智能大模型算法研究员，博士毕业于香港科技大学。研究方向主要是：具身智能 VLA 模型，世界模型。 阿里巴巴达摩院提出了 WorldVLA, 首次将世界模型 (World Model) 和动作模型 (Action Model/VLA Model) 融合到了一个模型中。WorldVLA 是一个统一了文本、图片、动作理解和生成的全自回归模型。 论文标题：WorldVLA: Towards Autoregressive Action World Model 论文地址：https://arxiv.org/pdf/2506.21539 代码地址：https://github.com/alibaba-damo-academy/WorldVLA 研究简介 近年来，视觉 - 语言 - 动作（Vision-Language-Action, VLA）模型的发展成为机器人动作建模研究的重要方向。这类模型通常是在大规模预训练的多模态大语言模型（Multimodal Large Language Models, MLLMs）基础上，添加一个动作输出头或专门的动作模块，以实现对动作的生成。M&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/'>
+<meta property='og:url' content='http://localhost:1313/p/%E9%A6%96%E6%AC%A1%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%E8%9E%8D%E5%90%88%E5%85%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8Bworldvla%E6%9D%A5%E4%BA%86/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-03T21:53:09&#43;08:00'/><meta property='article:modified_time' content='2025-07-03T21:53:09&#43;08:00'/>
 <meta name="twitter:title" content="首次！世界模型、动作模型融合，全自回归模型WorldVLA来了">
@@ -193,20 +193,6 @@
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
-        
     </footer>
     
 
@@ -249,18 +235,6 @@
     
     
     
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <time class="article-time--reading">
-            
-        </time>
     
 </article> 
 
@@ -415,7 +389,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.99c95cb2e2fdac81f8accc4269991d170d53a54531c952178d2c822be0c62bee.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.483339a25994c577b54dd9e5e6af740863d1bc239510e4f99ba055c7fb33f1d4.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

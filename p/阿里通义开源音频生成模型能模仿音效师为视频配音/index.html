@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：阿里通义实验室开源了旗下首个音频生成模型ThinkSound，首次将CoT应用到音频生成领域，模拟音效师的创作流程，生成高保真音频，并在核心指标上取得较大提升。该模型还推出了带思维链标注的音频数据集AudioCoT，在多模态大模型中具有广泛应用潜力。\n主题标签：人工智能, 音频生成, 开源技术\n原文摘要 7月1日消息，阿里通义实验室开源了旗下首个音频生成模型ThinkSound，该模型首次将CoT（Chain-of-Thought，思维链）应用到音频生成领域，让AI可以像专业音效师一样逐步思考，捕捉视觉细节，生成与画面同步的高保真音频。目前，ThinkSound的代码和模型已在Github、HuggingFace、魔搭社区开源，开发者可免费下载和体验。 阿里开源音频生成模型ThinkSound 视频生成音频（V2A）技术是多媒体编辑和视频内容创作领域最重要的技术之一，但该技术的发展速度仍存在诸多技术挑战，例如业界现有的V2A技术仍缺乏对视觉对应声学细节的深入理解，导致生成的音频较为通用，甚至与关键视觉事件错位，难以满足专业创意场景中对时序和语义连贯性的严格要求。 为了解决现有视频转音频技术难以捕捉画面中动态细节和时序的难题，通义团队首次将思维链推理引入多模态大模型 ，可以模仿人类音效师的多阶段创作流程，实现对视觉事件与相应声音之间深度关联的精准建模，例如先分析视觉动态、再推断声学属性，最后按照时间顺序合成与环境相符的音效。 不仅如此，该团队还构建了首个带思维链标注的音频数据集Audio&hellip;\n">
 <title>阿里通义开源音频生成模型，能模仿音效师为视频配音</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%BC%80%E6%BA%90%E9%9F%B3%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E8%83%BD%E6%A8%A1%E4%BB%BF%E9%9F%B3%E6%95%88%E5%B8%88%E4%B8%BA%E8%A7%86%E9%A2%91%E9%85%8D%E9%9F%B3/'>
+<link rel='canonical' href='http://localhost:1313/p/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%BC%80%E6%BA%90%E9%9F%B3%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E8%83%BD%E6%A8%A1%E4%BB%BF%E9%9F%B3%E6%95%88%E5%B8%88%E4%B8%BA%E8%A7%86%E9%A2%91%E9%85%8D%E9%9F%B3/'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="阿里通义开源音频生成模型，能模仿音效师为视频配音">
 <meta property='og:description' content="摘要：阿里通义实验室开源了旗下首个音频生成模型ThinkSound，首次将CoT应用到音频生成领域，模拟音效师的创作流程，生成高保真音频，并在核心指标上取得较大提升。该模型还推出了带思维链标注的音频数据集AudioCoT，在多模态大模型中具有广泛应用潜力。\n主题标签：人工智能, 音频生成, 开源技术\n原文摘要 7月1日消息，阿里通义实验室开源了旗下首个音频生成模型ThinkSound，该模型首次将CoT（Chain-of-Thought，思维链）应用到音频生成领域，让AI可以像专业音效师一样逐步思考，捕捉视觉细节，生成与画面同步的高保真音频。目前，ThinkSound的代码和模型已在Github、HuggingFace、魔搭社区开源，开发者可免费下载和体验。 阿里开源音频生成模型ThinkSound 视频生成音频（V2A）技术是多媒体编辑和视频内容创作领域最重要的技术之一，但该技术的发展速度仍存在诸多技术挑战，例如业界现有的V2A技术仍缺乏对视觉对应声学细节的深入理解，导致生成的音频较为通用，甚至与关键视觉事件错位，难以满足专业创意场景中对时序和语义连贯性的严格要求。 为了解决现有视频转音频技术难以捕捉画面中动态细节和时序的难题，通义团队首次将思维链推理引入多模态大模型 ，可以模仿人类音效师的多阶段创作流程，实现对视觉事件与相应声音之间深度关联的精准建模，例如先分析视觉动态、再推断声学属性，最后按照时间顺序合成与环境相符的音效。 不仅如此，该团队还构建了首个带思维链标注的音频数据集Audio&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%BC%80%E6%BA%90%E9%9F%B3%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E8%83%BD%E6%A8%A1%E4%BB%BF%E9%9F%B3%E6%95%88%E5%B8%88%E4%B8%BA%E8%A7%86%E9%A2%91%E9%85%8D%E9%9F%B3/'>
+<meta property='og:url' content='http://localhost:1313/p/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%BC%80%E6%BA%90%E9%9F%B3%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E8%83%BD%E6%A8%A1%E4%BB%BF%E9%9F%B3%E6%95%88%E5%B8%88%E4%B8%BA%E8%A7%86%E9%A2%91%E9%85%8D%E9%9F%B3/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-02T16:36:48&#43;08:00'/><meta property='article:modified_time' content='2025-07-02T16:36:48&#43;08:00'/>
 <meta name="twitter:title" content="阿里通义开源音频生成模型，能模仿音效师为视频配音">
@@ -193,20 +193,6 @@
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
-        
     </footer>
     
 
@@ -248,18 +234,6 @@
     
     
     
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <time class="article-time--reading">
-            
-        </time>
     
 </article> 
 
@@ -414,7 +388,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.99c95cb2e2fdac81f8accc4269991d170d53a54531c952178d2c822be0c62bee.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.483339a25994c577b54dd9e5e6af740863d1bc239510e4f99ba055c7fb33f1d4.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

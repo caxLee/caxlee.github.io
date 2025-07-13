@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：本研究提出了一种名为ReMA的新框架，通过多智能体强化学习来训练大模型进行复杂推理任务，将推理过程分解为元思维智能体和推理智能体两个层级化部分，实现元思维与推理的协同工作，以提高泛化能力和探索效率。\n主题标签：人工智能、强化学习、智能体\n原文摘要 本文第一作者为上海交通大学计算机科学四年级博士生万梓煜，主要研究方向为强化学习、基础模型的复杂推理，通讯作者为上海交通大学人工智能学院温颖副教授和上海人工智能实验室胡舒悦老师。团队其他成员包括来自英属哥伦比亚大学的共同第一作者李云想、Mark Schmidt 教授，伦敦大学学院的宋研、杨林易和汪军教授，上海交通大学的温潇雨，王翰竟和张伟楠教授。 引言 最近，关于大模型推理的测试时间扩展（Test time scaling law ）的探索不断涌现出新的范式，包括① 结构化搜索结（如 MCTS），② 过程奖励模型（Process Reward Model ）+ PPO，③ 可验证奖励 （Verifiable Reward）+ GRPO（DeepSeek\u202fR1）。然而，大模型何时产生 “顿悟（Aha\u202fMoment）” 的机理仍未明晰。近期多项研究提出推理模式（reasoning pattern）对于推理能力的重要作用。类似的，本研究认为 大模型复杂推理的能力强弱本质在于元思维能力的强弱。 所谓 “元思维” （meta-thinking），即监控、评估和控制自身的推理过程，以实现更具适应性和&hellip;\n">
 <title>Meta-Think ≠ 记套路，多智能体强化学习解锁大模型元思考泛化</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/meta-think-%E8%AE%B0%E5%A5%97%E8%B7%AF%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E9%94%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%83%E6%80%9D%E8%80%83%E6%B3%9B%E5%8C%96/'>
+<link rel='canonical' href='http://localhost:1313/p/meta-think-%E8%AE%B0%E5%A5%97%E8%B7%AF%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E9%94%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%83%E6%80%9D%E8%80%83%E6%B3%9B%E5%8C%96/'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Meta-Think ≠ 记套路，多智能体强化学习解锁大模型元思考泛化">
 <meta property='og:description' content="摘要：本研究提出了一种名为ReMA的新框架，通过多智能体强化学习来训练大模型进行复杂推理任务，将推理过程分解为元思维智能体和推理智能体两个层级化部分，实现元思维与推理的协同工作，以提高泛化能力和探索效率。\n主题标签：人工智能、强化学习、智能体\n原文摘要 本文第一作者为上海交通大学计算机科学四年级博士生万梓煜，主要研究方向为强化学习、基础模型的复杂推理，通讯作者为上海交通大学人工智能学院温颖副教授和上海人工智能实验室胡舒悦老师。团队其他成员包括来自英属哥伦比亚大学的共同第一作者李云想、Mark Schmidt 教授，伦敦大学学院的宋研、杨林易和汪军教授，上海交通大学的温潇雨，王翰竟和张伟楠教授。 引言 最近，关于大模型推理的测试时间扩展（Test time scaling law ）的探索不断涌现出新的范式，包括① 结构化搜索结（如 MCTS），② 过程奖励模型（Process Reward Model ）+ PPO，③ 可验证奖励 （Verifiable Reward）+ GRPO（DeepSeek\u202fR1）。然而，大模型何时产生 “顿悟（Aha\u202fMoment）” 的机理仍未明晰。近期多项研究提出推理模式（reasoning pattern）对于推理能力的重要作用。类似的，本研究认为 大模型复杂推理的能力强弱本质在于元思维能力的强弱。 所谓 “元思维” （meta-thinking），即监控、评估和控制自身的推理过程，以实现更具适应性和&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/meta-think-%E8%AE%B0%E5%A5%97%E8%B7%AF%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E9%94%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%83%E6%80%9D%E8%80%83%E6%B3%9B%E5%8C%96/'>
+<meta property='og:url' content='http://localhost:1313/p/meta-think-%E8%AE%B0%E5%A5%97%E8%B7%AF%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%A7%A3%E9%94%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%83%E6%80%9D%E8%80%83%E6%B3%9B%E5%8C%96/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-03T21:53:09&#43;08:00'/><meta property='article:modified_time' content='2025-07-03T21:53:09&#43;08:00'/>
 <meta name="twitter:title" content="Meta-Think ≠ 记套路，多智能体强化学习解锁大模型元思考泛化">
@@ -193,20 +193,6 @@
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
-        
     </footer>
     
 
@@ -247,18 +233,6 @@
     
     
     
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <time class="article-time--reading">
-            
-        </time>
     
 </article> 
 
@@ -413,7 +387,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.99c95cb2e2fdac81f8accc4269991d170d53a54531c952178d2c822be0c62bee.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.483339a25994c577b54dd9e5e6af740863d1bc239510e4f99ba055c7fb33f1d4.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

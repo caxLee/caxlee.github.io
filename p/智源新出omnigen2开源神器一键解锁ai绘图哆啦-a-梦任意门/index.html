@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：智源研究院发布统一图像生成模型OmniGen2，通过分离式架构和双编码器策略提升图像生成质量，支持基于自然语言指令的图像编辑和多模态上下文参考的图像生成。OmniGen2还探索了图像生成反思机制，推出科研体验版并开源模型，助力统一图像生成模型实现现实应用。\n主题标签：人工智能、图像生成、科技创新\n原文摘要 2024 年 9 月，智源研究院发布了 统一图像生成模型 OmniGen 。该模型在单一架构内即可支持多种图像生成任务，包括文本生成图像（Text-to-Image Generation）、图像编辑（Image Editing）和主题驱动图像生成（Subject-driven Image Generation）。用户仅需使用多模态的自然语言指令，便可灵活实现上述功能，无需依赖额外的上下文提示、插件或预处理模块。凭借其功能的高度通用性与架构的高度简洁性，OmniGen 一经发布便获得社区的广泛好评。随后，随着 Gemini 2.0 Flash 和 GPT-4o 等闭源多模态模型的相继发布，构建统一图像生成模型成为当前最受关注的研究与应用方向之一。\u00a0在这一背景下，OmniGen 迎来重大技术升级，正式发布 OmniGen2 。新一代模型在保持简洁架构的基础上， 显著增强了上下文理解能力、指令遵循能力和图像生成质量。 同时，OmniGen2 全面继承了其基座多模态大模型在上下文理解与生成方面的能力， 同时支持图像和文字生成，进一步打通了多模态技术生态。 同时， 模型权重、训练代码及训练数&hellip;\n">
 <title>智源新出OmniGen2开源神器，一键解锁AI绘图「哆啦 A 梦」任意门</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/%E6%99%BA%E6%BA%90%E6%96%B0%E5%87%BAomnigen2%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E8%A7%A3%E9%94%81ai%E7%BB%98%E5%9B%BE%E5%93%86%E5%95%A6-a-%E6%A2%A6%E4%BB%BB%E6%84%8F%E9%97%A8/'>
+<link rel='canonical' href='http://localhost:1313/p/%E6%99%BA%E6%BA%90%E6%96%B0%E5%87%BAomnigen2%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E8%A7%A3%E9%94%81ai%E7%BB%98%E5%9B%BE%E5%93%86%E5%95%A6-a-%E6%A2%A6%E4%BB%BB%E6%84%8F%E9%97%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="智源新出OmniGen2开源神器，一键解锁AI绘图「哆啦 A 梦」任意门">
 <meta property='og:description' content="摘要：智源研究院发布统一图像生成模型OmniGen2，通过分离式架构和双编码器策略提升图像生成质量，支持基于自然语言指令的图像编辑和多模态上下文参考的图像生成。OmniGen2还探索了图像生成反思机制，推出科研体验版并开源模型，助力统一图像生成模型实现现实应用。\n主题标签：人工智能、图像生成、科技创新\n原文摘要 2024 年 9 月，智源研究院发布了 统一图像生成模型 OmniGen 。该模型在单一架构内即可支持多种图像生成任务，包括文本生成图像（Text-to-Image Generation）、图像编辑（Image Editing）和主题驱动图像生成（Subject-driven Image Generation）。用户仅需使用多模态的自然语言指令，便可灵活实现上述功能，无需依赖额外的上下文提示、插件或预处理模块。凭借其功能的高度通用性与架构的高度简洁性，OmniGen 一经发布便获得社区的广泛好评。随后，随着 Gemini 2.0 Flash 和 GPT-4o 等闭源多模态模型的相继发布，构建统一图像生成模型成为当前最受关注的研究与应用方向之一。\u00a0在这一背景下，OmniGen 迎来重大技术升级，正式发布 OmniGen2 。新一代模型在保持简洁架构的基础上， 显著增强了上下文理解能力、指令遵循能力和图像生成质量。 同时，OmniGen2 全面继承了其基座多模态大模型在上下文理解与生成方面的能力， 同时支持图像和文字生成，进一步打通了多模态技术生态。 同时， 模型权重、训练代码及训练数&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/%E6%99%BA%E6%BA%90%E6%96%B0%E5%87%BAomnigen2%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E8%A7%A3%E9%94%81ai%E7%BB%98%E5%9B%BE%E5%93%86%E5%95%A6-a-%E6%A2%A6%E4%BB%BB%E6%84%8F%E9%97%A8/'>
+<meta property='og:url' content='http://localhost:1313/p/%E6%99%BA%E6%BA%90%E6%96%B0%E5%87%BAomnigen2%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E8%A7%A3%E9%94%81ai%E7%BB%98%E5%9B%BE%E5%93%86%E5%95%A6-a-%E6%A2%A6%E4%BB%BB%E6%84%8F%E9%97%A8/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-03T21:53:09&#43;08:00'/><meta property='article:modified_time' content='2025-07-03T21:53:09&#43;08:00'/>
 <meta name="twitter:title" content="智源新出OmniGen2开源神器，一键解锁AI绘图「哆啦 A 梦」任意门">
@@ -193,20 +193,6 @@
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
-        
     </footer>
     
 
@@ -253,18 +239,6 @@ OmniGen2
     
     
     
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <time class="article-time--reading">
-            
-        </time>
     
 </article> 
 
@@ -419,7 +393,7 @@ OmniGen2
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.99c95cb2e2fdac81f8accc4269991d170d53a54531c952178d2c822be0c62bee.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.483339a25994c577b54dd9e5e6af740863d1bc239510e4f99ba055c7fb33f1d4.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

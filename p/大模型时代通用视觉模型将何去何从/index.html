@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="摘要：通用视觉模型（VGM）曾是计算机视觉研究的热点，但随着多模态大模型的兴起，视觉模型正被重新定义。清华大学团队发表的综述论文系统梳理了VGM研究进展，强调视觉领域仍需保有特色。VGM具备处理多模态输入、多任务学习和统一框架设计的关键能力，但仍面临优化设计、训练效率和数据获取等挑战。\n主题标签：计算机视觉、人工智能、研究进展\n原文摘要 过去几年， 通用视觉模型 （Vision Generalist Model，简称 VGM）曾是计算机视觉领域的研究热点。它们试图构建统一的架构，能够处理图像、点云、视频等多种视觉模态输入，以及分类、检测、分割等多样的下游任务，向着「视觉模型大一统」的目标迈进。 然而，随着大语言模型 LLM 的迅猛发展，研究热点已经悄然发生转移。如今，多模态大模型兴起，视觉被看作是语言模型众多输入模态中的一种，视觉模态数据被离散化为 Token，与文本一起被统一建模，视觉的「独立性」正在被重新定义。 在这种趋势下，传统意义上以视觉任务为核心、以视觉范式为驱动的通用视觉模型研究，似乎正在逐渐被边缘化。然而，我们认为视觉领域仍应保有自己的特色和研究重点。与语言数据相比，视觉数据具有结构化强、空间信息丰富等天然优势，但也存在视觉模态间差异大、难替代的挑战。例如：如何统一处理 2D 图像、3D 点云和视频流等异质输入？如何设计统一的输出表示来同时支持像素级分割和目标检测等不同任务？这些问题在当前的多模态范式中并未被充分解决。 正因如此，在这个多模态模型席卷科研与工业的新时代，回顾并总结纯视觉范式下的通用视觉模型&hellip;\n">
 <title>大模型时代，通用视觉模型将何去何从？</title>
 
-<link rel='canonical' href='https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/'>
+<link rel='canonical' href='http://localhost:1313/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="大模型时代，通用视觉模型将何去何从？">
 <meta property='og:description' content="摘要：通用视觉模型（VGM）曾是计算机视觉研究的热点，但随着多模态大模型的兴起，视觉模型正被重新定义。清华大学团队发表的综述论文系统梳理了VGM研究进展，强调视觉领域仍需保有特色。VGM具备处理多模态输入、多任务学习和统一框架设计的关键能力，但仍面临优化设计、训练效率和数据获取等挑战。\n主题标签：计算机视觉、人工智能、研究进展\n原文摘要 过去几年， 通用视觉模型 （Vision Generalist Model，简称 VGM）曾是计算机视觉领域的研究热点。它们试图构建统一的架构，能够处理图像、点云、视频等多种视觉模态输入，以及分类、检测、分割等多样的下游任务，向着「视觉模型大一统」的目标迈进。 然而，随着大语言模型 LLM 的迅猛发展，研究热点已经悄然发生转移。如今，多模态大模型兴起，视觉被看作是语言模型众多输入模态中的一种，视觉模态数据被离散化为 Token，与文本一起被统一建模，视觉的「独立性」正在被重新定义。 在这种趋势下，传统意义上以视觉任务为核心、以视觉范式为驱动的通用视觉模型研究，似乎正在逐渐被边缘化。然而，我们认为视觉领域仍应保有自己的特色和研究重点。与语言数据相比，视觉数据具有结构化强、空间信息丰富等天然优势，但也存在视觉模态间差异大、难替代的挑战。例如：如何统一处理 2D 图像、3D 点云和视频流等异质输入？如何设计统一的输出表示来同时支持像素级分割和目标检测等不同任务？这些问题在当前的多模态范式中并未被充分解决。 正因如此，在这个多模态模型席卷科研与工业的新时代，回顾并总结纯视觉范式下的通用视觉模型&hellip;\n">
-<meta property='og:url' content='https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/'>
+<meta property='og:url' content='http://localhost:1313/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%97%B6%E4%BB%A3%E9%80%9A%E7%94%A8%E8%A7%86%E8%A7%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%BD%95%E5%8E%BB%E4%BD%95%E4%BB%8E/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-02T16:42:32&#43;08:00'/><meta property='article:modified_time' content='2025-07-02T16:42:32&#43;08:00'/>
 <meta name="twitter:title" content="大模型时代，通用视觉模型将何去何从？">
@@ -193,20 +193,6 @@
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
-        
     </footer>
     
 
@@ -248,18 +234,6 @@
     
     
     
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <time class="article-time--reading">
-            
-        </time>
     
 </article> 
 
@@ -414,7 +388,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.99c95cb2e2fdac81f8accc4269991d170d53a54531c952178d2c822be0c62bee.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.483339a25994c577b54dd9e5e6af740863d1bc239510e4f99ba055c7fb33f1d4.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
