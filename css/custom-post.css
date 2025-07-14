@@ -1,3 +1,200 @@
+/* 隐藏阅读时间显示 */
+.article-time--reading {
+    display: none !important;
+}
+
+/* 隐藏文章卡片中的日期显示 - 可通过移除此规则重新启用 */
+.article-footer .article-time {
+    display: none !important;
+}
+
+/* 在标题下方添加分隔线 */
+.article-grid .article-title {
+    position: relative;
+    padding-bottom: 15px; /* 增加底部内边距，为分隔线留出空间 */
+    margin-bottom: 15px; /* 增加底部外边距，与下方内容保持距离 */
+}
+
+.article-grid .article-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* 宽度占满 */
+    height: 1px; /* 高度为1像素 */
+    background: linear-gradient(to right, #e0e0e0, #f0f0f0, #e0e0e0); /* 渐变效果 */
+    opacity: 0.8; /* 透明度 */
+}
+
+/* 摘要样式优化 - 确保常驻显示 */
+.article-grid .article-summary {
+    display: block !important; /* 强制显示摘要 */
+    height: auto !important; /* 自动高度 */
+    max-height: 6em; /* 最大高度限制，约4行文字 */
+    overflow: hidden;
+    margin: 12px 0 15px 0; /* 上下边距 */
+    padding: 10px 0; /* 上下内边距 */
+    color: #555; /* 深灰色文字 */
+    font-size: 0.95em;
+    line-height: 1.6;
+    font-weight: normal;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* 最多显示4行 */
+    -webkit-box-orient: vertical;
+    position: relative;
+    z-index: 10; /* 确保显示在最上层 */
+    border-bottom: 1px dashed #eaeaea; /* 底部虚线边框 */
+    background: linear-gradient(to bottom, rgba(250,250,250,0.5), rgba(255,255,255,0)); /* 轻微的背景渐变 */
+    letter-spacing: 0.02em; /* 轻微增加字间距 */
+}
+
+/* 确保在小屏幕上也能正确显示摘要 */
+@media (max-width: 768px) {
+    .article-grid .article-summary {
+        max-height: 8em; /* 在小屏幕上允许更多行 */
+        -webkit-line-clamp: 5;
+    }
+}
+
+/* 调整标签在隐藏日期后的布局 - 统一左对齐 */
+.article-footer {
+    justify-content: flex-start; /* 当日期隐藏时，标签靠左对齐 */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* 调整标签容器 - 统一左对齐 */
+.article-grid .article-tags {
+    display: flex;
+    justify-content: flex-start; /* 靠左对齐 */
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+.article-grid .article-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-start; /* 靠左对齐 */
+}
+
+.article-grid .article-tags-list-item {
+    margin-right: 8px; /* 改回右边距，因为靠左对齐 */
+    margin-left: 0; /* 移除左边距 */
+    margin-bottom: 5px;
+}
+
+/* 修改文章序号位置 - 从右上角移到左上角 */
+.article-grid article::before {
+    transform: translate(-50%, -50%) !important; /* 修改为左上角定位 */
+    left: 0 !important; /* 设置为左侧 */
+    right: auto !important; /* 取消右侧定位 */
+}
+
+.article-grid article:hover::before {
+    transform: translate(-50%, -50%) scale(1.05) !important; /* 保持悬停效果 */
+}
+
+/* 全局字体变量覆盖 */
+:root {
+    --zh-font-family: "等线", "DengXian", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback";
+    --base-font-family: "等线", "DengXian", var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --article-font-family: "等线", "DengXian", var(--base-font-family);
+}
+
+/* 文章卡片内容对齐样式 */
+.article-grid article {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* 确保卡片高度一致 */
+}
+
+/* 调整卡片内容区域的高度 */
+.article-grid .article-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* 让内容区域占据剩余空间 */
+    padding: 15px;
+    justify-content: space-between; /* 内容两端对齐 */
+    height: auto; /* 自动高度，取消固定高度 */
+    min-height: 250px; /* 最小高度 */
+}
+
+/* 标题区域固定高度，确保对齐 */
+.article-grid .article-title {
+    height: 4.5em; /* 约3行文字高度 */
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* 隐藏调试信息 */
+.article-details pre {
+    display: none !important;
+}
+
+/* 创建一个内容区域的弹性空间，确保底部元素对齐 */
+.article-content-wrapper {
+    flex-grow: 1; /* 让内容区域伸展 */
+    display: flex;
+    flex-direction: column;
+    min-height: 150px; /* 确保内容区域最小高度 */
+}
+
+/* 底部信息区域（日期、标签）固定在底部并对齐 */
+.article-footer {
+    margin-top: auto; /* 推到底部 */
+    display: flex;
+    justify-content: flex-start; /* 统一左对齐 */
+    align-items: center;
+    width: 100%;
+    height: 30px; /* 固定高度确保对齐 */
+}
+
+/* 调整日期显示 */
+.article-grid .article-time {
+    font-size: 0.85rem;
+    color: #777;
+    flex: 0 0 auto; /* 不伸缩 */
+}
+
+/* 调整标签容器 */
+.article-grid .article-category {
+    margin-bottom: 10px;
+}
+
+/* 移除冲突的右对齐样式，统一使用左对齐 */
+.article-grid .article-tags {
+    display: flex;
+    justify-content: flex-start; /* 靠左对齐 */
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto; /* 可伸缩 */
+    text-align: left;
+}
+
+.article-grid .article-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-start; /* 靠左对齐 */
+}
+
+.article-grid .article-tags-list-item {
+    margin-left: 8px; /* 改为左边距，因为靠右对齐 */
+    margin-bottom: 5px;
+}
+
 /* Custom styles for original link and summary */
 .original-source,
 .original-summary {
@@ -38,6 +235,28 @@
 .original-summary p {
     margin-bottom: 0;
     line-height: 1.5;
+}
+
+/* 添加原始链接按钮样式 */
+.article-original-link {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto; /* 推到右侧 */
+    font-size: 0.85rem;
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.article-original-link:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+.article-original-link svg {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
 }
 
 /* Overlay trigger styles */
@@ -162,6 +381,8 @@ article {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 1.5rem;
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 500; /* 加粗整个卡片的字体 */
 }
 
 article:hover {
@@ -177,6 +398,26 @@ article:hover {
 
 .article-details {
     padding: 0 1rem 1rem;
+}
+
+/* 文章标题字体 */
+.article-title {
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 600; /* 增加标题的粗细 */
+}
+
+/* 文章摘要字体 */
+.article-summary {
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 500; /* 增加摘要的粗细 */
+}
+
+/* 标签字体样式 */
+.article-category a,
+.article-tags-list-item a,
+.article-tags {
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: normal; /* 标签使用正常字重 */
 }
 
 /* 不要显示链接下划线 */
@@ -318,26 +559,70 @@ article:hover {
     max-width: 100%;
 }
 
-/* Article Grid Layout - 3x3 grid */
+/* Override all article list layouts to single column */
+.article-list {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+/* Override tile layout to vertical layout */
+.article-list--tile {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+}
+
+.article-list--tile article {
+    width: 100% !important;
+    margin-right: 0 !important;
+    height: auto !important;
+    min-height: 350px !important;
+}
+
+.subsection-list .article-list--tile {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-bottom: 15px;
+}
+
+.subsection-list .article-list--tile article {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Article Grid Layout - single column */
 .article-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* three cards per row */
+    grid-template-columns: 1fr; /* Changed from repeat(3, 1fr) to 1fr for single column */
     gap: 30px;
     margin-top: 30px;
     padding: 0 20px;
     counter-reset: article-counter !important; /* 强制重置计数器 */
 }
 
+/* Improve vertical article layout */
 .article-grid article {
     border: 1px solid #eaeaea;
     border-radius: 12px;
-    overflow: visible !important; /* 确保伪元素不被裁剪 */
+    overflow: visible !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    position: relative !important; /* 确保定位上下文 */
+    position: relative !important;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-grid article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
 .article-grid .article-image {
-    height: 200px; /* normal image height */
+    height: 350px; /* Increased image height for better visual in single column */
 }
 
 .article-grid .article-image img {
@@ -445,7 +730,7 @@ article:hover {
 /* Responsive adjustments */
 @media (max-width: 1200px) {
     .article-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr; /* Keep single column at all breakpoints */
     }
 }
 
@@ -465,7 +750,7 @@ article:hover {
         padding: 0 20px;
     }
     .article-grid .article-image {
-        height: 350px;
+        height: 250px; /* Slightly reduced for mobile */
     }
     
     .date-selector {
@@ -475,4 +760,81 @@ article:hover {
     .date-selector select {
         width: 100%;
     }
+} 
+
+/* 模态框关闭按钮样式 */
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.modal-close-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* 悬停指示器样式 */
+.article-card {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.article-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--theme-color, #0066cc);
+    transition: width 1.5s ease;
+    z-index: 10;
+}
+
+.article-card:hover::after {
+    width: 100%;
+}
+
+/* 确保模态框内容容器有相对定位，以便放置关闭按钮 */
+.modal-content-wrapper {
+    position: relative;
+}
+
+/* 调整文章卡片链接样式 */
+.article-title a, 
+.article-image a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-title a:hover {
+    color: var(--theme-color, #0066cc);
+} 
+
+/* Compact style article list enhancement for single column */
+.article-list--compact {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.article-list--compact article > a {
+    padding: 20px !important;
+}
+
+.article-list--compact article .article-image img {
+    width: 80px !important;
+    height: 80px !important;
 } 
