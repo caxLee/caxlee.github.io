@@ -10,10 +10,55 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='http://localhost:1313/tags/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-13T13:55:19&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-15T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tags">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/tags/index.xml">
 <style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
     .original-source,
     .original-summary {
         margin-top: 2rem;
@@ -42,6 +87,50 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
         <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
             .article-modal {
                 display: none;
                 position: fixed;
@@ -133,7 +222,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-14">
+            <input type="date" id="date-select" value="2025-07-15">
         </div>
     </div>
 </div>
@@ -156,679 +245,67 @@
   });
 </script> <div class="container main-container">
             <main class="main full-width">
+    <style>
+     
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
     <header>
         <h1 class="section-title">Tags</h1>
-    </header><section class="article-grid">
+    </header><section class="article-list">
         
             
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
     
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">麻省理工学院</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E9%9B%86%E6%88%90%E5%85%89%E5%AD%90%E5%AD%A6/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">集成光子学</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E7%A7%91%E5%AD%A6%E4%BC%A0%E6%92%AD/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">科学传播</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E7%A7%91%E5%AD%A6/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">科学</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">社会科学</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%B6/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">物理学家</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E6%96%AF%E8%92%82%E8%8A%AC%E9%9C%8D%E9%87%91/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">斯蒂芬·霍金</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E6%8A%80%E6%9C%AF/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">技术</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%AF%84%E5%85%BB%E6%8A%A4%E7%90%86/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">寄养护理</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">多模态</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%9F%BA%E6%A8%A1/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">基模</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%88%9B%E6%96%B0%E8%B5%B0%E5%BB%8A/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">创新走廊</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%88%9B%E4%B8%9A%E5%8A%A0%E9%80%9F%E5%99%A8/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">创业加速器</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">具身智能</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/%E5%84%BF%E7%AB%A5%E7%A6%8F%E5%88%A9/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">儿童福利</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/trust-center/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Trust Center</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/mit/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">MIT</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/mi-abogado/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Mi Abogado</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/l.-rafael-reif/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">L. Rafael Reif</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/infra/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Infra</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/delta-v/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Delta V</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-13" data-url="/tags/ai4s/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">AI4S</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/%E8%AF%84%E4%BC%B0%E5%9B%B0%E5%A2%83/" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">评估困境</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" data-original-link="">
     
 
     <div class="article-details">
@@ -840,11 +317,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -857,7 +330,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -865,15 +384,11 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">机器学习</a>
+                <a href="" target="_blank" rel="noopener noreferrer">多模态</a>
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -886,7 +401,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/%E6%95%99%E6%8E%88%E8%81%8C%E4%BD%8D/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/%E5%9F%BA%E6%A8%A1/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -894,15 +455,11 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">教授职位</a>
+                <a href="" target="_blank" rel="noopener noreferrer">基模</a>
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -915,36 +472,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
     
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">大模型</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" data-original-link="">
     
 
     <div class="article-details">
@@ -956,11 +530,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -973,7 +543,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/oibench/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -981,15 +597,11 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">OIBench</a>
+                <a href="" target="_blank" rel="noopener noreferrer">具身智能</a>
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1002,7 +614,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/idss/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/infra/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1010,15 +668,11 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">IDSS</a>
+                <a href="" target="_blank" rel="noopener noreferrer">Infra</a>
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1031,7 +685,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/genai/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/ai4s/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1039,15 +739,11 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">GenAI</a>
+                <a href="" target="_blank" rel="noopener noreferrer">AI4S</a>
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1060,36 +756,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/amase/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/tags/agent/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
     
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">AMASE</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            
-            
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-12" data-url="/tags/agent/" data-original-link="">
     
 
     <div class="article-details">
@@ -1101,11 +814,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1118,7 +827,3106 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/tags/%E8%BF%87%E7%A8%8B%E5%A5%96%E5%8A%B1%E6%A8%A1%E5%9E%8B/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E9%95%BF%E5%BA%A6%E6%B3%9B%E5%8C%96/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">长度泛化</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E8%AE%AD%E7%BB%83%E5%B9%B2%E9%A2%84/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">训练干预</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E7%A8%80%E5%9C%9F%E5%85%83%E7%B4%A0/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">稀土元素</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E7%BB%9F%E8%AE%A1/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">社会科学统计</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E7%81%B5%E6%B4%BB%E6%80%A7/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">灵活性</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E6%B5%8B%E8%AF%95%E6%97%B6%E8%AE%AD%E7%BB%83/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">测试时训练</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E6%9C%89%E6%95%88%E8%AE%B0%E5%BF%86/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">有效记忆</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E6%95%B0%E6%8D%AE/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">数据</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E6%94%BF%E6%B2%BB/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">政治</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E6%80%9D%E7%BB%B4%E9%94%9A/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">思维锚</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">定向进化</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">大型语言模型</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E5%8F%B6%E7%BB%BF%E7%B4%A0/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">叶绿素</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E5%8F%A5%E5%AD%90%E5%B1%82%E9%9D%A2%E5%88%86%E6%9E%90/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">句子层面分析</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/%E5%85%89%E5%90%88%E4%BD%9C%E7%94%A8/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">光合作用</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/uv%E5%BA%94%E6%BF%80/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">UV应激</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/rubisco/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">Rubisco</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/tags/llm/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">LLM</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">麻省理工学院</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E9%9B%86%E6%88%90%E5%85%89%E5%AD%90%E5%AD%A6/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">集成光子学</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E7%A7%91%E5%AD%A6%E4%BC%A0%E6%92%AD/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">科学传播</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E7%A7%91%E5%AD%A6/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">科学</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">社会科学</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%B6/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">物理学家</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E6%96%AF%E8%92%82%E8%8A%AC%E9%9C%8D%E9%87%91/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">斯蒂芬·霍金</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E6%8A%80%E6%9C%AF/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">技术</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E5%AF%84%E5%85%BB%E6%8A%A4%E7%90%86/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">寄养护理</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E5%88%9B%E6%96%B0%E8%B5%B0%E5%BB%8A/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">创新走廊</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E5%88%9B%E4%B8%9A%E5%8A%A0%E9%80%9F%E5%99%A8/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">创业加速器</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/%E5%84%BF%E7%AB%A5%E7%A6%8F%E5%88%A9/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">儿童福利</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/trust-center/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">Trust Center</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/mit/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">MIT</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/mi-abogado/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">Mi Abogado</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/l.-rafael-reif/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">L. Rafael Reif</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/tags/delta-v/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">Delta V</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/%E8%AF%84%E4%BC%B0%E5%9B%B0%E5%A2%83/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">评估困境</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">机器学习</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/%E6%95%99%E6%8E%88%E8%81%8C%E4%BD%8D/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">教授职位</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">大模型</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/oibench/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">OIBench</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/idss/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">IDSS</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/genai/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">GenAI</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/tags/amase/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">AMASE</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/tags/%E8%BF%87%E7%A8%8B%E5%A5%96%E5%8A%B1%E6%A8%A1%E5%9E%8B/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1130,11 +3938,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1147,7 +3951,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1159,11 +4009,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1176,7 +4022,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/tags/%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/tags/%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1188,11 +4080,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1205,7 +4093,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/tags/%E5%8F%8C%E5%B1%82%E4%BC%98%E5%8C%96%E6%A1%86%E6%9E%B6/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/tags/%E5%8F%8C%E5%B1%82%E4%BC%98%E5%8C%96%E6%A1%86%E6%9E%B6/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1217,11 +4151,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1234,7 +4164,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/tags/t5gemma/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/tags/t5gemma/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1246,11 +4222,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1263,7 +4235,53 @@
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/tags/acl/" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/tags/acl/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
     
 
     <div class="article-details">
@@ -1275,11 +4293,7 @@
             </h2>
             
             
-            <div class="article-summary">
-                
-                    
-                
-            </div>
+            
         </div>
 
         <footer class="article-footer">

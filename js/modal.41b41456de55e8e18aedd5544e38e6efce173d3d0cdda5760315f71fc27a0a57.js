@@ -1,5 +1,0 @@
-(() => {
-  // <stdin>
-  document.addEventListener("DOMContentLoaded", () => {
-  });
-})();

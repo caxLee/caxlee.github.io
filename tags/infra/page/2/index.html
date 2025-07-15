@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Example description">
+<title>Tag: Infra - Pager 2 - Example Site</title>
+
+<link rel='canonical' href='http://localhost:1313/tags/infra/'>
+
+<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Tag: Infra - Example Site">
+<meta property='og:description' content="Example description">
+<meta property='og:url' content='http://localhost:1313/tags/infra/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-15T00:00:00&#43;00:00 '/>
+<meta name="twitter:title" content="Tag: Infra - Example Site">
+<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/tags/infra/index.xml">
+<style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/css/custom-post.css"> 
+        <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+            .article-modal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0,0,0,0.4);
+            }
+            .article-modal.is-active {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .modal-content-wrapper {
+                background-color: var(--card-background);
+                color: var(--card-text-color);
+                margin: auto;
+                padding: 20px;
+                border: 1px solid var(--border-color);
+                width: 80%;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                border-radius: var(--card-border-radius);
+            }
+            body.modal-open {
+                overflow: hidden;
+            }
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .article-tags .article-tags-list-item a {
+                display: inline-block;
+                background: var(--tertiary-background-color);
+                color: var(--secondary-text-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: var(--card-border-radius);
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: background-color 0.2s, color 0.2s;
+            }
+            .article-tags .article-tags-list-item a:hover {
+                background: var(--theme-color);
+                color: var(--background-color);
+            }
+        </style>
+    </head>
+    <body class=" simplified-layout">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">Select Date</label>
+            
+            <input type="date" id="date-select" value="2025-07-15">
+        </div>
+    </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> <div class="container main-container">
+            <main class="main full-width">
+    <style>
+     
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
+    <header>
+        <h1 class="section-title">Infra</h1>
+    </header><section class="article-list">
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png" loading="lazy" alt="Featured image of post 科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                科学研究面临AI合作转折，挑战深奥科学问题。资源不均衡限制科研发展。WAIC 2025探讨AI在科学智能领域的作用与挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" loading="lazy" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿和产业趋势。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" loading="lazy" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                央企牵头的AI开源社区推出「模型推理适配协作计划」，旨在让大模型在国产芯片上顺利运行。社区提供工具中心和协作空间，促进模型与芯片的统一适配与性能优化。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png" loading="lazy" alt="Featured image of post 元科学可以改进科学——但它也必须对社会有用" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">元科学可以改进科学——但它也必须对社会有用</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                元科学联盟推动科学改进，应对社会挑战。AI和大型语言模型助力科研发展。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" alt="Featured image of post MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIRIX重塑AI多模态长期记忆，超Gemini 410%，节省99.9%内存，APP同步上线
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" loading="lazy" alt="Featured image of post ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                M+框架扩展MemoryLLM，引入长期隐空间记忆，有效记忆跨度提升至160k tokens，显存占用不变。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/" data-original-link="">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">AI下半场的「Game Changer」，直让老外惊呼「Amazing」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                中国电信推出的智传网（AI Flow）技术，通过端-边-云协同、家族式同源模型和智能涌现，实现普适智能应用，解决AI下半场挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/" data-original-link="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707" target="_blank" rel="noopener noreferrer">Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT计算机音乐领域的先驱Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe在音乐、科学和创新领域做出了深远贡献，推动了音乐体验的提升，尤其是对年轻人的影响。他创办了MIT的实验音乐工作室，开发了先进的音乐技术，如算法作曲和数字合成，影响了音乐技术与工程的交叉领域，留
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+            <a href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707" target="_blank" rel="noopener noreferrer" class="article-original-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>
+                阅读原文
+            </a>
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/p/new-postdoctoral-fellowship-program-to-accelerate-innovation-in-h/" data-original-link="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707" target="_blank" rel="noopener noreferrer">New postdoctoral fellowship program to accelerate innovation in health care</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                麻省理工学院健康与生命科学合作计划（MIT HEALS）推出Biswas博士后奖学金计划，旨在通过资助杰出的博士后研究人员，将前沿研究应用于改善医疗保健和数百万人的生活。该计划将支持在人类健康保健创新领域致力于通过各种途径实现创新的博士后，如利用AI进行健康相关研究、开发低成本诊断工具等。首批资金为
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+            <a href="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707" target="_blank" rel="noopener noreferrer" class="article-original-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>
+                阅读原文
+            </a>
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/p/at-mit-musicians-make-new-tools-for-new-tunes/" data-original-link="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708" target="_blank" rel="noopener noreferrer">At MIT, musicians make new tools for new tunes</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+            <a href="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708" target="_blank" rel="noopener noreferrer" class="article-original-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>
+                阅读原文
+            </a>
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/" data-original-link="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703" target="_blank" rel="noopener noreferrer">Study: Babies’ poor vision may help organize visual brain pathways</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+            <a href="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703" target="_blank" rel="noopener noreferrer" class="article-original-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>
+                阅读原文
+            </a>
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/p/how-repetition-helps-art-speak-to-us/" data-original-link="https://news.mit.edu/2025/how-repetition-helps-art-samuel-jay-keyser-book-0701">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/how-repetition-helps-art-samuel-jay-keyser-book-0701" target="_blank" rel="noopener noreferrer">How repetition helps art speak to us</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT Professor Emeritus Samuel Jay Keyser&#39;s new book &#39;Play It Again, Sam&#39; delves into the cognitive impact of repetition in art, using the 1953 jazz st
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+            <a href="https://news.mit.edu/2025/how-repetition-helps-art-samuel-jay-keyser-book-0701" target="_blank" rel="noopener noreferrer" class="article-original-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>
+                阅读原文
+            </a>
+            
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/p/walk-through-screening-system-enhances-security-at-airports-natio/" data-original-link="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710">
+    <style>
+         
+        .custom-horizontal-layout {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            overflow: hidden !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 1 0 33% !important;
+            max-width: 33% !important;
+            margin-right: 2% !important;
+            height: auto !important;
+            min-height: 200px !important;
+            position: relative !important;
+        }
+        .custom-horizontal-layout .article-image img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 2 0 65% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 1rem !important;
+        }
+        @media (max-width: 768px) {
+            .custom-horizontal-layout {
+                flex-direction: column !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+                margin-right: 0 !important;
+                height: 200px !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 0 0 100% !important;
+            }
+        }
+    </style>
+    
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710" target="_blank" rel="noopener noreferrer">Walk-through screening system enhances security at airports nationwide</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                美国国家安全局（TSA）正在评估一种名为HEXWAVE的新型安检系统，该系统基于麻省理工学院林肯实验室开发的微波成像技术，可以取代金属探测器进行预检安检。这项技术能够快速、高效地扫描行人及其随身物品，以检测潜在的威胁物品，为公共场所提供更有效的安全保护。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            
+            <a href="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710" target="_blank" rel="noopener noreferrer" class="article-original-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>
+                阅读原文
+            </a>
+            
+        </footer>
+    </div>
+</article> 
+        
+    </section>
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.21939066a0839f50c2f900d6ceae5943a7588bcbe142348aac8325591bab373f.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+        <div id="article-modal" class="article-modal">
+            <div class="modal-content-wrapper">
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </body>
+</html> 
