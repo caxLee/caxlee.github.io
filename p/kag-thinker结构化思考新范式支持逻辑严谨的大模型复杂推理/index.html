@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="蚂蚁集团知识引擎团队联合浙江大学、同济大学发布了KAG-Thinker模型，该模型是KAG框架的升级，通过结构化思考提升复杂推理任务的逻辑性和稳定性。KAG-Thinker在多轮检索和规划推理中表现优异，通过广度拆分与深度求解相结合，提高了问题求解的严谨性，并引入知识边界判定机制和内容抗噪模块优化推理过程。\n">
 <title>KAG-Thinker：「结构化」思考新范式，支持逻辑严谨的大模型复杂推理</title>
 
-<link rel='canonical' href='http://localhost:1313/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/'>
+<link rel='canonical' href='https://caxlee.github.io/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="KAG-Thinker：「结构化」思考新范式，支持逻辑严谨的大模型复杂推理">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="KAG-Thinker：「结构化」思考新范式，支持逻辑严谨的大模型复杂推理">
 <meta property='og:description' content="蚂蚁集团知识引擎团队联合浙江大学、同济大学发布了KAG-Thinker模型，该模型是KAG框架的升级，通过结构化思考提升复杂推理任务的逻辑性和稳定性。KAG-Thinker在多轮检索和规划推理中表现优异，通过广度拆分与深度求解相结合，提高了问题求解的严谨性，并引入知识边界判定机制和内容抗噪模块优化推理过程。\n">
-<meta property='og:url' content='http://localhost:1313/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/'>
+<meta property='og:url' content='https://caxlee.github.io/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='垂直大模型' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-14T21:13:58&#43;08:00'/><meta property='article:modified_time' content='2025-07-14T21:13:58&#43;08:00'/>
 <meta name="twitter:title" content="KAG-Thinker：「结构化」思考新范式，支持逻辑严谨的大模型复杂推理">
@@ -82,6 +82,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -131,37 +144,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -173,6 +155,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -224,7 +207,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>
@@ -232,8 +215,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -242,8 +233,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -298,19 +290,19 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                     多模态
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
                     垂直大模型
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                     具身智能
                 </a>
             </li>
@@ -620,7 +612,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.21939066a0839f50c2f900d6ceae5943a7588bcbe142348aac8325591bab373f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -633,11 +625,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

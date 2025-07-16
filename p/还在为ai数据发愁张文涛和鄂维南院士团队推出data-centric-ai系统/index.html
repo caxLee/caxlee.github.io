@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。\n">
 <title>还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统</title>
 
-<link rel='canonical' href='http://localhost:1313/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/'>
+<link rel='canonical' href='https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统">
 <meta property='og:description' content="近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。\n">
-<meta property='og:url' content='http://localhost:1313/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/'>
+<meta property='og:url' content='https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='具身智能' /><meta property='article:tag' content='Agent' /><meta property='article:published_time' content='2025-07-14T21:13:58&#43;08:00'/><meta property='article:modified_time' content='2025-07-14T21:13:58&#43;08:00'/>
 <meta name="twitter:title" content="还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统">
@@ -82,6 +82,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -131,37 +144,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -173,6 +155,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -224,7 +207,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>
@@ -232,8 +215,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -242,8 +233,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -298,19 +290,19 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                     多模态
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                     具身智能
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/agent/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
                     Agent
                 </a>
             </li>
@@ -614,7 +606,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.21939066a0839f50c2f900d6ceae5943a7588bcbe142348aac8325591bab373f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -627,11 +619,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

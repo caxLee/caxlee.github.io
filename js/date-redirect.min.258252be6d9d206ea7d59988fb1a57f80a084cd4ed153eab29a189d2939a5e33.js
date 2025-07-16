@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("date-select");e&&e.addEventListener("change",function(){const e=this.value;if(e){const t=e.replace(/-/g,"_"),n=`/post/${t}/`;window.location.href=n}})})})()

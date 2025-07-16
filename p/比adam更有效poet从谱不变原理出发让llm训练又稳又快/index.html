@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。">
 <title>比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</title>
 
-<link rel='canonical' href='http://localhost:1313/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/'>
+<link rel='canonical' href='https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快">
 <meta property='og:description' content="POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。">
-<meta property='og:url' content='http://localhost:1313/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/'>
+<meta property='og:url' content='https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
 <meta name="twitter:title" content="比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快">
 <meta name="twitter:description" content="POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
+    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -83,6 +83,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -132,37 +145,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -174,6 +156,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -225,7 +208,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>
@@ -233,8 +216,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -243,8 +234,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -307,13 +299,13 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                     基模
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="http://localhost:1313/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
+                <a href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
                     能效优化
                 </a>
             </li>
@@ -337,9 +329,6 @@
 	
 	
 ></p>
-<blockquote>
-<p>来源: <a class="link" href="https://www.jiqizhixin.com/articles/2025-07-15"  target="_blank" rel="noopener"
-    >未知来源</a> | 作者: 未知作者</p></blockquote>
 <p><strong>摘要</strong>: POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。</p>
 </section>
     
@@ -382,6 +371,25 @@
     <h2 class="section-title">Related content</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" loading="lazy" data-key="" data-hash="/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="">
@@ -430,19 +438,6 @@
 
         <div class="article-details">
             <h2 class="article-title">Collaborating with the force of nature</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/implantable-device-could-save-diabetes-patients-from-dangerously/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Implantable device could save diabetes patients from dangerously low blood sugar</h2>
         </div>
     </a>
 </article>
@@ -599,7 +594,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/js/modal.21939066a0839f50c2f900d6ceae5943a7588bcbe142348aac8325591bab373f.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -612,11 +607,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 
